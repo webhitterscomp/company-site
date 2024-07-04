@@ -737,73 +737,229 @@ span {
     cursor: pointer;
     transition: all 0.3s linear;
 }
+
 /* <===================questions-section==================> */
-.questions-section{
- display: flex;
- align-items: center;
- justify-content: center;
- flex-direction: column;
- max-width: 90%;
- box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
- border-radius: 15px;
- margin-top: 25px;
+.questions-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 90%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 15px;
+    margin-top: 25px;
 }
-.main-questions-section{
+
+.main-questions-section {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     flex-direction: column;
 }
-.p-of-questions-section{
+
+.p-of-questions-section {
     margin-top: 20px;
     line-height: 1.5rem;
 }
-.question-one-section{
+
+.question-one-section {
     flex-direction: column;
 }
-.question-main-section{
-    position:relative;
+
+.question-main-section {
+    position: relative;
     display: flex;
     gap: 30px;
     margin-top: 30px;
 }
-.questions-section1{
+
+.questions-section1 {
+    /* border-radius: 15px  ; */
+    height: fit-content;
+    width: 550px;
+    /* border:2px solid black; */
+}
+
+.icon-of-question1 {
+    height: 20px;
+    width: 20px;
+    margin-left: 16rem;
+}
+
+.icon-of-question2 {
+    height: 20px;
+    width: 20px;
+    margin-left: 22.2rem;
+
+}
+
+.icon-of-question3 {
+    position: relative;
+    height: 20px;
+    width: 20px;
+    /* top: 100px;  */
+    bottom: 20px;
+    left: 110px;
+    margin-left: 22.2rem;
+}
+
+.hr-of-q3 {
+    margin-top: -13px;
+}
+
+.icon-of-question5 {
+    height: 20px;
+    width: 20px;
+    margin-left: 20rem;
+}
+
+.questions-section2 {
     height: 400px;
     width: 550px;
-    border:2px solid black;
+
+    /* border:2px solid black; */
 }
-.questions-section2{
-    height: 400px;
-    width: 550px;
-    border:2px solid black;
-}
-.first-question1{
+
+.first-question1 {
     height: 50px;
-    width: 540px;
+    width: 546px;
     text-align: left;
-    background: #F8F5F4;
+    background: #dfc8c1;
+    padding-top: 20px;
     /* border: 2px solid black; */
 }
-.first-question2{
+
+.first-question2 {
     outline: #000;
     transition: all .3s linear;
     display: none;
     height: 50px;
-    width: 54   0px;
+    width: 546px;
     text-align: left;
-    background: #F8F5F4;
+    background: white;
+    color: black;
+    padding-top: 20px;
     /* border: 2px solid black; */
 }
 
-.first-question-p{
-    margin-left: 20px ;
+.first-question-p {
+    margin-left: 20px;
+    /* margin-top: 10px; */
+}
+
+.ans-p {
+    margin-left: 20px;
+    /* margin-top: 10px; */
+}
+
+hr {
+    margin-top: 5px;
+}
+
+.main-div-of-aboutzirkapur {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.about-of-zirakpur {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+    gap: 30px;
+
+}
+
+.zirkapur-img {
+    border-radius: 10px;
+}
+
+.about-p {
+    margin-top: 30px;
+    line-height: 1.6rem;
+}
+
+
+
+
+footer {
+    margin-top: 50px;
+    height: fit-content;
+}
+
+.footer-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* flex-direction: column; */
+    background-color: #1e1810;
+    color: white;
+    padding-top: 50px;
+}
+
+.footer-div a {
+    color: white;
+    text-decoration: none;
+}
+
+.foooter-first-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p-of-footer {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-second-div p {
+    margin-top: 10px;
+
+}
+
+.footer-thired-div p {
     margin-top: 10px;
 }
-.ans-p{
-    margin-left: 20px ;
-    margin-top: 10px;
+
+.div-of-text {
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1e1810;
 }
+
+.text {
+    max-width: 90%;
+    padding-top: 20px;
+    line-height: 1.6rem;
+    margin-bottom: 30px;
+    color: white;
+}
+
+
+.bootem-text-of-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1e1810;
+    color: white;
+    height: 60px;
+}
+
+.footer-hr {
+    margin-top: 0px;
+}
+
+
+
 
 /* Media Query for Responsive Design */
 @media (max-width: 768px) {
@@ -886,7 +1042,7 @@ span {
     }
 
     .numberdiv {
-        flex-wrap: wrap;
+       flex-direction: column;
     }
 
     .course-box {
@@ -901,4 +1057,136 @@ span {
         width: 383px;
 
     }
+
+    .img-of-job-ppl {
+        display: none;
+    }
+
+    .box-of-placements {
+        flex-direction: column;
+    }
+
+    .box1-placement {
+        margin-top: 50px;
+        max-width: 100%;
+    }
+
+    .box2-placement {
+        width: fit-content;
+    }
+
+    .main-div-certifications-section {
+        margin-top: 30px;
+    }
+
+    .main-div-of-scholar-section {
+        margin-top: 30px;
+    }
+
+    .main-box-of-placements {
+        padding-top: 20px;
+        height: fit-content;
+    }
+
+    .placements-h1-p {
+        height: 166px;
+    }
+
+    .h1-of-job-section {
+        font-size: medium;
+    }
+
+
+
+    /* important============================================ */
+    .from-section2 {
+        display: none;
+    }
+
+
+    .form-section1 {
+        width: 90%;
+    }
+
+    .bo1-of-from form input {
+        width: 250px;
+        height: 30px;
+    }
+
+    .input-of-select {
+        width: 250px;
+        height: 30px;
+    }
+
+    .form-section-div-text {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-right: 0px;
+        padding-right: 0px;
+
+    }
+
+    .h1-of-form-section {
+        margin-right: 0px;
+    }
+
+    .p-of-form-section {
+        margin-right: 0px;
+    }
+    .about-of-zirakpur{
+        flex-direction: column;
+    }
+    .footer-div{
+     flex-direction: column;
+    align-items: start;
+    }
+    /* .text-of-first-footer{
+       
+    } */
+     /* .foooter-first-div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     } */
+      .question-main-section{
+        flex-direction: column;
+      }
+      .footer-div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+      }
+      .foooter-first-divm, .footer-second-div, .footer-thired-div{
+        margin-top: 20px;
+      }
+      .footer-thired-div{
+        text-align: center;
+      }
+      .question-main-section{
+        display: none;
+      }
+      .placenet-img{
+        height: 300px;
+        width: 400px;
+      }
+      .Explore-section-p{
+        font-size: larger;
+      }
+      .p-of-country{
+        width: fit-content;
+      }
+      .placenet-img{
+        width: 350px;
+      }
+      .about-heading{
+        text-align: center;
+      }
+
+
+
+
+
 }
