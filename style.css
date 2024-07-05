@@ -70,6 +70,11 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
+    position:fixed;
+    gap: 584px;
+    top: 0px;
+    z-index: 1;
+    
 }
 
 nav .logo {
@@ -992,7 +997,7 @@ span {
 }
 
 .question-main-section {
-    position: relative;
+    /* position: relative; */
     display: flex;
     gap: 30px;
     margin-top: 30px;
