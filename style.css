@@ -1,9 +1,20 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,700);
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 
+    /* font-family: "Poppins", sans-serif;  */
+
+
+    font-family: "Montserrat", sans-serif;
+
+
+
+
 }
+
 
 
 .nav-upper-div {
@@ -97,9 +108,9 @@ nav ul li a {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(./Banner-Home-page.jpg3.jpg);
+    background-image: url(./new\ second\ banner.jpg );
     background-size: cover;
-    filter: blur(3px);
+    filter: blur(0px);
     z-index: -1;
 }
 
@@ -107,16 +118,28 @@ nav ul li a {
     position: relative;
     z-index: 1;
     color: white;
+    width: 50%;
 }
 
 .box1-of-herosection p {
+    text-align: center;
     color: white;
     line-height: 25px;
 }
 
+.btn-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .box1-of-herosection button {
-    margin-left: 3.75rem;
+    /* margin-left: 3.75rem; */
     margin-top: 30px;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
     background: #DE3335;
     height: 2.4rem;
     width: 174px;
@@ -134,13 +157,14 @@ nav ul li a {
 
 .h1-of-herosection {
     color: #DE3335;
-    padding-top: 70px;
-    padding-left: 3.75rem;
+    /* padding-top: 70px; */
+    /* padding-left: 3.75rem; */
+    text-align: center;
 }
 
 .heading-of-herosection {
     color: white;
-    font-size: 6.563rem;
+    font-size: 2.563rem;
     text-align: center;
 }
 
@@ -150,12 +174,33 @@ nav ul li a {
 
 /* <======================herosection end================> */
 /* <======================herosection2 start================> */
+.main-number-section-of-hero {
+    position: relative;
+    top: -50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.number-section-of-hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 13rem;
+    width: 36rem;
+    background: white;
+    /* border: 2px solid black; */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .herosection2 {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 4.375rem;
+    /* margin-top: 4.375rem; */
 }
 
 .first-p-of-herosection2 {
@@ -168,23 +213,193 @@ nav ul li a {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 90%;
+    max-width: 90%;
     margin-top: 0.8rem;
     font-size: medium;
+    text-align: center;
+    display: inline;
 }
 
 /* <======================herosection2 End================> */
 /* <======================Courses-section-start================> */
+
+.snip1273 {
+    font-family: 'Raleway', Arial, sans-serif;
+    position: relative;
+    margin: 50px;
+    min-width: 310px -60px;
+    max-width: 310px;
+    width: 100%;
+    color: #ffffff;
+    text-align: left;
+    background-color: #000000;
+    font-size: 16px;
+}
+
+.snip1273 * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.4s ease-in;
+    transition: all 0.4s ease-in;
+}
+
+.snip1273 img {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    width: 400px;
+    vertical-align: top;
+}
+
+.snip1273 figcaption {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    padding: 20px 30px;
+}
+
+.snip1273 figcaption:before,
+.snip1273 figcaption:after {
+    width: 5px;
+    height: 3px;
+}
+
+.snip1273 figcaption:before {
+    right: 0;
+    top: 0;
+}
+
+.snip1273 figcaption:after {
+    left: 0;
+    bottom: 0;
+}
+
+/* .snip1273 h3,
+.snip1273 p {
+  line-height: 1.5em;
+} */
+.snip1273 h3 {
+    /* margin: 0 0 5px; */
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* .snip1273 p {
+  font-size: 0.8em;
+  font-weight: 500;
+  margin: 0 0 15px;
+} */
+.snip1273 a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.snip1273:before,
+.snip1273:after,
+.snip1273 figcaption:before,
+.snip1273 figcaption:after {
+    position: absolute;
+    content: '';
+    background-color: #a51b1b;
+    z-index: 1;
+    -webkit-transition: all 0.4s ease-in;
+    transition: all 0.4s ease-in;
+    opacity: 0.8;
+}
+
+.snip1273:before,
+.snip1273:after {
+    height: 5px;
+    width: 0%;
+}
+
+.snip1273:before {
+    top: 0;
+    left: 0;
+}
+
+.snip1273:after {
+    bottom: 0;
+    right: 0;
+}
+
+.snip1273:hover img,
+.snip1273.hover img {
+    opacity: 0.4;
+}
+
+.snip1273:hover figcaption,
+.snip1273.hover figcaption {
+    opacity: 1;
+}
+
+.snip1273:hover figcaption:before,
+.snip1273.hover figcaption:before,
+.snip1273:hover figcaption:after,
+.snip1273.hover figcaption:after {
+    height: 100%;
+}
+
+.snip1273:hover:before,
+.snip1273.hover:before,
+.snip1273:hover:after,
+.snip1273.hover:after {
+    width: 100%;
+}
+
+.snip1273:hover:before,
+.snip1273.hover:before,
+.snip1273:hover:after,
+.snip1273.hover:after,
+.snip1273:hover figcaption:before,
+.snip1273.hover figcaption:before,
+.snip1273:hover figcaption:after,
+.snip1273.hover figcaption:after {
+    /* opacity: 0.1; */
+}
+
+.img-of-box {
+    display: flex;
+    max-width: 90%;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.img-box1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: fit-content;
+    width: 350px;
+    /* border: 2px solid black; */
+}
+
+
 
 span {
     color: #DE3335;
 }
 
 .numberdiv {
+    /* position:static; */
+
     margin-top: 2rem;
-    ;
+
     display: flex;
-    gap: 5.125rem;
+    gap: 4.125rem;
     justify-content: center;
 }
 
@@ -198,7 +413,7 @@ span {
 .no3,
 .no4 {
     text-align: center;
-    font-size: 20px;
+    font-size: 12px;
     font-weight: bold;
     transition: all .2s linear;
 }
@@ -266,6 +481,7 @@ span {
     margin-top: 10px;
     margin-bottom: 20px;
     line-height: 1.5rem;
+    text-align: center;
 }
 
 .read-more-btn {
@@ -362,7 +578,7 @@ span {
     background: #DE3335;
 }
 
-/* .explore-job {
+.explore-job {
     position: relative;
     height: 700px;
     max-width: 100%;
@@ -379,13 +595,13 @@ span {
     background-image: url(./web-design\ img.jpg);
     background-size: cover;
     filter: blur(5px);
-    
+
 
     z-index: -1;
 }
 
 .box1-ofjob-section {
-  
+
     z-index: -1;
 }
 
@@ -431,16 +647,23 @@ span {
 
 .btn-of-job-section:hover {
     cursor: pointer;
-    background:white;
-    color:black;
+    background: white;
+    color: black;
     transition: all .3s linear;
 }
-.main-job-section-div{
+
+.main-job-section {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-job-section-div {
     flex-direction: column !important;
 }
 
- */
-.main-job-section {
+*/ .main-job-section {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -566,6 +789,7 @@ span {
 .h1-of-placement {
     margin-top: 40px;
 }
+
 
 
 
@@ -790,7 +1014,7 @@ span {
 .icon-of-question2 {
     height: 20px;
     width: 20px;
-    margin-left: 22.2rem;
+    margin-left: 23rem;
 
 }
 
@@ -801,7 +1025,7 @@ span {
     /* top: 100px;  */
     bottom: 20px;
     left: 110px;
-    margin-left: 22.2rem;
+    margin-left: 23.5rem;
 }
 
 .hr-of-q3 {
@@ -811,7 +1035,7 @@ span {
 .icon-of-question5 {
     height: 20px;
     width: 20px;
-    margin-left: 20rem;
+    margin-left: 20.4rem;
 }
 
 .questions-section2 {
@@ -1026,6 +1250,10 @@ footer {
         justify-content: center;
     }
 
+    .box1-of-herosection {
+        width: 100%;
+    }
+
     .box1-of-herosection button {
         width: 144px;
         height: 2rem;
@@ -1035,6 +1263,7 @@ footer {
 
     .h2-of-herosection2 {
         font-size: larger;
+        text-align: center;
     }
 
     .main-p-of-herosection {
@@ -1042,7 +1271,7 @@ footer {
     }
 
     .numberdiv {
-       flex-direction: column;
+        flex-wrap: wrap;
     }
 
     .course-box {
@@ -1051,11 +1280,17 @@ footer {
 
     .Explore-section-box {
         flex-wrap: wrap;
+        display: none;
     }
 
     .Explore-section-box1 {
-        width: 383px;
 
+        width: fit-content;
+
+    }
+
+    .div-of-center-box-h3 {
+        text-align: center;
     }
 
     .img-of-job-ppl {
@@ -1135,55 +1370,148 @@ footer {
     .p-of-form-section {
         margin-right: 0px;
     }
-    .about-of-zirakpur{
+
+    .about-of-zirakpur {
         flex-direction: column;
     }
-    .footer-div{
-     flex-direction: column;
-    align-items: start;
+
+    .footer-div {
+        flex-direction: column;
+        align-items: start;
     }
+
     /* .text-of-first-footer{
        
     } */
-     /* .foooter-first-div{
+    /* .foooter-first-div{
         display: flex;
         align-items: center;
         justify-content: center;
      } */
-      .question-main-section{
+    .question-main-section {
         flex-direction: column;
-      }
-      .footer-div{
+    }
+
+    .footer-div {
         display: flex;
         align-items: center;
         justify-content: center;
         margin-top: 50px;
-      }
-      .foooter-first-divm, .footer-second-div, .footer-thired-div{
+    }
+
+    .foooter-first-divm,
+    .footer-second-div,
+    .footer-thired-div {
         margin-top: 20px;
-      }
-      .footer-thired-div{
+    }
+
+    .footer-thired-div {
         text-align: center;
-      }
-      .question-main-section{
-        display: none;
-      }
-      .placenet-img{
+    }
+
+    .question-main-section {
+        /* display: none; */
+    }
+
+    .placenet-img {
         height: 300px;
         width: 400px;
-      }
-      .Explore-section-p{
+    }
+
+    .Explore-section-p {
         font-size: larger;
-      }
-      .p-of-country{
+    }
+
+    .p-of-country {
         width: fit-content;
-      }
-      .placenet-img{
+    }
+
+    .placenet-img {
         width: 350px;
-      }
-      .about-heading{
+    }
+
+    .about-heading {
         text-align: center;
-      }
+    }
+
+    .course-box1 {
+        margin-top: 50px;
+    }
+
+    .h1-of-country {
+        text-align: center;
+        font-size: medium;
+    }
+
+    .placements-h1-p {
+        text-align: center;
+        font-size: medium;
+    }
+
+    .placements-section {
+        width: fit-content;
+    }
+
+    .placements-h1-p h1 {
+        font-size: medium;
+    }
+
+    .h1-of-placement {
+        font-size: larger;
+    }
+
+    .p-of-placement {
+        font-size: medium;
+    }
+
+    .h1-of-SEO-tool {
+        text-align: center;
+        font-size: larger;
+    }
+
+    .h1-certifications-section {
+        text-align: center;
+        font-size: larger;
+    }
+
+    .scholar-section h1 {
+        font-size: larger;
+    }
+
+    .h1-of-courses {
+        font-size: larger;
+    }
+
+    .questions-section h1 {
+        font-size: larger;
+    }
+
+    .main-div-of-aboutzirkapur {
+        margin-top: 30px;
+    }
+
+    .bootem-text-of-footer {
+        font-size: small;
+    }
+
+    .herosection {
+        height: 521px;
+    }
+
+    .img-of-box {
+        flex-direction: column;
+    }
+
+    .number-section-of-hero {
+        height: fit-content;
+        width: 21rem;
+        margin-top: 50px;
+        flex-wrap: wrap;
+    }
+
+    .main-number-section-of-hero {
+        flex-wrap: wrap;
+    }
 
 
 
