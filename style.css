@@ -1631,3 +1631,32 @@ footer {
 
 
 }
+@media (min-width: 769px) and (max-width: 1024px) {
+    .question-main-section{
+        gap: 0px;
+    }
+    .bo1-of-from form input{
+        width: 200px;
+    }
+    .input-of-select{
+        width:200px ;
+    }
+    .form-section1{
+        width:50%;
+    }
+    .vdo1-section{
+        /* width: 50%; */
+    }
+    .from-section2{
+         height: fit-content;
+    }
+    .vdo1-section{
+        flex-direction: column;
+    }
+    .form-section-part-2{
+        flex-direction: column;
+    }
+    .form-section{
+        margin-top: 0px;
+    }
+}
