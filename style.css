@@ -903,7 +903,8 @@ span {
 }
 
 .img-of-world {
-    height: 400px;
+    margin-top: 50px;
+    height: 460px;
     width: 1000px;
     border-radius: 10px;
 }
@@ -923,6 +924,7 @@ span {
     align-items: center;
     gap: 50px;
     flex-direction: column;
+    /* height: fit-content; */
 }
 
 
@@ -949,10 +951,11 @@ span {
     align-items: center;
     justify-content: center;
     gap: 174px;
+    height: fit-content;
 }
 
 .box1-placement {
-    height: 362px;
+    height: 461px;
     border-radius: 15px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     max-width: 48%;
@@ -979,13 +982,80 @@ span {
 .box2-placement {
     position: relative;
     width: 50%;
-    height: 500px;
+    height: 600px;
     margin: auto;
     /* border: 2px solid black; */
     display: flex;
     /* justify-content: center; */
     align-items: center;
 }
+/* ======================================slider===================================================> */
+
+
+ .gallery  {
+    margin-top: 10px;
+    display: grid;
+    height: 500px;
+    width: 500px;
+    /* overflow:scroll; */
+    margin-bottom: 20px;
+  }
+  .gallery > img {
+    grid-area: 1/1;
+    width: 90%;
+    height: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border: 10px solid #f2f2f2;
+    box-shadow: 0 0 4px #0007;
+    animation: slide 6s infinite;
+  }
+  .gallery > img:last-child {
+    animation-name: slide-last;
+  }
+  
+  .gallery > img:nth-child(2) { animation-delay: -2s; } 
+  .gallery > img:nth-child(3) { animation-delay: -4s; }
+  
+  
+  @keyframes slide {
+    0%     {transform: translateX(0%)  ;z-index: 2;}
+    16.66% {transform: translateX(120%);z-index: 2;}
+    16.67% {transform: translateX(120%);z-index: 1;} 
+    33.34% {transform: translateX(0%)  ;z-index: 1;}
+    66.33% {transform: translateX(0%)  ;z-index: 1;}
+    66.34% {transform: translateX(0%)  ;z-index: 2;} 
+    100%   {transform: translateX(0%)  ;z-index: 2;}  
+  }
+  @keyframes slide-last {
+    0%     {transform: translateX(0%)  ;z-index: 2;}
+    16.66% {transform: translateX(120%);z-index: 2;}
+    16.67% {transform: translateX(120%);z-index: 1;} 
+    33.34% {transform: translateX(0%)  ;z-index: 1;}
+    83.33% {transform: translateX(0%)  ;z-index: 1;}
+    83.34% {transform: translateX(0%)  ;z-index: 2;} 
+    100%   {transform: translateX(0%)  ;z-index: 2;}  
+  }
+  
+  
+  
+ .body {
+    /* padding-top: 0px; */
+    /* margin: 0; */
+    /* min-height: 100%; */
+    height: 100%;
+    width: 800px;
+    display: grid;
+    place-content: center;
+    position: relative;
+    z-index: -3;
+    overflow: hidden;
+    /* margin-top: -30px; */
+
+  }
+
+
+
 
 .video-wrapper {
     position: absolute;
@@ -1064,6 +1134,18 @@ span {
     top: 162px;
 
 }
+.dot-1{
+    position: relative;
+    
+    margin-left: 20px;
+}
+.dot-2{
+    position: relative;
+    /* margin-top: 80px;
+    margin-left: 20px; */
+    left: 207px;
+    bottom: 158px;
+}
 
 
 
@@ -1090,6 +1172,42 @@ span {
     line-height: 1.5rem;
 }
 
+/* =========================slider of tool================================== */
+
+/* Slider container */
+.slider {
+    width: 100%; /* Adjust width as needed */
+    overflow: hidden; /* Ensure slides outside the container are hidden */
+    position: relative; /* Positioning context for absolute positioning of slides */
+}
+
+/* Slides container */
+.slides {
+    display: flex; /* Arrange slides in a row */
+    transition: transform 0.5s ease; /* Smooth sliding transition */
+
+}
+
+/* Individual slide */
+.slide {
+    min-width: 100%; /* Each slide occupies full width of slider */
+    flex: 0 0 auto; /* Prevent slides from shrinking */
+    box-sizing: border-box; /* Include padding and border in slide's total width */
+    padding: 20px; /* Adjust padding as needed */
+    text-align: center; /* Center slide content */
+  
+}
+.tool-slider{
+    height: fit-content;
+    width: fit-content;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-right: 20px;
+
+}
+/* Optional: Add styling to indicators or controls if needed */
+
+
 
 
 .main-div-certifications-section {
@@ -1108,6 +1226,12 @@ span {
     text-align: center;
     max-width: 90%;
 }
+.slides-of-tool{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 
 .p-certifications-section {
     margin-top: 20px;
@@ -1117,7 +1241,7 @@ span {
 
 .main-div-of-scholar-section {
 
-
+     margin-top: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1138,6 +1262,31 @@ span {
     margin-top: 20px;
     line-height: 1.5rem;
 }
+.tool-slider1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+   
+    border-radius: 15px;
+    margin-right: 20px;
+    
+}
+.tool-slider1 img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slide1{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 90%;
+}
 
 
 
@@ -1146,7 +1295,7 @@ span {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    /* gap: 20px; */
     margin-top: 40px;
     width: 100%;
 }
@@ -1161,7 +1310,7 @@ span {
 }
 
 .form-section1 {
-    width: 45%;
+    width: 35%;
     height: 523px;
     /* border: 2px solid black; */
     background-color: #1E1810;
@@ -1222,8 +1371,10 @@ span {
     justify-content: center;
     flex-direction: column;
     width: 45%;
-    height: 100vh;
+    height: fit-content;
+    /* margin-top: -65px; */
     /* border: 2px solid black; */
+    /* margin-bottom: 50px; */
 }
 
 .form-section-part-2 {
@@ -1403,26 +1554,40 @@ footer {
     margin-top: 50px;
     height: fit-content;
 }
+.logo-0f-footer{
+    height: 50px;
+   width: 279px;
+   margin-top: 10px;
+   margin-left: 20px;
+}
 
 .footer-div {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
+    flex-direction: column;
     justify-content: space-evenly;
     /* flex-direction: column; */
     background-color: #1e1810;
     color: white;
-    padding-top: 50px;
+    /* padding-top: 50px; */
 }
 
 .footer-div a {
     color: white;
     text-decoration: none;
-}
+}   
 
 .foooter-first-div {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.footer-div-of-row{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .p-of-footer {
@@ -1959,6 +2124,9 @@ footer {
     .div-of-text {
         padding-top: 20px;
     }
+  .slide1{
+    flex-wrap: wrap;
+  }
 
 
 }
@@ -2059,6 +2227,20 @@ footer {
 
     .first-p-of-herosection2 {
         font-size: small;
+    }
+    .video-wrapper{
+        height: 90pxpx;
+    }
+    .video-wrapper:nth-child(4){
+        right: 0px;
+        width: 0px;
+
+    }
+    .box-of-placements{
+        gap: 73px;
+    }
+    .box1-placement{
+        width: 45%;
     }
 
 

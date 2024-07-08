@@ -9,6 +9,33 @@ function toggleMenu() {
     navbar.classList.toggle('active');
 }
 
+// =======================slider==============================
+
+document.addEventListener('DOMContentLoaded', function() {
+    const slides = document.querySelector('.slides');
+    const slide = document.querySelectorAll('.slide');
+  
+    let index = 0;
+    const totalSlides = slide.length;
+  
+    function nextSlide() {
+      index++;
+      if (index >= totalSlides) {
+        index = 0;
+      }
+      updateSlide();
+    }
+  
+    function updateSlide() {
+      slides.style.transform = `translateX(-${index * 100}%)`;
+    }
+  
+    setInterval(nextSlide, 3000); // Change slide every 3 seconds
+  });
+  
+
+
+
 const questions = document.querySelectorAll('.first-question1');
 const answers = document.querySelectorAll('.first-question2');
 
@@ -48,3 +75,7 @@ document.addEventListener("DOMContentLoaded", function () {
         updateCount();
     });
 });
+
+
+
+
