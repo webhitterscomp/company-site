@@ -188,7 +188,8 @@ nav ul li a {
 .hero-text-box {
     padding-top: 100px;
 }
-.heading-of-img-below-text{
+
+.heading-of-img-below-text {
     color: #DE3335;
 }
 
@@ -470,6 +471,8 @@ span {
 }
 
 .Courses-section {
+    /* height: fit-content; */
+    /* text-align: ; */
     width: 90%;
     margin-top: 20px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
@@ -992,18 +995,20 @@ span {
     /* justify-content: center; */
     align-items: center;
 }
+
 /* ======================================slider===================================================> */
 
 
- .gallery  {
+.gallery {
     margin-top: 10px;
     display: grid;
     height: 500px;
     width: 500px;
     /* overflow:scroll; */
     margin-bottom: 20px;
-  }
-  .gallery > img {
+}
+
+.gallery>img {
     grid-area: 1/1;
     width: 90%;
     height: 100%;
@@ -1012,37 +1017,98 @@ span {
     border: 10px solid #f2f2f2;
     box-shadow: 0 0 4px #0007;
     animation: slide 6s infinite;
-  }
-  .gallery > img:last-child {
+}
+
+.gallery>img:last-child {
     animation-name: slide-last;
-  }
-  
-  .gallery > img:nth-child(2) { animation-delay: -2s; } 
-  .gallery > img:nth-child(3) { animation-delay: -4s; }
-  
-  
-  @keyframes slide {
-    0%     {transform: translateX(0%)  ;z-index: 2;}
-    16.66% {transform: translateX(120%);z-index: 2;}
-    16.67% {transform: translateX(120%);z-index: 1;} 
-    33.34% {transform: translateX(0%)  ;z-index: 1;}
-    66.33% {transform: translateX(0%)  ;z-index: 1;}
-    66.34% {transform: translateX(0%)  ;z-index: 2;} 
-    100%   {transform: translateX(0%)  ;z-index: 2;}  
-  }
-  @keyframes slide-last {
-    0%     {transform: translateX(0%)  ;z-index: 2;}
-    16.66% {transform: translateX(120%);z-index: 2;}
-    16.67% {transform: translateX(120%);z-index: 1;} 
-    33.34% {transform: translateX(0%)  ;z-index: 1;}
-    83.33% {transform: translateX(0%)  ;z-index: 1;}
-    83.34% {transform: translateX(0%)  ;z-index: 2;} 
-    100%   {transform: translateX(0%)  ;z-index: 2;}  
-  }
-  
-  
-  
- .body {
+}
+
+.gallery>img:nth-child(2) {
+    animation-delay: -2s;
+}
+
+.gallery>img:nth-child(3) {
+    animation-delay: -4s;
+}
+
+
+@keyframes slide {
+    0% {
+        transform: translateX(0%);
+        z-index: 2;
+    }
+
+    16.66% {
+        transform: translateX(120%);
+        z-index: 2;
+    }
+
+    16.67% {
+        transform: translateX(120%);
+        z-index: 1;
+    }
+
+    33.34% {
+        transform: translateX(0%);
+        z-index: 1;
+    }
+
+    66.33% {
+        transform: translateX(0%);
+        z-index: 1;
+    }
+
+    66.34% {
+        transform: translateX(0%);
+        z-index: 2;
+    }
+
+    100% {
+        transform: translateX(0%);
+        z-index: 2;
+    }
+}
+
+@keyframes slide-last {
+    0% {
+        transform: translateX(0%);
+        z-index: 2;
+    }
+
+    16.66% {
+        transform: translateX(120%);
+        z-index: 2;
+    }
+
+    16.67% {
+        transform: translateX(120%);
+        z-index: 1;
+    }
+
+    33.34% {
+        transform: translateX(0%);
+        z-index: 1;
+    }
+
+    83.33% {
+        transform: translateX(0%);
+        z-index: 1;
+    }
+
+    83.34% {
+        transform: translateX(0%);
+        z-index: 2;
+    }
+
+    100% {
+        transform: translateX(0%);
+        z-index: 2;
+    }
+}
+
+
+
+.body {
     /* padding-top: 0px; */
     /* margin: 0; */
     /* min-height: 100%; */
@@ -1055,7 +1121,7 @@ span {
     overflow: hidden;
     /* margin-top: -30px; */
 
-  }
+}
 
 
 
@@ -1088,19 +1154,21 @@ span {
     width: 134px;
     transform: translate(-50%, -50%);
 }
-.vdo-class2{
-   width: 50px;
-   /* transform: translate(-50%, -50%); */
+
+.vdo-class2 {
+    width: 50px;
+    /* transform: translate(-50%, -50%); */
 }
 
 .video-wrapper:nth-child(2) {
     transform: rotate(51.43deg) translate(0, -200px) rotate(-51.43deg);
     /* position: absolute;    */
-    left:-37px;
+    left: -37px;
     top: 133px;
-   
+
 }
-.vdo-class6{
+
+.vdo-class6 {
     width: px;
 }
 
@@ -1137,12 +1205,14 @@ span {
     top: 162px;
 
 }
-.dot-1{
+
+.dot-1 {
     position: relative;
-    
+
     margin-left: 20px;
 }
-.dot-2{
+
+.dot-2 {
     position: relative;
     /* margin-top: 80px;
     margin-left: 20px; */
@@ -1179,28 +1249,39 @@ span {
 
 /* Slider container */
 .slider {
-    width: 100%; /* Adjust width as needed */
-    overflow: hidden; /* Ensure slides outside the container are hidden */
-    position: relative; /* Positioning context for absolute positioning of slides */
+    width: 100%;
+    /* Adjust width as needed */
+    overflow: hidden;
+    /* Ensure slides outside the container are hidden */
+    position: relative;
+    /* Positioning context for absolute positioning of slides */
 }
 
 /* Slides container */
 .slides {
-    display: flex; /* Arrange slides in a row */
-    transition: transform 0.5s ease; /* Smooth sliding transition */
+    display: flex;
+    /* Arrange slides in a row */
+    transition: transform 0.5s ease;
+    /* Smooth sliding transition */
 
 }
 
 /* Individual slide */
 .slide {
-    min-width: 100%; /* Each slide occupies full width of slider */
-    flex: 0 0 auto; /* Prevent slides from shrinking */
-    box-sizing: border-box; /* Include padding and border in slide's total width */
-    padding: 20px; /* Adjust padding as needed */
-    text-align: center; /* Center slide content */
-  
+    min-width: 100%;
+    /* Each slide occupies full width of slider */
+    flex: 0 0 auto;
+    /* Prevent slides from shrinking */
+    box-sizing: border-box;
+    /* Include padding and border in slide's total width */
+    padding: 20px;
+    /* Adjust padding as needed */
+    text-align: center;
+    /* Center slide content */
+
 }
-.tool-slider{
+
+.tool-slider {
     height: fit-content;
     width: fit-content;
     border-radius: 15px;
@@ -1208,6 +1289,7 @@ span {
     margin-right: 20px;
 
 }
+
 /* Optional: Add styling to indicators or controls if needed */
 
 
@@ -1229,7 +1311,8 @@ span {
     text-align: center;
     max-width: 90%;
 }
-.slides-of-tool{
+
+.slides-of-tool {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -1244,7 +1327,7 @@ span {
 
 .main-div-of-scholar-section {
 
-     margin-top: 30px;
+    margin-top: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1265,25 +1348,28 @@ span {
     margin-top: 20px;
     line-height: 1.5rem;
 }
-.tool-slider1{
+
+.tool-slider1 {
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
     height: 150px;
     width: 300px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
-   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
     border-radius: 15px;
     margin-right: 20px;
-    
+
 }
-.tool-slider1 img{
+
+.tool-slider1 img {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.slide1{
+
+.slide1 {
     margin-top: 20px;
     display: flex;
     justify-content: space-evenly;
@@ -1554,17 +1640,20 @@ hr {
 
 
 footer {
+    /* display: none; */
     margin-top: 50px;
     height: fit-content;
 }
-.logo-0f-footer{
+
+.logo-0f-footer {
     height: 50px;
-   width: 279px;
-   margin-top: 10px;
-   margin-left: 20px;
+    width: 279px;
+    margin-top: 10px;
+    margin-left: 20px;
 }
 
 .footer-div {
+
     display: flex;
     /* align-items: center; */
     flex-direction: column;
@@ -1578,7 +1667,7 @@ footer {
 .footer-div a {
     color: white;
     text-decoration: none;
-}   
+}
 
 .foooter-first-div {
     display: flex;
@@ -1586,7 +1675,8 @@ footer {
     align-items: center;
     justify-content: center;
 }
-.footer-div-of-row{
+
+.footer-div-of-row {
     flex-direction: row;
     display: flex;
     justify-content: space-evenly;
@@ -1681,6 +1771,13 @@ footer {
 
 .h1-of-blog {
     opacity: 0.8;
+}
+.flex-text{
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -1857,9 +1954,11 @@ footer {
 
     /* important============================================ */
     .from-section2 {
+        display: none;
 
-
+            height: 300px;
         margin-top: 40px;
+        width: 90%;
     }
 
     .form-section {
@@ -2127,15 +2226,20 @@ footer {
     .div-of-text {
         padding-top: 20px;
     }
-  .slide1{
-    flex-wrap: wrap;
-  }
-  .body{
-    height: 200px;
- width: 200px;
- object-fit: cover;
-  }
 
+    .slide1 {
+        flex-wrap: wrap;
+    }
+
+ 
+
+    .footer-div-of-row {
+        flex-direction: column;
+    }
+    .logo-0f-footer{
+        height: 30px;
+        margin-bottom: 50px  ;
+    }
 
 }
 
@@ -2236,19 +2340,49 @@ footer {
     .first-p-of-herosection2 {
         font-size: small;
     }
-    .video-wrapper{
+
+    .video-wrapper {
         height: 90pxpx;
     }
-    .video-wrapper:nth-child(4){
+
+    .video-wrapper:nth-child(4) {
         right: 0px;
         width: 0px;
 
     }
-    .box-of-placements{
+
+    .box-of-placements {
         gap: 73px;
     }
-    .box1-placement{
+
+    .box1-placement {
         width: 45%;
+    }
+    .body{
+        width: fit-content;
+    }
+    .gallery{
+        /* display: none; */
+        width: 450px;
+    }
+    .Explore-section-p{
+        font-size: 10px;
+    }
+    .main-p-of-herosection{
+        font-size: small;
+    }
+    .h1-of-courses{
+        font-size: 0.9rem;
+    }
+    .Explore-section-h4{
+        font-size: larger;
+    }
+    .flex-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
 
 
