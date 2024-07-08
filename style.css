@@ -2130,6 +2130,11 @@ footer {
   .slide1{
     flex-wrap: wrap;
   }
+  .body{
+    height: 200px;
+ width: 200px;
+ object-fit: cover;
+  }
 
 
 }
