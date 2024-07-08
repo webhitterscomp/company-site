@@ -1,3 +1,4 @@
+
 $(".hover").mouseleave(
     function () {
         $(this).removeClass("hover");
@@ -8,72 +9,42 @@ function toggleMenu() {
     navbar.classList.toggle('active');
 }
 
+const questions = document.querySelectorAll('.first-question1');
+const answers = document.querySelectorAll('.first-question2');
 
+questions.forEach((question, index) => {
+    question.addEventListener('click', function () {
+        const answer = answers[index];
+        if (answer.classList.contains('show')) {
+            answer.classList.remove('show');
+        } else {
+            answers.forEach(ans => ans.classList.remove('show')); // Hide all answers first
+            answer.classList.add('show');
+        }
+    });
+});
 
+document.addEventListener("DOMContentLoaded", function () {
+    const counters = document.querySelectorAll('.numberdiv h1');
+    const speed = 200; // The lower the number, the faster the count
 
+    counters.forEach(counter => {
+        const updateCount = () => {
+            const target = +counter.getAttribute('data-target');
+            const count = +counter.innerText;
 
-const que1 = document.getElementById('question-p1')
-const ans1 = document.getElementById('ans-p1')
+            const increment = target / speed;
 
-que1.addEventListener('click', function () {
-    console.log('hy')
+            if (count < target) {
+                counter.innerText = Math.ceil(count + increment);
+                setTimeout(updateCount, 1);
+            } else {
+                counter.innerText = target;
+            }
+        };
 
-    if (ans1.style.display === 'block') {
-        ans1.style.display = 'none';
-    } else {
-        ans1.style.display = 'block';
-    }
-
-})
-const que2 = document.getElementById('question-p2')
-const ans2 = document.getElementById('ans-p2')
-
-que2.addEventListener('click', function () {
-    console.log('hy')
-
-    if (ans2.style.display === 'block') {
-        ans2.style.display = 'none';
-    } else {
-        ans2.style.display = 'block';
-    }
-
-})
-const que3 = document.getElementById('question-p3')
-const ans3 = document.getElementById('ans-p3')
-
-que3.addEventListener('click', function () {
-    console.log('hy')
-
-    if (ans3.style.display === 'block') {
-        ans3.style.display = 'none';
-    } else {
-        ans3.style.display = 'block';
-    }
-
-})
-const qus4 = document.getElementById('question-p4')
-const ans4 = document.getElementById('ans-p4')
-
-qus4.addEventListener('click', function () {
-    console.log('hy')
-
-    if (ans4.style.display === 'block') {
-        ans4.style.display = 'none';
-    } else {
-        ans4.style.display = 'block';
-    }
-
-})
-const que5 = document.getElementById('question-p5')
-const ans5 = document.getElementById('ans-p5')
-
-que5.addEventListener('click', function () {
-    console.log('hy')
-
-    if (ans5.style.display === 'block') {
-        ans5.style.display = 'none';
-    } else {
-        ans5.style.display = 'block';
-    }
-
-})
+        counter.setAttribute('data-target', counter.innerText);
+        counter.innerText = '0';
+        updateCount();
+    });
+});
