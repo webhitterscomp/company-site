@@ -72,9 +72,36 @@ document.addEventListener("DOMContentLoaded", function () {
     updateCount();
   });
 });
+ 
+document.addEventListener('DOMContentLoaded', function() {
+  // Configuration
+  var sliderContainer = document.querySelector('.slider-container');
+  var slides = sliderContainer.children;
+  var slideCount = slides.length;
+  var slideWidth = slides[0].offsetWidth; // Assuming all slides have the same width
+  var slideDuration = 3000; // Duration between slides (in milliseconds)
+  var currentIndex = 0;
+  var intervalId; // Variable to hold interval ID
 
+  // Auto slider function
+  function autoSlide() {
+      intervalId = setInterval(function() {
+          currentIndex = (currentIndex + 1) % slideCount;
+          sliderContainer.style.transition = 'transform 1s ease-in-out';
+          sliderContainer.style.transform = 'translateX(' + (-currentIndex * slideWidth) + 'px)';
+      }, slideDuration);
+  }
 
+  // Initialize auto slider
+  autoSlide();
 
+  // Pause slider on hover
+  sliderContainer.addEventListener('mouseenter', function() {
+      clearInterval(intervalId);
+  });
 
-
-
+  // Resume slider on mouse leave
+  sliderContainer.addEventListener('mouseleave', function() {
+      autoSlide();
+  });
+});

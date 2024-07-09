@@ -666,7 +666,7 @@ span {
 .img-div img {
     width: fit-content;
     height: fit-content;
-
+ 
     object-fit: cover;
     transition: background-color 0.5s ease-in-out;
 
@@ -679,7 +679,10 @@ span {
 
 }
 
-
+ .enrol-button a{
+    color: white;
+    text-decoration: none;
+ }
 .enrol-button {
     background: #DE3335;
     height: 2.4rem;
@@ -982,6 +985,7 @@ span {
     align-items: center;
     gap: 50px;
     flex-direction: column;
+    margin-top: -100px;
     /* height: fit-content; */
 }
 
@@ -1023,6 +1027,7 @@ span {
     max-width: 48%;
     /* border: 2px solid black; */
     text-align: center;
+    /* padding-bottom: 160px; */
 }
 
 .p-of-placement {
@@ -1283,7 +1288,7 @@ span {
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 
 .SEO-tool {
@@ -1401,79 +1406,136 @@ span {
 }
 
 /* Icon set - http://ionicons.com/ */
-/* @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css); */
-/* @import url(https://fonts.googleapis.com/css?family=Raleway:400,800); */
-.testimonial{
-    padding: 20px 20px 20px 90px;
-    margin: 10px 20px 50px 55px;
-    border-left: 2px solid #ae483a;
-    position: relative;
-}
-.testimonial:after{
-    content: "";
-    border-bottom: 25px solid #ae483a;
-    border-left: 25px solid transparent;
-    border-right: 25px solid transparent;
-    position: absolute;
-    bottom: -24px;
-    left: -26px;
-}
-.testimonial .pic{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border: 2px solid #ae483a;
-    overflow: hidden;
-    position: absolute;
-    top: 0;
-    left: -50px;
-}
-.testimonial .pic img{
-    width: 100%;
-    height: auto;
-}
-.testimonial .title{
-    font-size: 22px;
-    font-weight: 600;
-    color: #71334a;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin: 0 0 7px 0;
-}
-.testimonial .post{
-    display: block;
-    font-size: 15px;
-    color: #ae483a;
-    text-transform: capitalize;
-}
-.testimonial .description{
-    font-size: 15px;
-    color: #ab9c99;
-    line-height: 28px;
-}
-.owl-theme .owl-controls{ margin-top: 10px; }
-.owl-theme .owl-controls .owl-page span{
-    width: 35px;
-    height: 15px;
-    border-radius: 0;
-    background: #71334a;
-    opacity: 0.8;
-    transition: all 0.3s ease 0s;
-}
-.owl-theme .owl-controls .owl-page.active span{
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background: #ae483a;
-}
-@media only screen and (max-width: 479px){
-    .testimonial{
-        padding: 20px 0 20px 60px;
-        margin: 10px 20px 50px 50px;
-    }
-    .testimonial .title{ font-size: 20px; }
+ /* @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css); 
+ @import url(https://fonts.googleapis.com/css?family=Raleway:400,800);  */
+      /* Custom CSS for Testimonial Slider */
+    /* Icon set - http://ionicons.com/ */
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
+
+.review {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    height: fit-content;
+    background-color: #f0f0f0;
+  
 }
 
+.slider-container {
+    display: flex;
+    /* overflow-x: hidden; */
+    position: relative;
+    margin-top: 30px;
+    /* scrollbar-width: none;  */
+}
+
+.snip1139 {
+    margin-top: 50px;
+    height: 250px;
+    position: relative;
+    /* overflow:visible; */
+    margin: 10px;
+    min-width: 250px;
+    max-width: 310px;
+    max-height: 400px;
+    width: 100%;
+    color: #333;
+    text-align: left;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.snip1139:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+    z-index: 1;
+}
+
+.snip1139 img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    vertical-align: middle;
+    width: 80px; /* Adjust size as needed */
+    height: 80px; /* Adjust size as needed */
+    object-fit: cover; /* Ensures image fills the circle */
+    border-radius: 50%; /* Rounded shape */
+    transition: transform 0.3s ease-in-out;
+    margin-left: 50px;
+}
+
+.snip1139:hover img {
+    transform: scale(1.2); /* Zoom effect on hover */
+}
+
+.snip1139 blockquote {
+    position: relative;
+    background-color: #ffffff;
+    padding: 25px 50px 25px 50px;
+    font-size: 0.8em;
+    font-weight: 500;
+    text-align: left;
+    margin: 0;
+    line-height: 1.6em;
+    font-style: italic;
+}
+
+.snip1139 blockquote:before,
+.snip1139 blockquote:after {
+    content: "\201C";
+    position: absolute;
+    font-size: 50px;
+    opacity: 0.3;
+}
+
+.snip1139 blockquote:before {
+    top: 25px;
+    left: 20px;
+}
+
+.snip1139 blockquote:after {
+    content: "\201D";
+    right: 20px;
+    bottom: 0;
+}
+
+.snip1139 .arrow {
+    top: 100%;
+    width: 0;
+    height: 0;
+    border-left: 0 solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 25px solid #ffffff;
+    margin: 0;
+    position: absolute;
+}
+
+.snip1139 .author {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 5px 25px;
+    color: #000000;
+    background-color: #ffffff;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.snip1139 .author h5 {
+    opacity: 0.8;
+    margin: 0;
+    font-weight: 800;
+}
+
+.snip1139 .author h5 span {
+    font-weight: 400;
+    text-transform: none;
+    padding-left: 5px;
+}
+/* Demo purposes only */
 
 .p-of-scholar-section {
     margin-top: 20px;
@@ -1852,9 +1914,18 @@ footer {
     margin-top: 10px;
 
 }
+.text-left-of-footer{
+    text-align: center;
+}
 
 .footer-thired-div p {
     margin-top: 10px;
+}
+.our-courses-section-p{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+
 }
 
 .div-of-text {
@@ -2366,7 +2437,7 @@ footer {
 
     .amount-pic {
         height: 410px;
-        width: 387px !important;
+        /* width: 387px !important; */
     }
 
     .p-of-footer {
@@ -2411,7 +2482,55 @@ footer {
     .slide1-of-schlor-section {
         flex-wrap: wrap;
     }
+    .img1-div-of-price img{
+        height: 264px;
+    }
+    .tool-slider1{
+        margin-top: 20px;
+    }
+    
+    .review {
+        /* display: none; */
+        /* max-width: 300px; */
+        overflow: hidden;
+        height: 300px;
+        width: 100%;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items vertically */
+    }
 
+    .slider-container {
+        overflow-x: auto; 
+        scrollbar-width: none; /* Hide scrollbar */
+        -ms-overflow-style: none; /* Hide scrollbar for IE/Edge */
+        -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+    }
+
+    .snip1139 {
+        min-width: 150px; /* Adjust minimum width for smaller screens */
+        max-width: calc(100% - 20px); /* Adjust maximum width to fit container */
+        margin: 10px; /* Adjust margins for spacing */
+    }
+
+    .snip1139 img {
+        width: 100px; /* Adjust image size for smaller screens */
+        height: 100px; /* Adjust image size for smaller screens */
+        margin-left: 0; /* Center image horizontally */
+    }
+
+    .snip1139 blockquote {
+        padding: 15px; /* Adjust padding for blockquote */
+        font-size: 0.7em; /* Adjust font size for blockquote */
+    }
+
+    .snip1139 .author {
+        padding: 5px 15px; /* Adjust padding for author section */
+    }
+
+    .snip1139 .author h5 {
+        font-size: 0.8em; /* Adjust font size for author name */
+    }
+   
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
