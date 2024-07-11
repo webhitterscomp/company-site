@@ -756,7 +756,7 @@ span {
 .text-of-this-section {
 
     width: 40%;
-    height: 400px;
+    height: fit-content;
 }
 
 .text-of-this-section h1 {
