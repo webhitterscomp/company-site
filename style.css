@@ -760,9 +760,10 @@ span {
 }
 
 .text-of-this-section h1 {
+    margin-top: -150px;
     color: white;
     margin-left: 50px;
-    font-size: 40px;
+    font-size: 30px;
     text-align: left;
 }
 
