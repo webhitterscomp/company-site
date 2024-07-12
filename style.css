@@ -27,45 +27,50 @@
     padding: 0;
   }
    */
-  a {
+
+   .mobile-view-no{
+    display: none !important;    
+   }
+a {
     color: #fff;
     text-decoration: none;
-  }
-  
-  .me {
+}
+
+.me {
     width: 400px;
     margin: 90px auto;
-  }
-  
-  .me p,
-  .me h1 {
+}
+
+.me p,
+.me h1 {
     letter-spacing: 3px;
     text-align: center;
-  }
-  
-  .me p {
+}
+
+.me p {
     font-weight: 200;
-  }
-  
-  .social {
+}
+
+.social {
     position: fixed;
     top: 120px;
-    text-align: center;
-  }
-  
-  .social ul {
+    /* text-align: center; */
+}
+
+.social ul {
     padding: 0px;
     transform: translate(-270px, 0);
-  }
-  .a.svg{
+}
+
+.a.svg {
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 5px;
-  }
-  
-  .social ul li {
+}
+
+.social ul li {
     text-align: center;
     height: 49px;
     display: block;
@@ -76,28 +81,32 @@
     padding: 10px;
     border-radius: 0 30px 30px 0;
     transition: all 1s;
-  }
-  
-  .social ul li:hover {
+}
+
+.social ul li a {
+    margin-bottom: 15px;
+}
+
+.social ul li:hover {
     transform: translate(110px, 0);
     background: #DE3335;
-  }
-  
-  .social ul li:hover a {
-    color :white;
+}
+
+.social ul li:hover a {
+    color: white;
     text-align: center;
     margin-bottom: 5px;
 
-  }
-  
-  .social ul li:hover svg {
+}
+
+.social ul li:hover svg {
     fill: #fff;
     background: rgba(0, 0, 0, 0.36);
     transform: rotate(360deg);
     transition: all 1s;
-  }
-  
-  .social ul li svg {
+}
+
+.social ul li svg {
     margin-left: 10px;
     fill: #000;
     background: #fff;
@@ -108,7 +117,7 @@
     font-size: 20px;
     background: #ffffff;
     transform: rotate(0deg);
-  }
+}
 
 
 .nav-upper-div {
@@ -232,8 +241,8 @@ nav ul li a {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(./sample-img.png );
-    background-size: contain;
+    background-image: url(./Banner1\ new.jpg);
+    background-size: cover;
     filter: blur(0px);
     z-index: -1;
     background-repeat: no-repeat;
@@ -255,6 +264,7 @@ nav ul li a {
 }
 
 .btn-div {
+    margin-top: 210px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -321,7 +331,7 @@ nav ul li a {
     align-items: center;
     justify-content: center;
     height: auto;
-    width: 34rem;
+    width: 30rem;
     background: linear-gradient(135deg, #ff6347, #4a4a4a);
     border-radius: 15px;
     /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); */
@@ -701,7 +711,7 @@ span {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-top: 3.87rem;
+    margin-top: 0.87rem;
     width: 100%;
 
 
@@ -834,7 +844,7 @@ span {
 
 .buttons {
     display: flex;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 /*
@@ -890,8 +900,8 @@ span {
 }
 
 
-.slide1:hover,
-.slide1:focus {
+.slide2:hover,
+.slide2:focus {
     box-shadow: inset 6.5em 0 0 0 var(--hover);
 }
 
@@ -939,7 +949,7 @@ span {
     /* Adjusted hue: #e4cb58 + 45deg */
 }
 
-.slide1 {
+.slide2 {
     --color: white;
     --hover: #DE3335;
     /* Adjusted hue: #8fc866 + 45deg */
@@ -1334,8 +1344,15 @@ code {
 }
 
 .icon-size-of-heading {
-    height: 32px;
+    height: 30px;
     width: 30px;
+    border-radius: 20px;
+}
+
+.icon-size-of-form-div {
+    fill: red;
+    height: 14px;
+    width: 15px;
 }
 
 .div-of-p-and-icon {
@@ -1419,7 +1436,7 @@ code {
 
 
 .h1-of-SEO-tool {
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 .placements-h1-p {
@@ -1741,7 +1758,7 @@ code {
     align-items: center;
     justify-content: center;
     text-align: center;
-    /* margin-top: 30px; */
+    margin-top: 60px;
 }
 
 .SEO-tool {
@@ -1856,6 +1873,7 @@ code {
     text-align: center;
     flex-direction: column;
     max-width: 90%;
+    
 }
 
 .main-section-of-company-review {
@@ -1867,19 +1885,23 @@ code {
     display: flex;
     /* border: 2px solid black; */
 }
-.img-of-company-review{
+
+.img-of-company-review {
     text-align: center;
     /* border: 2px solid black;  */
-    height:600px;
-     width: 50%;
+    height: 600px;
+    width: 50%;
+    margin-left: 44px;
 }
-.img-of-review-section-main{
+
+.img-of-review-section-main {
     /* border: 2px solid black; */
-     height:500px;
-      width: 50%;
+    height: 500px;
+    width: 50%;
 }
-.company-review-img-size{
-    height:140px;
+
+.company-review-img-size {
+    height: 140px;
     width: 200px;
 }
 
@@ -2347,12 +2369,23 @@ hr {
 }
 
 
+iframe {
+    margin-top: 50px;
+    margin-bottom: -53px;
+    /* display: none; */
 
+}
+
+.div-of-iframe {
+    max-width: 100%;
+    /* max-width: fit-content; */
+    /* margin-top: 20px; */
+}
 
 footer {
     /* display: none; */
     margin-top: 50px;
-    height: fit-content;
+
 }
 
 .logo-0f-footer {
@@ -2535,19 +2568,158 @@ footer {
     flex-direction: column;
 }
 
+/* ==================================popup form===================
+ */
+.min-div-of-form {
+    /* display: none   ; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h1-of-form {
+    color: #a51b1b
+}
+
+#form-container {
+    display: none;
+
+    /* display: none; */
+    position: fixed;
+    top: 100px;
+    /* left: 500px; */
+    z-index: 10;
+    /* display: block; */
+    transition: transform 1s ease-in-out 0s;
+    transform-origin: top;
+    background-color: #EBECF0;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -0.2px;
+    font-size: 16px;
+    padding: 16px;
+    width: 425px;
+    margin: 0 auto;
+    z-index: 8;
+}
+
+/* Styles for segments within the form */
+.segment {
+    padding: 15px 0;
+    text-align: center;
+}
+
+/* Styles for labels and inputs */
+label {
+    display: block;
+    color: #DE3335;
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+input,
+select {
+    margin-right: 8px;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    border-radius: 320px;
+    padding: 16px;
+    background-color: #EBECE3;
+    box-shadow: inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF;
+    width: 100%;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+    /* appearance: none; */
+    /* color: black; */
+}
+
+.input-text-of-form::placeholder {
+    color: #a51b1b;
+}
+
+.opstion-color {
+    color: #a51b1b;
+}
 
 
+input,
+select:focus {
+    box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+}
+
+/* Styles for buttons */
+.button-of-popup-form {
+    color: #61677C;
+    font-weight: bold;
+    box-shadow: -5px -5px 20px #FFF, 5px 5px 20px #BABECC;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    font-weight: 600;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    border-radius: 320px;
+    padding: 16px;
+    background-color: #EBECF0;
+    text-shadow: 1px 1px 0 #FFF;
+}
+
+button:hover {
+    box-shadow: -2px -2px 5px #FFF, 2px 2px 5px #BABECC;
+}
+
+button:active {
+    box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+}
+
+/* Styles for SVG icons */
+.icon {
+    margin-right: 8px;
+}
+
+.unit {
+    border-radius: 8px;
+    line-height: 0;
+    width: 48px;
+    height: 48px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 8px;
+    font-size: 19.2px;
+}
+
+.red {
+    /* display: block; */
+    width: 100%;
+    color: #AE1100;
+}
+
+/* Styles for input group */
+.input-group {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.input-group label {
+    margin: 0;
+    flex: 1;
+}
 
 /* Media Query for Responsive Design */
 @media (max-width: 768px) {
     .phone {
         display: none;
     }
+    .mobile-view-no{
+       display: block !important;
+    }
 
     .nav-upper-div {
         flex-direction: column;
         justify-content: space-between;
-        height: 40px;
+        height: 64px;
         position: fixed;
         overflow: hidden;
         max-height: 100vh;
@@ -2669,7 +2841,7 @@ footer {
     }
 
     .for-plus h1 {
-        font-size: 20px;
+        font-size: 17px;
     }
 
     .no4 {
@@ -2703,7 +2875,7 @@ footer {
 
     .Explore-section-box {
         flex-wrap: wrap;
-        display: none;
+        /* display: none; */
     }
 
     .Explore-section-h4 {
@@ -2936,9 +3108,11 @@ footer {
     }
 
     /* =================================review section-of-company=================== */
-.text-of-this-section{
-    max-width: 100%;
-}
+    .text-of-this-section {
+        width: 100%;
+
+
+    }
 
 
     .main-section-of-bg {
@@ -2946,7 +3120,16 @@ footer {
     }
 
     .text-of-this-section h1 {
-        font-size: small;
+        margin-top: 15px;
+        font-size: medium;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 0px;
+
+    }
+
+    .br-remove {
+        display: none;
     }
 
     .button-img {
@@ -2954,7 +3137,27 @@ footer {
     }
 
     .buttons {
-        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        font-size: 12px;
+    }
+
+    .btn-of-all-div {
+        height: 3.4rem;
+        width: 160px;
+        font-size: 18px;
+        margin-top: 105px;
+    }
+
+    .button-section1 {
+        width: 100%;
+
+    }
+
+    .buttons button {
+        height: 50px;
+        width: 146px;
     }
 
     .h1-of-country {
@@ -3094,6 +3297,8 @@ footer {
 
 
 
+
+
     .footer-div-of-row {
         flex-direction: column;
     }
@@ -3119,6 +3324,49 @@ footer {
     .tool-slider1 {
         margin-top: 20px;
     }
+
+    .img-of-review-section-main {
+        display: none;
+    }
+
+    .collag-img {
+        height: 100px;
+        width: 350px;
+    }
+
+    .company-review-img-size {
+        width: 100px;
+    }
+
+    .no1,
+    .no2,
+    .no3,
+    .no4 {
+        font-size: 10px;
+    }
+
+    .img-of-company-review {
+        height: fit-content;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .img-of-company-review-div {
+        height: fit-content;
+    }
+
+    .main-section-of-company-review {
+        background-image: none;
+    }
+
+    .cebter-div-of-btn-section {
+        height: fit-content;
+        margin: 20px 0px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
 
     .review {
         /* display: none; */
@@ -3196,7 +3444,7 @@ footer {
     }
 
     .img1-div-of-price img {
-        height: 250px;
+        height: 294px;
         width: 300px;
     }
 
@@ -3331,7 +3579,63 @@ footer {
         align-items: center;
         justify-content: center;
         text-align: center;
+        width: fit-content;
+        
     }
 
+    /* =========================================box-btn-section========================= */
+    .main-section-of-bg {
+        flex-direction: column;
+    }
 
+    .text-of-this-section {
+        width: 100%;
+
+    }
+
+    .text-of-this-section h1{
+        margin-top: 0px;
+        text-align: center;
+        margin-left: 0px;
+        
+    }
+    .br-remove{
+        display: none;
+    }
+    .cebter-div-of-btn-section{
+       margin: 0px 0px;
+    }
+  /* ==================================slider======================== */
+  .slide{
+    max-width: 100%;
+  }
+  .tool-slider{
+    height: 100px;
+    width: 156px;
+  }
+  .tool-slider1 img{
+   height: 78px;
+   width: 100px;
+  }
+  .tool-slider1{
+    height: 120px;
+    width: 256px;
+  }
+  .tool-slider1 p{
+    font-size: small;
+  }
+  /* ====================company review section================ */
+  .company-review-img-size{
+    width: 150px;
+  }
+  .img-of-company-review{
+    margin: 0px 0px;
+  }
+  .collag-img{
+    width: 534px;
+    height: 169px;
+  }
+  .flex-text{
+    /* display: flex; */
+  }
 }

@@ -105,3 +105,14 @@ document.addEventListener('DOMContentLoaded', function() {
       autoSlide();
   });
 });
+  const form=document.getElementById('form-container');
+  const enrollBtn=document.getElementsByClassName('btn-div')[0];
+ 
+ 
+   enrollBtn.addEventListener('click',function(){
+   
+  
+   form.style="display:block"
+
+   })
+
