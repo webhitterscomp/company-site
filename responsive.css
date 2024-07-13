@@ -1,0 +1,858 @@
+
+@media (max-width: 768px) {
+    .phone {
+        display: none;
+    }
+
+    .mobile-view-no {
+        display: block !important;
+    }
+
+    .nav-upper-div {
+        flex-direction: column;
+        justify-content: space-between;
+        height: 64px;
+        position: fixed;
+        overflow: hidden;
+        max-height: 100vh;
+        padding: 0px 0px;
+    }
+
+    .icon {
+        display: block;
+        position: fixed;
+        z-index: 1;
+        top: 13px;
+        left: 10px;
+
+    }
+
+    nav {
+        justify-content: center;
+        position: fixed;
+        top: 75px;
+        left: -100%;
+        width: 80%;
+        max-width: 300px;
+        height: 100%;
+        background-color: #111;
+        transition: left 0.3s ease;
+        z-index: 10;
+    }
+
+    nav.active {
+        top: 48px;
+        left: 0;
+        background-color: #000;
+    }
+
+    nav .logo {
+        text-align: center;
+        margin: 20px 0;
+        display: none;
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        gap: 30px;
+        margin-bottom: 332px;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .h1-of-herosection {
+        padding-top: 0px;
+        margin-top: 20px;
+        font-size: medium;
+        text-align: center;
+        padding-left: 0px;
+    }
+
+    .heading-of-herosection {
+        font-size: larger;
+        margin-top: 20px
+    }
+
+    .herosection::before {
+        background-size: cover;
+        height: 310px;
+    }
+
+    .btn-div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box1-of-herosection {
+        width: 100%;
+    }
+
+    .box1-of-herosection button {
+        width: 144px;
+        height: 2rem;
+        margin-left: 0px;
+        margin-top: 14px;
+    }
+
+    .herosection2 {
+        flex-direction: column;
+    }
+
+    .herosection-div-of-text {
+        max-width: 100%;
+        height: fit-content !important;
+        font-size: small;
+    }
+
+    .herosection2-img {
+        max-width: 100%;
+    }
+
+    .h2-of-herosection2 {
+        font-size: larger;
+        text-align: center;
+    }
+
+    .main-p-of-herosection {
+        font-size: small;
+    }
+
+    .h3-text-of-number-div {
+        font-size: medium;
+    }
+
+    .numberdiv {
+        margin-top: 0px;
+    }
+
+    .for-plus h1 {
+        font-size: 17px;
+    }
+
+    .no4 {
+        margin-top: -10px;
+        margin-left: -5px;
+    }
+
+    .no3 {
+        margin-top: 5px;
+    }
+
+    .for-plus p {
+        display: inline;
+    }
+
+    .text-of-2008 {
+        margin-top: -5px !important;
+    }
+
+    .since-text {
+        margin-top: 4px;
+    }
+
+    .no-for-flex {
+        display: flex;
+    }
+
+    .course-box {
+        flex-direction: column;
+    }
+
+    .Explore-section-box {
+        flex-wrap: wrap;
+    }
+
+    .Explore-section-h4 {
+        text-align: center;
+        font-size: medium;
+    }
+
+    .Explore-section-box1 {
+
+        width: fit-content;
+
+    }
+
+    .abount-div {
+        flex-direction: column;
+    }
+
+    .div-of-center-box-h3 {
+        text-align: center;
+    }
+    .box-of-placements {
+        flex-direction: column;
+    }
+
+    .box1-placement {
+        margin-top: 50px;
+        max-width: 100%;
+    }
+
+    .box2-placement {
+        width: fit-content;
+        display: none;
+    }
+
+    .main-div-certifications-section {
+        margin-top: 30px;
+    }
+
+    .main-div-of-scholar-section {
+        margin-top: 30px;
+    }
+
+    .main-box-of-placements {
+        padding-top: 20px;
+        height: fit-content;
+        max-width: 100%;
+    }
+
+    .placements-h1-p {
+        height: 166px;
+    }
+
+    .h1-of-job-section {
+        font-size: medium;
+    }
+
+    .job-section {
+        flex-wrap: wrap
+    }
+
+
+
+    /* =====================important============================================ */
+    .from-section2 {
+        display: none;
+        height: 300px;
+        margin-top: 40px;
+        width: 90%;
+    }
+
+    .form-section {
+        flex-direction: column;
+    }
+
+    .vdo1-section {
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+
+    .form-section-part-2 {
+        flex-wrap: wrap;
+    }
+    .form-section1 {
+        width: 90%;
+        height: 400px;
+    }
+
+    .bo1-of-from form input {
+        width: 250px;
+        height: 30px;
+    }
+
+    .input-of-select {
+        width: 250px;
+        height: 28px;
+    }
+
+    .form-section-div-text {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-right: 0px;
+        padding-right: 0px;
+
+    }
+
+    .h1-of-form-section {
+        font-size: medium;
+        margin-right: 0px;
+    }
+
+    .p-of-form-section {
+        margin-right: 0px;
+    }
+
+    .about-of-zirakpur {
+        flex-direction: column;
+    }
+
+    .footer-div {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .question-main-section {
+        flex-direction: column;
+    }
+
+    .footer-div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .foooter-first-divm,
+    .footer-second-div,
+    .footer-thired-div {
+        margin-top: 20px;
+        display: flex;
+        text-align: center;
+        font-size: 12px;
+        gap: 10px;
+    }
+
+    .footer-thired-div {
+        text-align: center;
+    }
+
+    .question-section-main-div {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .first-question1 {
+        width: 323px;
+    }
+
+    .question-main-section {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 323px;
+    }
+
+    .questions-section1 {
+        flex: 1 1 calc(50% - 30px);
+        max-width: none;
+    }
+
+    .question-main-section {
+        margin-top: 0px;
+    }
+
+    .first-question2.show {
+        padding-top: 5px;
+    }
+
+    .placenet-img {
+        height: 300px;
+        width: 400px;
+    }
+
+    .Explore-section-p {
+        font-size: larger;
+    }
+
+    .p-of-country {
+        width: fit-content;
+    }
+
+    .placenet-img {
+        width: 350px;
+    }
+
+    .about-heading {
+        text-align: center;
+    }
+
+    .course-box1 {
+        margin-top: 50px;
+    }
+
+    /* =================================review section-of-company=================== */
+    .text-of-this-section {
+        width: 100%;
+    }
+    .main-section-of-bg {
+        flex-direction: column;
+    }
+
+    .text-of-this-section h1 {
+        margin-top: 15px;
+        font-size: medium;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .br-remove {
+        display: none;
+    }
+
+    .button-img {
+        flex-direction: column;
+    }
+
+    .buttons {
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        font-size: 12px;
+    }
+
+    .btn-of-all-div {
+        height: 3.4rem;
+        width: 160px;
+        font-size: 18px;
+        margin-top: 105px;
+    }
+
+    .button-section1 {
+        width: 100%;
+    }
+
+    .buttons button {
+        height: 50px;
+        width: 146px;
+    }
+
+    .h1-of-country {
+        text-align: center;
+        font-size: medium;
+    }
+
+    .placements-h1-p {
+        text-align: center;
+        font-size: medium;
+        height: fit-content;
+    }
+
+    .placements-section {
+        height: fit-content;
+        width: fit-content;
+    }
+
+    .placements-h1-p h1 {
+        font-size: medium;
+    }
+
+    .h1-of-placement {
+        font-size: larger;
+    }
+
+    .p-of-placement {
+        font-size: medium;
+    }
+
+    .h1-of-SEO-tool {
+        text-align: center;
+        font-size: larger;
+    }
+
+    .h1-certifications-section {
+        text-align: center;
+        font-size: larger;
+    }
+
+    .scholar-section h1 {
+        font-size: larger;
+    }
+
+    .h1-of-courses {
+        font-size: larger;
+    }
+
+    .questions-section h1 {
+        font-size: larger;
+    }
+
+    .main-div-of-aboutzirkapur {
+        margin-top: 30px;
+    }
+
+    .bootem-text-of-footer {
+        font-size: small;
+    }
+
+    .herosection {
+        margin-top: 50px;
+    }
+
+    .img-of-box {
+        flex-direction: column;
+    }
+
+    .number-section-of-hero {
+        height: fit-content;
+        width: 21rem;
+        margin-top: 50px;
+        flex-wrap: wrap;
+    }
+
+    .main-number-section-of-hero {
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+
+    .main-questions-section {
+        margin-top: 100px;
+    }
+
+    .img-of-world {
+        width: 100%;
+    }
+
+    .text-section-of-job {
+        max-width: 90%;
+    }
+
+    .country-section {
+        height: fit-content;
+        text-align: center;
+    }
+
+    .about-p {
+        text-align: center;
+    }
+
+    .amount-pic {
+        height: 410px;
+    }
+
+    .p-of-footer {
+        display: flex;
+        gap: 10px;
+    }
+
+    .text-of-first-footer {
+        text-align: center;
+    }
+
+    .our-courses-section p {
+        font-size: larger;
+    }
+
+    .text {
+        font-size: small;
+    }
+
+    .div-of-text {
+        padding-top: 20px;
+    }
+
+    .slide1 {
+        flex-wrap: wrap;
+    }
+    .footer-div-of-row {
+        flex-direction: column;
+    }
+
+    .text-of-first-footer-h4 {
+        margin-top: 20px;
+    }
+
+    .logo-0f-footer {
+        height: 30px;
+        margin-bottom: 50px;
+    }
+
+    .slide1-of-schlor-section {
+        flex-wrap: wrap;
+    }
+
+    .img1-div-of-price img {
+        height: 264px;
+    }
+
+    .tool-slider1 {
+        margin-top: 20px;
+    }
+
+    .img-of-review-section-main {
+        display: none;
+    }
+
+    .collag-img {
+        height: 100px;
+        width: 350px;
+    }
+
+    .company-review-img-size {
+        width: 100px;
+    }
+
+    .no1,
+    .no2,
+    .no3,
+    .no4 {
+        font-size: 10px;
+    }
+
+    .img-of-company-review {
+        height: fit-content;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .img-of-company-review-div {
+        height: fit-content;
+    }
+
+    .main-section-of-company-review {
+        background-image: none;
+    }
+
+    .cebter-div-of-btn-section {
+        height: fit-content;
+        margin: 20px 0px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .review {
+        overflow: hidden;
+        height: fit-content;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .slider-container {
+        overflow-x: auto;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        -webkit-overflow-scrolling: touch;
+        height: 400px;
+    }
+
+    .snip1139 {
+        min-width: 150px;
+        max-width: calc(100% - 20px);
+        margin: 10px;
+    }
+
+    .snip1139 img {
+        width: 100px;
+        height: 100px;
+        margin-left: 0;
+    }
+
+    .snip1139 blockquote {
+        padding: 15px;
+        font-size: 0.7em;
+    }
+
+    .snip1139 .author {
+        padding: 5px 15px;
+    }
+
+    .snip1139 .author h5 {
+        font-size: 0.8em;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    html {
+        font-size: small;
+    }
+
+    html h1 {
+        font-size: larger;
+    }
+
+    .question-main-section {
+        gap: 0px;
+    }
+
+    .img1-div-of-price img {
+        height: 294px;
+        width: 300px;
+    }
+
+    .bo1-of-from form input {
+        width: 300px;
+    }
+
+    .input-of-select {
+        width: 300px;
+    }
+
+    .form-section1 {
+        width: 50%;
+    }
+
+    .from-section2 {
+        height: fit-content;
+        flex-wrap: wrap;
+    }
+
+    .vdo1-section {
+        flex-direction: column;
+    }
+
+    .form-section-part-2 {
+        flex-direction: column;
+    }
+
+    .form-section {
+        margin-top: 0px;
+    }
+
+    .box1-of-herosection {
+        width: 100%;
+    }
+
+    .img-of-world {
+        width: fit-content;
+    }
+
+
+    /* =====================form==================== */
+    .questions-section1 {
+        flex: 1 1 calc(33.33% - 30px);
+    }
+
+    .question-section-main-div {
+        flex-direction: column;
+
+    }
+
+    .h1-of-job-section {
+        font-size: small;
+
+    }
+
+    .p-of-job-section {
+        font-size: small;
+        line-height: px;
+    }
+
+    .for-plus p {
+        font-size: 10px;
+    }
+    .herosection {
+        width: 100vh;
+    }
+
+    .first-p-of-herosection2 {
+        font-size: small;
+    }
+
+    .video-wrapper {
+        height: 90pxpx;
+    }
+
+    .video-wrapper:nth-child(4) {
+        right: 0px;
+        width: 0px;
+    }
+
+    .box-of-placements {
+        gap: 73px;
+    }
+
+    .box1-placement {
+        width: 45%;
+    }
+
+    .body {
+        width: fit-content;
+    }
+
+    .gallery {
+        width: 450px;
+    }
+
+    .Explore-section-p {
+        font-size: 10px;
+    }
+
+    .main-p-of-herosection {
+        font-size: small;
+    }
+
+    .h1-of-courses {
+        font-size: 0.9rem;
+    }
+
+    .Explore-section-h4 {
+        font-size: larger;
+    }
+
+    .flex-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: fit-content;
+
+    }
+
+    /* =========================================box-btn-section========================= */
+    .main-section-of-bg {
+        flex-direction: column;
+    }
+
+    .text-of-this-section {
+        width: 100%;
+
+    }
+
+    .text-of-this-section h1 {
+        margin-top: 0px;
+        text-align: center;
+        margin-left: 0px;
+
+    }
+
+    .br-remove {
+        display: none;
+    }
+
+    .cebter-div-of-btn-section {
+        margin: 0px 0px;
+    }
+
+    /* ==================================slider======================== */
+    .slide {
+        max-width: 100%;
+    }
+
+    .tool-slider {
+        height: 100px;
+        width: 156px;
+    }
+
+    .tool-slider1 img {
+        height: 78px;
+        width: 100px;
+    }
+
+    .tool-slider1 {
+        height: 120px;
+        width: 256px;
+    }
+
+    .tool-slider1 p {
+        font-size: small;
+    }
+
+    /* ====================company review section================ */
+    .company-review-img-size {
+        width: 150px;
+    }
+
+    .img-of-company-review {
+        margin: 0px 0px;
+    }
+
+    .collag-img {
+        width: 534px;
+        height: 169px;
+    }
+
+}

@@ -16,21 +16,12 @@
     font-weight: 700;
 }
 
+/* =================================nav-btn================================== */
 
+.mobile-view-no {
+    display: none !important;
+}
 
-/* =============================icon css form left================ */
-/* body {
-    background: #4F8B89;
-    color: #fff;
-    font-family: 'Raleway', sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-   */
-
-   .mobile-view-no{
-    display: none !important;    
-   }
 a {
     color: #fff;
     text-decoration: none;
@@ -54,7 +45,6 @@ a {
 .social {
     position: fixed;
     top: 120px;
-    /* text-align: center; */
 }
 
 .social ul {
@@ -110,7 +100,6 @@ a {
     margin-left: 10px;
     fill: #000;
     background: #fff;
-    /* padding: 10px; */
     border-radius: 50%;
     width: 30px;
     height: 30px;
@@ -132,9 +121,6 @@ a {
     width: 100%;
     z-index: 1;
     top: 0px;
-
-    /* position:fixed; */
-    /* margin-top: 0px; */
 }
 
 
@@ -144,7 +130,6 @@ a {
     justify-content: space-evenly;
     text-decoration: none;
     color: black;
-    /* font-family: "RecoletaAlt"; */
 }
 
 .nav-upper-div a:hover {
@@ -152,9 +137,6 @@ a {
     color: #DE3335;
     transition: all .3s linear;
 }
-
-
-
 
 .nav-upper-div button {
     background: #DE3335;
@@ -181,7 +163,6 @@ a {
     font-size: 1.5rem;
 }
 
-/* =================================nav-btn================================== */
 
 /*,================= Navbar strat==============> */
 nav {
@@ -223,15 +204,12 @@ nav ul li a {
 
 /*<======================Hero-section-start==================> */
 .herosection {
-    /* margin-top:60px ; */
     position: relative;
     height: 430px;
     width: 100%;
     max-width: 100%;
     overflow: hidden;
     margin-top: 100px;
-
-
 }
 
 .herosection::before {
@@ -247,11 +225,9 @@ nav ul li a {
     z-index: -1;
     background-repeat: no-repeat;
     background-size: 100vw;
-    /* background-size: auto; */
 }
 
 .box1-of-herosection {
-    /* position: relative; */
     z-index: 1;
     color: white;
     width: 50%;
@@ -271,9 +247,7 @@ nav ul li a {
 }
 
 .box1-of-herosection button {
-    /* margin-left: 3.75rem; */
     margin-top: 30px;
-    /* text-align: center; */
     justify-content: center;
     align-items: center;
     display: flex;
@@ -295,7 +269,6 @@ nav ul li a {
 .h1-of-herosection {
     color: #DE3335;
     padding-top: 45px;
-    /* padding-left: 3.75rem; */
     text-align: center;
 }
 
@@ -306,7 +279,6 @@ nav ul li a {
 }
 
 .hero-text-box {
-    /* padding-top: 100px; */
     display: none;
 }
 
@@ -315,6 +287,8 @@ nav ul li a {
 }
 
 /* <======================herosection end================> */
+
+
 /* <======================herosection2 start================> */
 .main-number-section-of-hero {
     position: relative;
@@ -334,7 +308,6 @@ nav ul li a {
     width: 30rem;
     background: linear-gradient(135deg, #ff6347, #4a4a4a);
     border-radius: 15px;
-    /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); */
     box-shadow: rgb(38, 57, 77) 0px 60px 30px -10px;
     padding: 20px;
     text-align: center;
@@ -343,28 +316,20 @@ nav ul li a {
     flex-direction: column;
     transition: transform 0.3s ease-out, background-color 0.3s ease-out;
     overflow: hidden;
-    /* background-image: url(./number\ div\ new.png); */
     background-size: cover;
     background-repeat: no-repeat;
 
 }
 
 .h3-text-of-number-div {
-    /* display: none   ; */
     margin-bottom: 55px;
-
 }
 
 .number-section-of-hero:hover {
     background-color: #ff6347;
-    /* Red background on hover */
-    /* Increased shadow */
     transform: scale(1.05);
-    /* Zoom effect on hover */
     outline: 2px solid #000;
-    /* Black outline */
     outline-offset: 10px;
-    /* Offset for the outline */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -379,7 +344,6 @@ nav ul li a {
 
 .no-for-flex {
     display: flex;
-
 }
 
 .for-plus {
@@ -412,7 +376,6 @@ h3 {
     padding: 10px;
 }
 
-/* Animation for numbers */
 .for-plus h1 {
     font-size: 1.6rem;
     margin: 0;
@@ -443,9 +406,6 @@ h3 {
     justify-content: center;
     max-width: 90%;
     gap: 10px;
-    /* flex-direction: column; */
-    /* position:absolute; */
-    /* margin-top: 4.375rem; */
 }
 
 .herosection2-img {
@@ -463,7 +423,6 @@ h3 {
     height: 500px !important;
     max-width: 50%;
     text-align: center;
-    /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
     height: 9.375rem;
     border-radius: 15px;
 }
@@ -475,11 +434,9 @@ h3 {
 }
 
 .main-p-of-herosection {
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     margin-top: 1.6rem;
     font-size: medium;
     text-align: center;
@@ -493,6 +450,7 @@ h3 {
 }
 
 /* <======================herosection2 End================> */
+
 /* <======================Courses-section-start================> */
 
 .snip1273 {
@@ -513,7 +471,6 @@ h3 {
     box-sizing: border-box;
     -webkit-transition: all 0.4s ease-in;
     transition: all 0.4s ease-in;
-    /* z-index: -1; */
 }
 
 .snip1273 img {
@@ -522,7 +479,6 @@ h3 {
     height: auto;
     width: 400px;
     vertical-align: top;
-    /* z-index: -1; */
 }
 
 .snip1273 figcaption {
@@ -531,7 +487,6 @@ h3 {
     right: 0;
     width: 100%;
     height: 100%;
-    /* z-index: -1; */
     opacity: 0;
     padding: 20px 30px;
 }
@@ -540,7 +495,6 @@ h3 {
 .snip1273 figcaption:after {
     width: 5px;
     height: 3px;
-    /* z-index: -1; */
 }
 
 .snip1273 figcaption:before {
@@ -555,7 +509,6 @@ h3 {
 
 
 .snip1273 h3 {
-    /* margin: 0 0 5px; */
     text-align: center;
     font-weight: 700;
     text-transform: uppercase;
@@ -564,22 +517,20 @@ h3 {
 }
 
 .h3-of-seo {
-    /* text-align: center; */
     margin-top: 60px !important;
 }
 
-/* .snip1273 p {
-  font-size: 0.8em;
-  font-weight: 500;
-  margin: 0 0 15px;
-} */
-.snip1273 a {
+font-size: 0.8em;
+font-weight: 500;
+margin: 0 0 15px;
+}
+
+*/ .snip1273 a {
     position: absolute;
     top: 0;
     bottom: 0;
     right: 0;
     left: 0;
-    /* z-index: 1; */
 }
 
 .snip1273:before,
@@ -589,7 +540,6 @@ h3 {
     position: absolute;
     content: '';
     background-color: #a51b1b;
-    /* z-index: -1; */
     -webkit-transition: all 0.4s ease-in;
     transition: all 0.4s ease-in;
     opacity: 0.8;
@@ -650,12 +600,8 @@ h3 {
     justify-content: center;
     flex-direction: column;
     height: fit-content;
-    /* width: 350px; */
-    /* border: 2px solid black; */
     width: 100%;
 }
-
-
 
 span {
     color: #DE3335;
@@ -685,8 +631,6 @@ span {
 }
 
 .Courses-section {
-    /* height: fit-content; */
-    /* text-align: ; */
     width: 90%;
     margin-top: 20px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
@@ -697,7 +641,6 @@ span {
     background-color: #fffbfb;
     padding-top: 20px;
     border-radius: 10px;
-
 }
 
 .p-of-courses {
@@ -713,8 +656,6 @@ span {
     justify-content: space-evenly;
     margin-top: 0.87rem;
     width: 100%;
-
-
 }
 
 .course-box img {
@@ -780,28 +721,18 @@ span {
 .button-img {
     margin-top: 50px;
     background-image: url(./btn-img-bg.png);
-    /* background-size:100vh; */
-    /* background-size: cover; */
-
-
     height: 660px;
     background-repeat: no-repeat;
-    /* max-width: 150%; */
-
     border: 2px solid black;
-    /* position: static; */
-    /* z-index: -1; */
 }
 
 .btn-of-all-div {
-    /* height: 100px; */
     margin-top: 40px;
     background: #DE3335;
     height: 4.4rem;
     width: 216px;
     color: white;
     border: none;
-    /* border-radius: 15px; */
     font-weight: bold;
     font-size: 24px;
 }
@@ -847,19 +778,6 @@ span {
     font-size: 18px;
 }
 
-/*
-  https://developer.mozilla.org/en/docs/Web/CSS/box-shadow
-  box-shadow: [inset?] [top] [left] [blur] [size] [color];
-
-  Tips:
-    - We're setting all the blurs to 0 since we want a solid fill.
-    - Add the inset keyword so the box-shadow is on the inside of the element
-    - Animating the inset shadow on hover looks like the element is filling in from whatever side you specify ([top] and [left] accept negative values to become [bottom] and [right])
-    - Multiple shadows can be stacked
-    - If you're animating multiple shadows, be sure to keep the same number of shadows on hover/focus as non-hover/focus (even if you have to create a transparent shadow) so the animation is smooth. Otherwise, you'll get something choppy.
-*/
-
-
 .fill:hover,
 .fill:focus {
     box-shadow: inset 0 0 0 2em var(--hover);
@@ -878,7 +796,6 @@ span {
     }
 }
 
-
 .close:hover,
 .close:focus {
     box-shadow:
@@ -892,7 +809,6 @@ span {
     box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
     transform: translateY(-0.25em);
 }
-
 
 .up:hover,
 .up:focus {
@@ -922,45 +838,17 @@ span {
     background: black;
     --color: white;
     --hover: #DE3335;
-    /* Adjusted hue: #ef6eae + 45deg */
 }
 
+.slide2,
+.offset,
+.up,
+.raise,
+.close,
 .pulse {
     --color: white;
     --hover: #DE3335;
-    /* Adjusted hue: #ff7f82 + 45deg */
 }
-
-.close {
-    --color: white;
-    --hover: #DE3335;
-    /* Adjusted hue: #ffa260 + 45deg */
-}
-
-.raise {
-    --color: white;
-    --hover: #DE3335;
-    /* Adjusted hue: #ffa260 + 45deg */
-}
-
-.up {
-    --color: white;
-    --hover: #DE3335;
-    /* Adjusted hue: #e4cb58 + 45deg */
-}
-
-.slide2 {
-    --color: white;
-    --hover: #DE3335;
-    /* Adjusted hue: #8fc866 + 45deg */
-}
-
-.offset {
-    --color: white;
-    --hover: #DE3335;
-    /* Adjusted hue: #19bc8b + 45deg */
-}
-
 
 
 .button-section1 button {
@@ -973,10 +861,6 @@ span {
         color: #fff;
     }
 }
-
-
-
-
 
 .button-section1 button {
     background: none;
@@ -999,8 +883,6 @@ code {
     font: inherit;
 }
 
-
-
 .main-div-of-Explore {
     display: flex;
     align-items: center;
@@ -1015,8 +897,6 @@ code {
     flex-direction: column;
     margin-top: 58px;
     max-width: 100%;
-    /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
-    /* border-radius: 10px; */
 }
 
 .Explore-section-div-of-p {
@@ -1044,7 +924,6 @@ code {
     width: 400px;
     border: 2px solid black;
     border-radius: 15px;
-
 }
 
 .abount-div {
@@ -1055,7 +934,6 @@ code {
     max-width: 90%;
 }
 
-
 .img1-div-of-price,
 .img-div {
     position: relative;
@@ -1064,16 +942,12 @@ code {
     align-items: center;
     overflow: hidden;
     max-width: 100%;
-    /* max-width: fit-content; */
-
-    /* To ensure the blue background doesn't overflow */
 }
 
 .img1-div-of-price img,
 .img-div img {
     width: fit-content;
     height: fit-content;
-
     object-fit: cover;
     transition: background-color 0.5s ease-in-out;
 
@@ -1083,7 +957,6 @@ code {
     display: block;
     max-width: 100%;
     height: 504px;
-
 }
 
 .enrol-button a {
@@ -1104,31 +977,21 @@ code {
     transform: translate(-50%, -50%);
     opacity: 0;
     background-color: white;
-    /* Button background color */
-    /* color: blue; Button text color */
     border: #DE3335;
-    /* Button border */
     padding: 10px 20px;
     transition: opacity 0.5s ease-in-out, background-color 0.5s ease-in-out, color 0.5s ease-in-out;
     border-radius: 5px;
-    /* Optional: adds rounded corners to the button */
 }
 
 .img1-div-of-price:hover img {
-    /* background-color:#DE3335; */
     opacity: 0.3;
-    /* Optional: makes the image partially transparent */
-
 }
 
 .img1-div-of-price:hover .enrol-button {
     opacity: 1;
     background-color: #DE3335;
-    /* Highlight button background */
     color: white;
-    /* Highlight button text */
     border-color: white;
-    /* Highlight button border */
 }
 
 .div-of-center-box {
@@ -1192,54 +1055,7 @@ code {
     background-image: url(./web-design\ img.jpg);
     background-size: cover;
     filter: blur(5px);
-
-
     z-index: -1;
-}
-
-.box1-ofjob-section {
-
-    z-index: -1;
-}
-
-.text-of-job-section {
-
-    padding-left: 50px;
-    width: 80%;
-}
-
-.p1-of-job-secttion {
-    position: relative;
-    margin-top: 150px;
-    font-size: 30px;
-    max-width: 50%;
-    color: white;
-    font-weight: bold;
-
-}
-
-.p2-of-job-section {
-    font-size: 30px;
-    max-width: 50%;
-    font-weight: 800;
-    color: white;
-    margin-top: 20px;
-}
-
-.p3-of-job-section {
-    color: white;
-    margin-top: 10px;
-}
-
-.btn-of-job-section {
-    margin-top: 50px;
-    font-size: 25px;
-    background: black;
-    height: 3.0rem;
-    width: 198px;
-    color: white;
-    border: none;
-    border-radius: 15px;
 }
 
 .btn-of-job-section:hover {
@@ -1249,18 +1065,13 @@ code {
     transition: all .3s linear;
 }
 
-.main-job-section {
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 
 .main-job-section-div {
     flex-direction: column !important;
 }
 
-*/ .main-job-section {
+.main-job-section {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1271,8 +1082,6 @@ code {
 .job-section {
     display: flex;
     align-items: center;
-    /* justify-content:space-evenly;     */
-    /* width: 80%; */
     justify-content: center;
     max-width: 90%;
     gap: 50px;
@@ -1283,14 +1092,11 @@ code {
     flex-direction: column;
     gap: 30px;
     max-width: 80%;
-    /* border-radius: 15px; */
-
 }
 
 .office-pic-div {
     display: flex;
     gap: 30px;
-    /* border-radius: 15px; */
     flex-direction: column;
 }
 
@@ -1307,16 +1113,11 @@ code {
 
 .image-container img {
     display: block;
-    /* Make the image a block element */
-    /* width: 100%; Ensure the image fills its container */
-    /* Maintain aspect ratio */
     transition: transform 0.3s ease;
-    /* Smooth transition for transform */
 }
 
 .image-container:hover img {
     transform: scale(1.1);
-    /* Zoom in effect on hover */
 }
 
 
@@ -1335,7 +1136,6 @@ code {
 
 .h1-of-job-section {
     margin-top: 0px;
-    /* text-align: center; */
 }
 
 .p-of-job-section {
@@ -1356,27 +1156,18 @@ code {
 }
 
 .div-of-p-and-icon {
-    /* display: flex; */
-
     align-items: left;
     justify-content: left;
     flex-direction: column;
     font-size: medium;
     text-align: left;
-
-
 }
 
 .icon-flex-div-of-text {
     display: flex;
-    /* text-align: left; */
     gap: 10px;
     line-height: 30px;
     margin-top: 15px;
-
-    /* align-items: center; */
-    /* justify-content: left; */
-
 }
 
 .main-country-div {
@@ -1414,7 +1205,6 @@ code {
     border-radius: 10px;
 }
 
-
 .placements-section {
     display: flex;
     align-items: center;
@@ -1422,18 +1212,15 @@ code {
     flex-direction: column;
 }
 
-
 .main-box-of-placements {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
     flex-direction: column;
-    /* margin-top: -100px; */
     height: 650px;
     margin-top: 50px;
 }
-
 
 .h1-of-SEO-tool {
     margin-top: 10px;
@@ -1474,7 +1261,6 @@ code {
     border-radius: 15px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     max-width: 48%;
-    /* border: 2px solid black; */
     text-align: center;
     margin-top: -160px;
 }
@@ -1504,9 +1290,7 @@ code {
     width: 50%;
     height: 600px;
     margin: auto;
-    /* border: 2px solid black; */
     display: flex;
-    /* justify-content: center; */
     align-items: center;
 }
 
@@ -1518,7 +1302,6 @@ code {
     display: grid;
     height: 342px;
     width: 500px;
-    /* overflow:scroll; */
     margin-bottom: 20px;
 }
 
@@ -1637,12 +1420,7 @@ code {
     transition: all .3s linear;
 }
 
-
-
 .body {
-    /* padding-top: 0px; */
-    /* margin: 0; */
-    /* min-height: 100%; */
     height: 100%;
     width: 800px;
     display: grid;
@@ -1650,12 +1428,7 @@ code {
     position: relative;
     z-index: -3;
     overflow: hidden;
-    /* margin-top: -30px; */
-
 }
-
-
-
 
 .video-wrapper {
     position: absolute;
@@ -1688,12 +1461,10 @@ code {
 
 .vdo-class2 {
     width: 50px;
-    /* transform: translate(-50%, -50%); */
 }
 
 .video-wrapper:nth-child(2) {
     transform: rotate(51.43deg) translate(0, -200px) rotate(-51.43deg);
-    /* position: absolute;    */
     left: -37px;
     top: 133px;
 
@@ -1708,7 +1479,6 @@ code {
     transform: rotate(102.86deg) translate(0, -200px) rotate(-102.86deg);
     top: 20px;
     left: 50px;
-
 }
 
 .video-wrapper:nth-child(4) {
@@ -1722,7 +1492,6 @@ code {
     transform: rotate(205.71deg) translate(0, -200px) rotate(-205.71deg);
     left: 234px;
     top: 140px;
-
 }
 
 .video-wrapper:nth-child(6) {
@@ -1745,13 +1514,9 @@ code {
 
 .dot-2 {
     position: relative;
-    /* margin-top: 80px;
-    margin-left: 20px; */
     left: 207px;
     bottom: 158px;
 }
-
-
 
 .main-SEO-tool-section {
     display: flex;
@@ -1781,35 +1546,21 @@ code {
 /* Slider container */
 .slider {
     width: 100%;
-    /* Adjust width as needed */
     overflow: hidden;
-    /* Ensure slides outside the container are hidden */
     position: relative;
-    /* Positioning context for absolute positioning of slides */
 }
 
-/* Slides container */
 .slides {
     display: flex;
-    /* Arrange slides in a row */
     transition: transform 0.5s ease;
-    /* Smooth sliding transition */
-
 }
 
-/* Individual slide */
 .slide {
     min-width: 100%;
-    /* Each slide occupies full width of slider */
     flex: 0 0 auto;
-    /* Prevent slides from shrinking */
     box-sizing: border-box;
-    /* Include padding and border in slide's total width */
     padding: 20px;
-    /* Adjust padding as needed */
     text-align: center;
-    /* Center slide content */
-
 }
 
 .tool-slider {
@@ -1821,20 +1572,12 @@ code {
 
 }
 
-/* Optional: Add styling to indicators or controls if needed */
-
-
-
-
 .main-div-certifications-section {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-
-
-
 
 .certifications-section {
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
@@ -1849,12 +1592,10 @@ code {
     justify-content: space-evenly;
 }
 
-
 .p-certifications-section {
     margin-top: 20px;
     line-height: 1.5rem;
 }
-
 
 .main-div-of-scholar-section {
 
@@ -1869,11 +1610,9 @@ code {
     border-radius: 15px;
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     text-align: center;
     flex-direction: column;
     max-width: 90%;
-    
 }
 
 .main-section-of-company-review {
@@ -1883,19 +1622,16 @@ code {
     height: fit-content;
     width: 100%;
     display: flex;
-    /* border: 2px solid black; */
 }
 
 .img-of-company-review {
     text-align: center;
-    /* border: 2px solid black;  */
     height: 600px;
     width: 50%;
     margin-left: 44px;
 }
 
 .img-of-review-section-main {
-    /* border: 2px solid black; */
     height: 500px;
     width: 50%;
 }
@@ -1905,35 +1641,19 @@ code {
     width: 200px;
 }
 
-/* Icon set - http://ionicons.com/ */
-/* @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css); 
- @import url(https://fonts.googleapis.com/css?family=Raleway:400,800);  */
-/* Custom CSS for Testimonial Slider */
-/* Icon set - http://ionicons.com/ */
-/* @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,800); */
-
-
-
-
 .review {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* height: 100vh; */
     height: fit-content;
-    /* background-color: #f0f0f0; */
     overflow: hidden;
 
 }
 
 .slider-container {
     display: flex;
-    /* overflow-x: hidden; */
     position: relative;
     margin-top: 30px;
-    /* scrollbar-width: none;  */
-
 }
 
 .snip1139 {
@@ -1942,8 +1662,6 @@ code {
     position: relative;
     overflow: visible;
     margin: 10px;
-    /* min-width: 250px; */
-    /* max-width: 310px; */
     max-height: 400px;
     width: 100%;
     color: #333;
@@ -1955,9 +1673,7 @@ code {
 
 .snip1139:hover {
     transform: scale(1.1);
-    /* Zoom effect on hover */
     z-index: 1;
-
 }
 
 .snip1139 img {
@@ -1967,26 +1683,20 @@ code {
     max-width: 100%;
     vertical-align: middle;
     width: 80px;
-    /* Adjust size as needed */
     height: 80px;
-    /* Adjust size as needed */
     object-fit: cover;
-    /* Ensures image fills the circle */
     border-radius: 50%;
-    /* Rounded shape */
     transition: transform 0.3s ease-in-out;
     margin-left: 72px;
 }
 
 .snip1139:hover img {
     transform: scale(1.2);
-    /* Zoom effect on hover */
 }
 
 .snip1139 blockquote {
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     position: relative;
-    /* background-color:#c4c8c8; */
     background-color: #e6fbfd;
     padding: 25px 50px 25px 50px;
     font-size: 0.8em;
@@ -1997,7 +1707,6 @@ code {
     font-style: italic;
     height: 250px;
     width: 350px;
-    /* width: fit-content; */
 }
 
 .snip1139 blockquote:before,
@@ -2028,9 +1737,6 @@ code {
     border-top: 25px solid #e6fbfd;
     margin: 0;
     position: absolute;
-
-    /* color:#e6fbfd    ; */
-    /* background: #e6fbfd; */
 }
 
 .snip1139 .author {
@@ -2056,8 +1762,6 @@ code {
     padding-left: 5px;
 }
 
-/* Demo purposes only */
-
 .p-of-scholar-section {
     margin-top: 20px;
     line-height: 1.5rem;
@@ -2071,10 +1775,8 @@ code {
     height: 150px;
     width: 300px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
     border-radius: 15px;
     margin-right: 20px;
-
 }
 
 .tool-slider1 img {
@@ -2091,14 +1793,10 @@ code {
     max-width: 90%;
 }
 
-
-
-
 .form-section {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* gap: 20px; */
     margin-top: 40px;
     width: 100%;
 }
@@ -2115,7 +1813,6 @@ code {
 .form-section1 {
     width: 35%;
     height: 523px;
-    /* border: 2px solid black; */
     background-color: #1E1810;
     display: flex;
     align-items: center;
@@ -2138,11 +1835,8 @@ code {
 .bo1-of-from form input {
     height: 50px;
     width: 400px;
-    /* column-gap: 10px; */
-    /* border: none; */
     margin-top: 20px;
     border-radius: 10px;
-
 }
 
 .bo1-of-from form input::placeholder {
@@ -2155,7 +1849,6 @@ code {
     width: 400px;
     border-radius: 10px;
 }
-
 
 .h1-of-form-section {
     color: white;
@@ -2176,9 +1869,6 @@ code {
     flex-direction: column;
     width: 45%;
     height: fit-content;
-    /* margin-top: -65px; */
-    /* border: 2px solid black; */
-    /* margin-bottom: 50px; */
 }
 
 .form-section-part-2 {
@@ -2190,7 +1880,6 @@ code {
     height: 230px;
     width: 280px;
     border-radius: 20px;
-    /* border: 2px solid black; */
 }
 
 .vdo1-section {
@@ -2202,11 +1891,7 @@ code {
     width: 275px;
 }
 
-
-
-
 .form-btn {
-    /* margin-left: 3.75rem; */
     margin-top: 30px;
     background: #DE3335;
     height: 2.4rem;
@@ -2277,7 +1962,6 @@ code {
     margin-left: auto;
 }
 
-/* Aligning question content with flexbox */
 .first-question1 {
     height: 50px;
     width: 546px;
@@ -2290,7 +1974,6 @@ code {
     cursor: pointer;
 }
 
-/* Adding transition for smooth toggle effect */
 .first-question2 {
     outline: #000;
     transition: all .3s ease-in-out;
@@ -2340,7 +2023,6 @@ hr {
 
 .about-heading {
     margin-top: 20px;
-    /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
     height: 50px;
     width: 16rem;
     border-radius: 15px;
@@ -2353,7 +2035,6 @@ hr {
 }
 
 .text-box-of-aboutzirkapur {
-    /* text-align: center; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2372,20 +2053,14 @@ hr {
 iframe {
     margin-top: 50px;
     margin-bottom: -53px;
-    /* display: none; */
-
 }
 
 .div-of-iframe {
     max-width: 100%;
-    /* max-width: fit-content; */
-    /* margin-top: 20px; */
 }
 
 footer {
-    /* display: none; */
     margin-top: 50px;
-
 }
 
 .logo-0f-footer {
@@ -2396,15 +2071,11 @@ footer {
 }
 
 .footer-div {
-
     display: flex;
-    /* align-items: center; */
     flex-direction: column;
     justify-content: space-evenly;
-    /* flex-direction: column; */
     background-color: #1e1810;
     color: white;
-    /* padding-top: 50px; */
 }
 
 .footer-div a {
@@ -2462,7 +2133,6 @@ footer {
     text-align: center;
     font-weight: bolder;
     font-size: 1.3rem;
-
 }
 
 .div-of-text {
@@ -2483,18 +2153,11 @@ footer {
 
 .text-of-first-footer-h4 {
     margin-top: 20px;
-    /* text-align: center; */
 }
 
 .text-of-first-footer-p {
     line-height: 1.3rem;
     margin-top: 20px;
-}
-
-.text-of-first-footer {
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
 }
 
 .div-of-adds {
@@ -2517,7 +2180,6 @@ footer {
     margin-top: 0px;
 }
 
-
 /* <===================blog section=============> */
 .blog-section {
     position: relative;
@@ -2527,7 +2189,6 @@ footer {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    /* text-align: center; */
 }
 
 .hr-of-blog-section {
@@ -2535,12 +2196,8 @@ footer {
 }
 
 .box1-of-blog {
-    /* margin-top: 30px; */
-    /* text-align: center; */
     color: black;
     max-width: 90%;
-    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
-    /* border-radius: 15px; */
 }
 
 .blog-section1 {
@@ -2568,10 +2225,8 @@ footer {
     flex-direction: column;
 }
 
-/* ==================================popup form===================
- */
+/* ==================================popup form===================*/
 .min-div-of-form {
-    /* display: none   ; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2583,13 +2238,9 @@ footer {
 
 #form-container {
     display: none;
-
-    /* display: none; */
     position: fixed;
     top: 100px;
-    /* left: 500px; */
     z-index: 10;
-    /* display: block; */
     transition: transform 1s ease-in-out 0s;
     transform-origin: top;
     background-color: #EBECF0;
@@ -2602,13 +2253,11 @@ footer {
     z-index: 8;
 }
 
-/* Styles for segments within the form */
 .segment {
     padding: 15px 0;
     text-align: center;
 }
 
-/* Styles for labels and inputs */
 label {
     display: block;
     color: #DE3335;
@@ -2629,8 +2278,6 @@ select {
     width: 100%;
     box-sizing: border-box;
     transition: all 0.2s ease-in-out;
-    /* appearance: none; */
-    /* color: black; */
 }
 
 .input-text-of-form::placeholder {
@@ -2641,13 +2288,11 @@ select {
     color: #a51b1b;
 }
 
-
 input,
 select:focus {
     box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
 }
 
-/* Styles for buttons */
 .button-of-popup-form {
     color: #61677C;
     font-weight: bold;
@@ -2672,7 +2317,6 @@ button:active {
     box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
 }
 
-/* Styles for SVG icons */
 .icon {
     margin-right: 8px;
 }
@@ -2690,12 +2334,10 @@ button:active {
 }
 
 .red {
-    /* display: block; */
     width: 100%;
     color: #AE1100;
 }
 
-/* Styles for input group */
 .input-group {
     display: flex;
     align-items: center;
@@ -2705,937 +2347,4 @@ button:active {
 .input-group label {
     margin: 0;
     flex: 1;
-}
-
-/* Media Query for Responsive Design */
-@media (max-width: 768px) {
-    .phone {
-        display: none;
-    }
-    .mobile-view-no{
-       display: block !important;
-    }
-
-    .nav-upper-div {
-        flex-direction: column;
-        justify-content: space-between;
-        height: 64px;
-        position: fixed;
-        overflow: hidden;
-        max-height: 100vh;
-        padding: 0px 0px;
-    }
-
-    .icon {
-        display: block;
-        /* margin-top: 50px; */
-        position: fixed;
-        z-index: 1;
-        top: 13px;
-        left: 10px;
-
-    }
-
-    nav {
-        justify-content: center;
-        position: fixed;
-        top: 75px;
-        left: -100%;
-        width: 80%;
-        max-width: 300px;
-        height: 100%;
-        background-color: #111;
-        transition: left 0.3s ease;
-        z-index: 10;
-    }
-
-    nav.active {
-        top: 48px;
-        left: 0;
-        background-color: #000;
-    }
-
-    nav .logo {
-        text-align: center;
-        margin: 20px 0;
-        display: none;
-    }
-
-    nav ul {
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
-        gap: 30px;
-        margin-bottom: 332px;
-    }
-
-    nav ul li {
-        margin: 10px 0;
-    }
-
-    .h1-of-herosection {
-        padding-top: 0px;
-        margin-top: 20px;
-        font-size: medium;
-        text-align: center;
-        padding-left: 0px;
-    }
-
-    .heading-of-herosection {
-        font-size: larger;
-        margin-top: 20px
-    }
-
-    .herosection::before {
-        background-size: cover;
-        height: 310px;
-    }
-
-    .btn-div {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .box1-of-herosection {
-        width: 100%;
-    }
-
-    .box1-of-herosection button {
-        width: 144px;
-        height: 2rem;
-        margin-left: 0px;
-        margin-top: 14px;
-    }
-
-    .herosection2 {
-        flex-direction: column;
-    }
-
-    .herosection-div-of-text {
-        max-width: 100%;
-        height: fit-content !important;
-        font-size: small;
-    }
-
-    .herosection2-img {
-        max-width: 100%;
-    }
-
-    .h2-of-herosection2 {
-        font-size: larger;
-        text-align: center;
-    }
-
-    .main-p-of-herosection {
-        /* flex-direction: column; */
-        font-size: small;
-    }
-
-    .h3-text-of-number-div {
-        font-size: medium;
-    }
-
-    .numberdiv {
-        margin-top: 0px;
-    }
-
-    .for-plus h1 {
-        font-size: 17px;
-    }
-
-    .no4 {
-        margin-top: -10px;
-        margin-left: -5px;
-    }
-
-    .no3 {
-        margin-top: 5px;
-    }
-
-    .for-plus p {
-        display: inline;
-    }
-
-    .text-of-2008 {
-        margin-top: -5px !important;
-    }
-
-    .since-text {
-        margin-top: 4px;
-    }
-
-    .no-for-flex {
-        display: flex;
-    }
-
-    .course-box {
-        flex-direction: column;
-    }
-
-    .Explore-section-box {
-        flex-wrap: wrap;
-        /* display: none; */
-    }
-
-    .Explore-section-h4 {
-        text-align: center;
-        font-size: medium;
-    }
-
-    .Explore-section-box1 {
-
-        width: fit-content;
-
-    }
-
-    .abount-div {
-        flex-direction: column;
-    }
-
-    .div-of-center-box-h3 {
-        text-align: center;
-    }
-
-    .img-of-job-ppl {
-        /* display: none; */
-    }
-
-    .box-of-placements {
-        flex-direction: column;
-    }
-
-    .box1-placement {
-        margin-top: 50px;
-        max-width: 100%;
-    }
-
-    .box2-placement {
-        width: fit-content;
-        display: none;
-    }
-
-    .main-div-certifications-section {
-        margin-top: 30px;
-    }
-
-    .main-div-of-scholar-section {
-        margin-top: 30px;
-    }
-
-    .main-box-of-placements {
-        padding-top: 20px;
-        height: fit-content;
-        max-width: 100%;
-    }
-
-    .placements-h1-p {
-        height: 166px;
-    }
-
-    .h1-of-job-section {
-        font-size: medium;
-    }
-
-    .job-section {
-        flex-wrap: wrap
-    }
-
-
-
-    /* important============================================ */
-    .from-section2 {
-        display: none;
-
-        height: 300px;
-        margin-top: 40px;
-        width: 90%;
-    }
-
-    .form-section {
-        flex-direction: column;
-    }
-
-    .vdo1-section {
-        flex-wrap: wrap;
-        margin-top: 50px;
-    }
-
-    .form-section-part-2 {
-        flex-wrap: wrap;
-    }
-
-
-    .form-section1 {
-        width: 90%;
-        height: 400px;
-    }
-
-    .bo1-of-from form input {
-        width: 250px;
-        height: 30px;
-    }
-
-    .input-of-select {
-        width: 250px;
-        height: 28px;
-    }
-
-    .form-section-div-text {
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        margin-right: 0px;
-        padding-right: 0px;
-
-    }
-
-    .h1-of-form-section {
-        font-size: medium;
-        margin-right: 0px;
-    }
-
-    .p-of-form-section {
-        margin-right: 0px;
-    }
-
-    .about-of-zirakpur {
-        flex-direction: column;
-    }
-
-    .footer-div {
-        flex-direction: column;
-        align-items: start;
-    }
-
-    /* .text-of-first-footer{
-       
-    } */
-    /* .foooter-first-div{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-     } */
-
-    .question-main-section {
-        flex-direction: column;
-    }
-
-    .footer-div {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 50px;
-    }
-
-    .foooter-first-divm,
-    .footer-second-div,
-    .footer-thired-div {
-        margin-top: 20px;
-        display: flex;
-        text-align: center;
-        font-size: 12px;
-        gap: 10px;
-    }
-
-    .footer-thired-div {
-        text-align: center;
-    }
-
-    .question-section-main-div {
-
-
-        /* ................................................................................. */
-        /* display: none; */
-        flex-direction: column;
-        /* width: 100vh; */
-        margin-top: 20px;
-    }
-
-    .first-question1 {
-        width: 323px;
-    }
-
-    .question-main-section {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        max-width: 323px;
-    }
-
-    .questions-section1 {
-        flex: 1 1 calc(50% - 30px);
-        /* margin: 15px; */
-        max-width: none;
-    }
-
-    .question-main-section {
-        margin-top: 0px;
-    }
-
-    .first-question2.show {
-        padding-top: 5px;
-    }
-
-    .placenet-img {
-        height: 300px;
-        width: 400px;
-    }
-
-    .first-question2 {
-        /* padding: 30px; */
-    }
-
-    .Explore-section-p {
-        font-size: larger;
-    }
-
-    .p-of-country {
-        width: fit-content;
-    }
-
-    .placenet-img {
-        width: 350px;
-    }
-
-    .about-heading {
-        text-align: center;
-    }
-
-    .course-box1 {
-        margin-top: 50px;
-    }
-
-    /* =================================review section-of-company=================== */
-    .text-of-this-section {
-        width: 100%;
-
-
-    }
-
-
-    .main-section-of-bg {
-        flex-direction: column;
-    }
-
-    .text-of-this-section h1 {
-        margin-top: 15px;
-        font-size: medium;
-        text-align: center;
-        margin-left: 0px;
-        margin-top: 0px;
-
-    }
-
-    .br-remove {
-        display: none;
-    }
-
-    .button-img {
-        flex-direction: column;
-    }
-
-    .buttons {
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-        font-size: 12px;
-    }
-
-    .btn-of-all-div {
-        height: 3.4rem;
-        width: 160px;
-        font-size: 18px;
-        margin-top: 105px;
-    }
-
-    .button-section1 {
-        width: 100%;
-
-    }
-
-    .buttons button {
-        height: 50px;
-        width: 146px;
-    }
-
-    .h1-of-country {
-        text-align: center;
-        font-size: medium;
-    }
-
-    .placements-h1-p {
-        text-align: center;
-        font-size: medium;
-        height: fit-content;
-    }
-
-    .placements-section {
-        height: fit-content;
-        width: fit-content;
-    }
-
-    .placements-h1-p h1 {
-        font-size: medium;
-    }
-
-    .h1-of-placement {
-        font-size: larger;
-    }
-
-    .p-of-placement {
-        font-size: medium;
-    }
-
-    .h1-of-SEO-tool {
-        text-align: center;
-        font-size: larger;
-    }
-
-    .h1-certifications-section {
-        text-align: center;
-        font-size: larger;
-    }
-
-    .scholar-section h1 {
-        font-size: larger;
-    }
-
-    .h1-of-courses {
-        font-size: larger;
-    }
-
-    .questions-section h1 {
-        font-size: larger;
-    }
-
-    .main-div-of-aboutzirkapur {
-        margin-top: 30px;
-    }
-
-    .bootem-text-of-footer {
-        font-size: small;
-    }
-
-    .herosection {
-        margin-top: 50px;
-        /* height: 550px; */
-    }
-
-    .img-of-box {
-        flex-direction: column;
-    }
-
-    .number-section-of-hero {
-        height: fit-content;
-        width: 21rem;
-        margin-top: 50px;
-        flex-wrap: wrap;
-    }
-
-    .main-number-section-of-hero {
-        flex-wrap: wrap;
-        margin-top: 20px;
-    }
-
-    .main-questions-section {
-        margin-top: 100px;
-    }
-
-    .img-of-world {
-        width: 100%;
-        /* height: 400px; */
-        /* width: 350px !important; */
-    }
-
-    .text-section-of-job {
-        max-width: 90%;
-    }
-
-    .country-section {
-        height: fit-content;
-        text-align: center;
-    }
-
-    .about-p {
-        text-align: center;
-    }
-
-    .amount-pic {
-        height: 410px;
-        /* width: 387px !important; */
-    }
-
-    .p-of-footer {
-        /* text-align: center; */
-        /*display: inline; */
-        display: flex;
-        /* flex-direction: row; */
-        gap: 10px;
-    }
-
-    .text-of-first-footer {
-        text-align: center;
-    }
-
-    .our-courses-section p {
-        font-size: larger;
-    }
-
-    .text {
-        font-size: small;
-    }
-
-    .div-of-text {
-        padding-top: 20px;
-    }
-
-    .slide1 {
-        flex-wrap: wrap;
-    }
-
-
-
-
-
-    .footer-div-of-row {
-        flex-direction: column;
-    }
-
-    .text-of-first-footer-h4 {
-        margin-top: 20px;
-        /* text-align: left; */
-    }
-
-    .logo-0f-footer {
-        height: 30px;
-        margin-bottom: 50px;
-    }
-
-    .slide1-of-schlor-section {
-        flex-wrap: wrap;
-    }
-
-    .img1-div-of-price img {
-        height: 264px;
-    }
-
-    .tool-slider1 {
-        margin-top: 20px;
-    }
-
-    .img-of-review-section-main {
-        display: none;
-    }
-
-    .collag-img {
-        height: 100px;
-        width: 350px;
-    }
-
-    .company-review-img-size {
-        width: 100px;
-    }
-
-    .no1,
-    .no2,
-    .no3,
-    .no4 {
-        font-size: 10px;
-    }
-
-    .img-of-company-review {
-        height: fit-content;
-        width: 100%;
-        margin-left: 0px;
-    }
-
-    .img-of-company-review-div {
-        height: fit-content;
-    }
-
-    .main-section-of-company-review {
-        background-image: none;
-    }
-
-    .cebter-div-of-btn-section {
-        height: fit-content;
-        margin: 20px 0px !important;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-
-    .review {
-        /* display: none; */
-        /* max-width: 300px; */
-        overflow: hidden;
-        /* height: 300px;
-         */
-        height: fit-content;
-        width: 100%;
-        flex-direction: column;
-        /* Stack items vertically */
-        align-items: center;
-        /* Center items vertically */
-    }
-
-    .slider-container {
-        overflow-x: auto;
-        scrollbar-width: none;
-        /* Hide scrollbar */
-        -ms-overflow-style: none;
-        /* Hide scrollbar for IE/Edge */
-        -webkit-overflow-scrolling: touch;
-        /* Smooth scrolling on iOS */
-        height: 400px;
-    }
-
-    .snip1139 {
-        min-width: 150px;
-        /* Adjust minimum width for smaller screens */
-        max-width: calc(100% - 20px);
-        /* Adjust maximum width to fit container */
-        margin: 10px;
-        /* Adjust margins for spacing */
-    }
-
-    .snip1139 img {
-        width: 100px;
-        /* Adjust image size for smaller screens */
-        height: 100px;
-        /* Adjust image size for smaller screens */
-        margin-left: 0;
-        /* Center image horizontally */
-    }
-
-    .snip1139 blockquote {
-        padding: 15px;
-        /* Adjust padding for blockquote */
-        font-size: 0.7em;
-        /* Adjust font size for blockquote */
-    }
-
-    .snip1139 .author {
-        padding: 5px 15px;
-        /* Adjust padding for author section */
-    }
-
-    .snip1139 .author h5 {
-        font-size: 0.8em;
-        /* Adjust font size for author name */
-    }
-
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-    html {
-        font-size: small;
-    }
-
-    html h1 {
-        font-size: larger;
-    }
-
-    .question-main-section {
-        gap: 0px;
-    }
-
-    .img1-div-of-price img {
-        height: 294px;
-        width: 300px;
-    }
-
-    .bo1-of-from form input {
-        width: 300px;
-    }
-
-    .input-of-select {
-        width: 300px;
-    }
-
-    .form-section1 {
-        width: 50%;
-    }
-
-    .vdo1-section {
-        /* width: 50%; */
-        /* display: flex; */
-        /* flex-direction: row !important; */
-    }
-
-    .from-section2 {
-        height: fit-content;
-        flex-wrap: wrap;
-    }
-
-    .vdo1-section {
-        flex-direction: column;
-    }
-
-    .form-section-part-2 {
-        flex-direction: column;
-    }
-
-    .form-section {
-        margin-top: 0px;
-    }
-
-    .box1-of-herosection {
-        width: 100%;
-    }
-
-    .img-of-world {
-        /* width: 100vh; */
-        width: fit-content;
-    }
-
-
-    /* form>........................................... */
-    .questions-section1 {
-        flex: 1 1 calc(33.33% - 30px);
-    }
-
-    .question-section-main-div {
-        flex-direction: column;
-
-    }
-
-    .h1-of-job-section {
-        font-size: small;
-
-    }
-
-    .p-of-job-section {
-        font-size: small;
-        line-height: px;
-    }
-
-    .for-plus p {
-        font-size: 10px;
-    }
-
-    .no2 {
-        /* gap: 100px; */
-    }
-
-    .herosection {
-        width: 100vh;
-
-    }
-
-    .first-p-of-herosection2 {
-        font-size: small;
-    }
-
-    .video-wrapper {
-        height: 90pxpx;
-    }
-
-    .video-wrapper:nth-child(4) {
-        right: 0px;
-        width: 0px;
-
-    }
-
-    .box-of-placements {
-        gap: 73px;
-    }
-
-    .box1-placement {
-        width: 45%;
-    }
-
-    .body {
-        width: fit-content;
-    }
-
-    .gallery {
-        /* display: none; */
-        width: 450px;
-    }
-
-    .Explore-section-p {
-        font-size: 10px;
-    }
-
-    .main-p-of-herosection {
-        font-size: small;
-    }
-
-    .h1-of-courses {
-        font-size: 0.9rem;
-    }
-
-    .Explore-section-h4 {
-        font-size: larger;
-    }
-
-    .flex-text {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        width: fit-content;
-        
-    }
-
-    /* =========================================box-btn-section========================= */
-    .main-section-of-bg {
-        flex-direction: column;
-    }
-
-    .text-of-this-section {
-        width: 100%;
-
-    }
-
-    .text-of-this-section h1{
-        margin-top: 0px;
-        text-align: center;
-        margin-left: 0px;
-        
-    }
-    .br-remove{
-        display: none;
-    }
-    .cebter-div-of-btn-section{
-       margin: 0px 0px;
-    }
-  /* ==================================slider======================== */
-  .slide{
-    max-width: 100%;
-  }
-  .tool-slider{
-    height: 100px;
-    width: 156px;
-  }
-  .tool-slider1 img{
-   height: 78px;
-   width: 100px;
-  }
-  .tool-slider1{
-    height: 120px;
-    width: 256px;
-  }
-  .tool-slider1 p{
-    font-size: small;
-  }
-  /* ====================company review section================ */
-  .company-review-img-size{
-    width: 150px;
-  }
-  .img-of-company-review{
-    margin: 0px 0px;
-  }
-  .collag-img{
-    width: 534px;
-    height: 169px;
-  }
-  .flex-text{
-    /* display: flex; */
-  }
 }
