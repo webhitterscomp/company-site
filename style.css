@@ -53,6 +53,8 @@ a {
 }
 
 .a.svg {
+    height: 20px;
+    width: 30px;
     text-align: center;
     display: flex;
     align-items: center;
@@ -203,28 +205,40 @@ nav ul li a {
 
 
 /*<======================Hero-section-start==================> */
+
+.main-hero-section-for-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* display: block; */
+   
+}
 .herosection {
-    position: relative;
-    height: 430px;
+    /* position: ; */
+    height:100%;
     width: 100%;
-    max-width: 100%;
     overflow: hidden;
     margin-top: 100px;
+    z-index: -1;
 }
 
 .herosection::before {
     content: "";
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     left: 0;
+    display: block;
+    height: 550px;
+    /* max-height: 100%; */
     width: 100%;
-    height: 100%;
-    background-image: url(./Banner1\ new.jpg);
-    background-size: cover;
+    background-image: url(./Technical\ SEO\ Training\ Zirakpur.jpg);
+    background-size: cover ;
     filter: blur(0px);
-    z-index: -1;
+    z-index: -4;
     background-repeat: no-repeat;
-    background-size: 100vw;
+    background-size:100%  100%;
+    z-index: -2;
+    /* margin-top: 100px; */
 }
 
 .box1-of-herosection {
@@ -292,15 +306,20 @@ nav ul li a {
 /* <======================herosection2 start================> */
 .main-number-section-of-hero {
     position: relative;
+    /* position: relative; */
     display: flex;
     align-items: center;
     justify-content: center;
-    top: -111px;
-
+    top: 0px;
+    /* margin-top: -280px; */ 
+    max-height: 100vh;
+    /* width: 100px; */
+    margin: 0px 0px;
+    top:-20px
 }
 
 .number-section-of-hero {
-    position: relative;
+    /* position: relative; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -308,13 +327,14 @@ nav ul li a {
     width: 30rem;
     background: linear-gradient(135deg, #ff6347, #4a4a4a);
     border-radius: 15px;
-    box-shadow: rgb(38, 57, 77) 0px 60px 30px -10px;
+
     padding: 20px;
     text-align: center;
     color: #fff;
     font-family: Arial, sans-serif;
     flex-direction: column;
     transition: transform 0.3s ease-out, background-color 0.3s ease-out;
+    /* box-shadow: rgb(38, 57, 77) 0px 60px 30px -10px; */
     overflow: hidden;
     background-size: cover;
     background-repeat: no-repeat;
@@ -330,9 +350,9 @@ nav ul li a {
     transform: scale(1.05);
     outline: 2px solid #000;
     outline-offset: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    cursor:default;
 }
-
 .numberdiv {
     display: flex;
     align-items: center;
@@ -397,6 +417,7 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 50px;
 
 }
 
@@ -547,6 +568,7 @@ margin: 0 0 15px;
 
 .snip1273:before,
 .snip1273:after {
+    cursor: pointer;
     height: 5px;
     width: 0%;
 }
@@ -563,6 +585,7 @@ margin: 0 0 15px;
 
 .snip1273:hover img,
 .snip1273.hover img {
+    /* cursor: pointer; */
     opacity: 0.4;
 }
 
@@ -717,13 +740,19 @@ span {
     font-size: 30px;
     text-align: left;
 }
+.button-center-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .button-img {
+    width: 100vw;
     margin-top: 50px;
-    background-image: url(./btn-img-bg.png);
+    background-image: url(./Best\ SEO\ Courses\ in\ Zirakpur.png);
     height: 660px;
     background-repeat: no-repeat;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 .btn-of-all-div {
@@ -782,7 +811,6 @@ span {
 .fill:focus {
     box-shadow: inset 0 0 0 2em var(--hover);
 }
-
 
 .pulse:hover,
 .pulse:focus {
@@ -1146,7 +1174,7 @@ code {
 .icon-size-of-heading {
     height: 30px;
     width: 30px;
-    border-radius: 20px;
+
 }
 
 .icon-size-of-form-div {
@@ -1617,17 +1645,26 @@ code {
 
 .main-section-of-company-review {
     margin-top: 100px;
-    background-image: url(./company-review-img-bg.png);
-    background-size: cover;
-    height: fit-content;
-    width: 100%;
+   
+    /* background-size: cover; */
+    max-height: fit-content;
+
     display: flex;
+}
+.img-of-review-section-main{
+    /* display: block; */
+    background-image: url(./SEO\ Training\ Academy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* max-width: 100%; */
+    height: 400px;
+    width: 500px;
 }
 
 .img-of-company-review {
     text-align: center;
     height: 600px;
-    width: 50%;
+    width: 49%;
     margin-left: 44px;
 }
 
@@ -2125,6 +2162,81 @@ footer {
     text-align: center;
 }
 
+/* ==================================================== icon-div==================== */
+ /* Assuming FontAwesome is properly linked for the icons to work */
+
+
+  .social-icons {
+    /* margin-top: 20px; */
+    /* transform: translate(-50%, -50%); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    width: 36px;
+    height: 37px;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 50%;
+    padding: 0px; 
+    box-sizing: border-box;
+    text-decoration: none;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(0deg, #ddd, #fff);
+    /* background: #DE3335; */
+    transition: .5s;
+  }
+  
+  .social-icons a:hover {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+  }
+  
+  .social-icons a .fab {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: linear-gradient(0deg, #fff, #ddd);
+    border-radius: 50%;
+    line-height: calc(60px - 19px);
+    font-size: 20px;
+    /* background: #DE3335; */
+    color:rgb(48, 43, 43);
+    transition: .5s;
+     margin-bottom: 2px;
+  }
+  
+  #facebook:hover .fab {
+    color: #3b5998; /* Facebook */
+  }
+  
+  #twitter:hover .fab {
+    color: #00aced; /* Twitter */
+  }
+  
+  #google-plus:hover .fab {
+    color:black; /* Google Plus */
+  }
+  
+  #linkedin:hover .fab {
+    color: #007bb6; /* LinkedIn */
+  }
+  
+  #instagram:hover .fab {
+    color:#DE3335; /* Instagram */
+  }
+  .twitter1{
+    text-align: center;
+    height: 15px !important ;
+    width: 15px !important;
+    fill: white;
+  }
+  
+
 .footer-thired-div p {
     margin-top: 10px;
 }
@@ -2347,4 +2459,17 @@ button:active {
 .input-group label {
     margin: 0;
     flex: 1;
+}
+
+/* ===================================whatapps icon========================== */
+.icon-of-whatsapp {
+    position: fixed;
+    /* left: 0px; */
+    right: 50px;
+    top: 700px;
+    /* height: 100px; */
+    width: 66px;
+    fill: #25D366;
+    background: transparent;
+    border: none;
 }
