@@ -2186,8 +2186,9 @@ footer {
     box-sizing: border-box;
     text-decoration: none;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
-    background: linear-gradient(0deg, #ddd, #fff);
+    /* background: linear-gradient(0deg, #ddd, #fff); */
     /* background: #DE3335; */
+    background: #DE3335;
     transition: .5s;
   }
   
@@ -2200,12 +2201,13 @@ footer {
     width: 100%;
     height: 100%;
     display: block;
-    background: linear-gradient(0deg, #fff, #ddd);
+    /* background: linear-gradient(0deg, #fff, #ddd); */
+    background: #DE3335;
     border-radius: 50%;
     line-height: calc(60px - 19px);
     font-size: 20px;
     /* background: #DE3335; */
-    color:rgb(48, 43, 43);
+    color: linear-gradient(0deg, #fff, #ddd);
     transition: .5s;
      margin-bottom: 2px;
   }
@@ -2227,7 +2229,7 @@ footer {
   }
   
   #instagram:hover .fab {
-    color:#DE3335; /* Instagram */
+    color:black; /* Instagram */
   }
   .twitter1{
     text-align: center;
