@@ -121,7 +121,7 @@ a {
     padding: 0 20px;
     position: fixed;
     width: 100%;
-    z-index: 1;
+    z-index: 2;
     top: 0px;
 }
 
@@ -149,7 +149,7 @@ a {
     border-radius: 15px;
 }
 
-.nav-upper-div button:hover {
+.nav-upper-div button\:hover {
     background: #000;
     color: white;
     cursor: pointer;
@@ -177,7 +177,7 @@ nav {
     position: fixed;
     width: 100%;
     top: 48px;
-    z-index: 1;
+    z-index: 2;
 
 }
 
@@ -214,12 +214,16 @@ nav ul li a {
    
 }
 .herosection {
-    /* position: ; */
+    /* position: relative; */
     height:100%;
     width: 100%;
     overflow: hidden;
     margin-top: 100px;
     z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .herosection::before {
@@ -242,6 +246,7 @@ nav ul li a {
 }
 
 .box1-of-herosection {
+    position: relative;
     z-index: 1;
     color: white;
     width: 50%;
@@ -254,11 +259,32 @@ nav ul li a {
 }
 
 .btn-div {
-    margin-top: 210px;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    top: -100px;
+   
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: #DE3335;
+    height: 2.4rem;
+    width: 174px;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    z-index: 1;
 }
+.btn-div:hover{
+    /* display: none; */
+    background: #000;
+    color: white;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
 
 .box1-of-herosection button {
     margin-top: 30px;
@@ -293,7 +319,7 @@ nav ul li a {
 }
 
 .hero-text-box {
-    display: none;
+    /* display: none; */
 }
 
 .heading-of-img-below-text {
@@ -315,7 +341,8 @@ nav ul li a {
     max-height: 100vh;
     /* width: 100px; */
     margin: 0px 0px;
-    top:-20px
+    top:-78px;
+    z-index: -1;
 }
 
 .number-section-of-hero {
@@ -1591,6 +1618,9 @@ code {
     text-align: center;
 }
 
+.newslider{
+    width: 173px !important;
+}
 .tool-slider {
     height: 102px;
     width: 204px;
@@ -1673,10 +1703,7 @@ code {
     width: 50%;
 }
 
-.company-review-img-size {
-    height: 140px;
-    width: 200px;
-}
+
 
 .review {
     display: flex;
@@ -1686,6 +1713,34 @@ code {
     overflow: hidden;
 
 }
+.view-morebtn-div{
+     display: flex;
+     align-items: center;
+     justify-content: end;
+     margin-right: 50px;
+}
+.view-more-btn{
+    
+    margin-top: 30px;
+    background: #DE3335;
+    height: 2.4rem;
+    width: 174px;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    
+}
+
+.view-more-btn:hover{
+    background: #000;
+    color: white;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+
+
+
 
 .slider-container {
     display: flex;
@@ -2354,7 +2409,7 @@ footer {
     display: none;
     position: fixed;
     top: 100px;
-    z-index: 10;
+   
     transition: transform 1s ease-in-out 0s;
     transform-origin: top;
     background-color: #EBECF0;
@@ -2364,7 +2419,7 @@ footer {
     padding: 16px;
     width: 425px;
     margin: 0 auto;
-    z-index: 8;
+    z-index: 2;
 }
 
 .segment {

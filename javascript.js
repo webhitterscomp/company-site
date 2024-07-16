@@ -12,26 +12,33 @@ function toggleMenu() {
 // =======================slider==============================
 
 document.addEventListener('DOMContentLoaded', function () {
-  const slides = document.querySelector('.slides');
-  const slide = document.querySelectorAll('.slide');
+  // Select all sliders on the page
+  const sliders = document.querySelectorAll('.slider');
 
-  let index = 0;
-  const totalSlides = slide.length;
+  // Loop through each slider
+  sliders.forEach(function(slider) {
+    const slides = slider.querySelector('.slides');
+    const slide = slider.querySelectorAll('.slide');
 
-  function nextSlide() {
-    index++;
-    if (index >= totalSlides) {
-      index = 0;
+    let index = 0;
+    const totalSlides = slide.length;
+
+    function nextSlide() {
+      index++;
+      if (index >= totalSlides) {
+        index = 0;
+      }
+      updateSlide();
     }
-    updateSlide();
-  }
 
-  function updateSlide() {
-    slides.style.transform = `translateX(-${index * 100}%)`;
-  }
+    function updateSlide() {
+      slides.style.transform = `translateX(-${index * 100}%)`;
+    }
 
-  setInterval(nextSlide, 2000); // Change slide every 3 seconds
+    setInterval(nextSlide, 2000); // Change slide every 2 seconds
+  });
 });
+
 
 const questions = document.querySelectorAll('.first-question1');
 const answers = document.querySelectorAll('.first-question2');

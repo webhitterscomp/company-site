@@ -1,7 +1,7 @@
 
 @media (max-width: 768px) {
-    .phone {
-        display: none;
+    .email-btn {
+        display: none !important;
     }
 
     .mobile-view-no {
@@ -11,17 +11,20 @@
     .nav-upper-div {
         flex-direction: column;
         justify-content: space-between;
-        height: 75px;
+        height: 50px;
         position: fixed;
         overflow: hidden;
         max-height: 100vh;
         padding: 0px 0px;
     }
+    .nav-upper-div button{
+      margin-top: 5px;
+    }
 
     .icon {
         display: block;
         position: fixed;
-        z-index: 1;
+        z-index: 5;
         top: 13px;
         left: 10px;
 
