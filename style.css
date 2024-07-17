@@ -121,7 +121,7 @@ a {
     padding: 0 20px;
     position: fixed;
     width: 100%;
-    z-index: 2;
+    z-index: 3;
     top: 0px;
 }
 
@@ -177,7 +177,7 @@ nav {
     position: fixed;
     width: 100%;
     top: 48px;
-    z-index: 2;
+    z-index: 3;
 
 }
 
@@ -211,15 +211,16 @@ nav ul li a {
     align-items: center;
     justify-content: center;
     /* display: block; */
+    position: relative;
    
 }
 .herosection {
-    /* position: relative; */
+    position: relative;
     height:100%;
     width: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
     margin-top: 100px;
-    z-index: -1;
+    z-index: 1;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -342,7 +343,7 @@ nav ul li a {
     /* width: 100px; */
     margin: 0px 0px;
     top:-78px;
-    z-index: -1;
+    z-index: 2;
 }
 
 .number-section-of-hero {
@@ -2224,9 +2225,11 @@ footer {
   .social-icons {
     /* margin-top: 20px; */
     /* transform: translate(-50%, -50%); */
+    margin-left: -10px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 15px;
 
   }
   
@@ -2299,6 +2302,7 @@ footer {
 }
 
 .our-courses-section-p {
+ /* margin-top: -50px; */
     text-align: center;
     font-weight: bolder;
     font-size: 1.3rem;
@@ -2319,9 +2323,21 @@ footer {
     margin-bottom: 30px;
     color: white;
 }
+.icon-div-of-time{
+    display: flex;
 
+}
 .text-of-first-footer-h4 {
-    margin-top: 20px;
+    /* display: flex; */
+    margin-top: 20px;;
+    text-align: left;
+}
+.SEO-Zirakpur{
+    height: 40px ;
+    width: 34px;
+    margin-top: 24px;
+  margin-right: 8px;
+
 }
 
 .text-of-first-footer-p {
@@ -2399,6 +2415,8 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    /* position: fixed; */
+    /* z-index: 4; */
 }
 
 .h1-of-form {
@@ -2419,10 +2437,17 @@ footer {
     padding: 16px;
     width: 425px;
     margin: 0 auto;
-    z-index: 2;
+    z-index: 5;
 }
-
+.icon-of-form{
+    /* margin-left: 50px; */
+   text-align: left;
+   margin-left: 350px;
+    height: 30px;
+     width:40px
+}
 .segment {
+   
     padding: 15px 0;
     text-align: center;
 }

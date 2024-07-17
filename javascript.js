@@ -112,14 +112,18 @@ document.addEventListener('DOMContentLoaded', function() {
       autoSlide();
   });
 });
-  const form=document.getElementById('form-container');
-  const enrollBtn=document.getElementsByClassName('btn-div')[0];
- 
- 
-   enrollBtn.addEventListener('click',function(){
-   
-  
-   form.style="display:block"
+ // Selecting elements
+const form = document.getElementById('form-container');
+const enrollBtn = document.querySelector('.btn-div');
+const closeButton = document.getElementById('close-button');
 
-   })
+// Function to toggle form visibility
+function toggleForm() {
+    form.style.display = (form.style.display === 'none') ? 'block' : 'none';
+}
+
+// Event listeners
+enrollBtn.addEventListener('click', toggleForm);
+closeButton.addEventListener('click', toggleForm);
+
 
