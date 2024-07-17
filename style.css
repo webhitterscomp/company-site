@@ -451,9 +451,9 @@ h3 {
 .herosection2 {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     max-width: 90%;
-    gap: 20px;
+    gap: 40px;
 }
 
 .herosection2-img {
@@ -489,8 +489,9 @@ h3 {
     justify-content: center;
     margin-top: 1.6rem;
     font-size: medium;
-    text-align: center;
-    display: inline;
+    text-align: justify;
+    line-height: 27px;
+    /* display: inline; */
 
 }
 
