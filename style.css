@@ -445,7 +445,8 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
+    /* margin-top: 50px; */
+    /* gap: 20px; */
 
 }
 
@@ -454,7 +455,7 @@ h3 {
     align-items: center;
     justify-content: center;
     max-width: 90%;
-    gap: 10px;
+    gap: 20px;
 }
 
 .herosection2-img {
@@ -466,14 +467,16 @@ h3 {
     border-radius: 10px;
     display: block;
     max-width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .herosection-div-of-text {
-    height: 500px !important;
+    /* height: 500px !important; */
     max-width: 50%;
     text-align: center;
     height: 9.375rem;
     border-radius: 15px;
+    height: fit-content;
 }
 
 .first-p-of-herosection2 {
