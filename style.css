@@ -265,7 +265,7 @@ nav ul li a {
     justify-content: center;
     position: relative;
     top: -100px;
-   
+   margin-right: 10px;
     margin-top: 30px;
     justify-content: center;
     align-items: center;
@@ -479,25 +479,26 @@ h3 {
 
 .first-p-of-herosection2 {
     font-weight: bold;
-
+     font-size:larger;
     color: black;
 }
 
 .main-p-of-herosection {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 1.6rem;
+  
+    /* margin-top: 1.6rem; */
     font-size: medium;
     text-align: justify;
     line-height: 27px;
     /* display: inline; */
 
 }
+.p-of-text-main{
+
+}
 
 .h2-of-herosection2 {
-    margin-top: 1rem;
-    margin-bottom: 1.0rem;
+    margin-top: 0.5rem;
+    /* margin-bottom: 1.0rem; */
 }
 
 /* <======================herosection2 End================> */
@@ -505,7 +506,8 @@ h3 {
 /* <======================Courses-section-start================> */
 
 .snip1273 {
-    font-family: 'Raleway', Arial, sans-serif;
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
     position: relative;
     margin: 50px;
     min-width: 310px -60px;
@@ -641,6 +643,7 @@ h3 {
     align-items: center;
     justify-content: center;
     gap: 20px;
+
 }
 
 
@@ -651,9 +654,12 @@ h3 {
     flex-direction: column;
     height: fit-content;
     width: 100%;
+    font-family: "Poppins", sans-serif; 
+
 }
 
 span {
+    
     color: #DE3335;
 }
 
@@ -730,11 +736,11 @@ span {
 }
 
 .course-box1-p1 {
-    color: #75716f;
+    /* color: #75716f;*/
     margin-top: 10px;
     margin-bottom: 20px;
     line-height: 1.5rem;
-    text-align: center;
+    text-align: justify;
 }
 
 .read-more-btn {
@@ -1244,6 +1250,7 @@ code {
 }
 
 .p-of-country {
+    text-align: center;
     margin-top: 30px;
     line-height: 1.5rem;
 }
@@ -1288,6 +1295,7 @@ code {
     text-align: center;
     max-width: 90%;
     height: 9.188rem;
+    height: 300px;
 }
 
 .placement-of-p {
@@ -1296,6 +1304,7 @@ code {
 }
 
 .placements-h1-p2 {
+    /* height: 67px; */
     margin-top: 20px;
 }
 
@@ -1325,19 +1334,21 @@ code {
 }
 
 .p-of-placement {
-    margin-top: 1.8rem;
+    /* margin-top: 1.8rem; */
     color: #1356bb;
     font-size: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
+
 }
 
 .p2-of-placement {
-    margin-top: 30px;
+    text-align: justify;
     line-height: 1.5rem;
+    padding: 10px;
 }
 
 .h1-of-placement {
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .box2-placement {
@@ -1697,6 +1708,19 @@ code {
     width: 49%;
     margin-left: 44px;
 }
+.img-of-company-review h2{
+ margin-bottom: 40px;
+}
+.img-of-company-review h3{
+ margin-top: 100px;
+}
+.review-images-of-google-justdial-fb{
+    height: fit-content;
+    width: fit-content;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-right: 20px;
+    border-radius: 10px;
+}
 
 .img-of-review-section-main {
     height: 500px;
@@ -1711,6 +1735,7 @@ code {
     align-items: center;
     height: fit-content;
     overflow: hidden;
+    width:100%;
 
 }
 .view-morebtn-div{
@@ -2079,7 +2104,7 @@ code {
 }
 
 .first-question2.show {
-    height: 50px;
+    height: fit-content;
     opacity: 1;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -2135,9 +2160,8 @@ hr {
 }
 
 .about-p {
-    text-align: center;
+    text-align: justify;
     max-width: 90%;
-    margin-top: 30px;
     line-height: 1.6rem;
 }
 
@@ -2261,7 +2285,7 @@ footer {
     /* background: linear-gradient(0deg, #fff, #ddd); */
     background: #DE3335;
     border-radius: 50%;
-    line-height: calc(60px - 19px);
+    line-height: calc(59px - 20px);
     font-size: 20px;
     /* background: #DE3335; */
     color: linear-gradient(0deg, #fff, #ddd);
