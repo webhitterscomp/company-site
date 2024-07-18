@@ -206,19 +206,18 @@ nav ul li a {
 
 /*<======================Hero-section-start==================> */
 
-.main-hero-section-for-img{
+.main-hero-section-for-img {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* display: block; */
     position: relative;
-   
+
 }
+
 .herosection {
     position: relative;
-    height:100%;
+    height: 100%;
     width: 100%;
-    /* overflow: hidden; */
     margin-top: 100px;
     z-index: 1;
     display: flex;
@@ -229,21 +228,18 @@ nav ul li a {
 
 .herosection::before {
     content: "";
-    /* position: absolute; */
     top: 0;
     left: 0;
     display: block;
     height: 550px;
-    /* max-height: 100%; */
     width: 100%;
     background-image: url(./Technical\ SEO\ Training\ Zirakpur.jpg);
-    background-size: cover ;
+    background-size: cover;
     filter: blur(0px);
     z-index: -4;
     background-repeat: no-repeat;
-    background-size:100%  100%;
+    background-size: 100% 100%;
     z-index: -2;
-    /* margin-top: 100px; */
 }
 
 .box1-of-herosection {
@@ -265,7 +261,7 @@ nav ul li a {
     justify-content: center;
     position: relative;
     top: -100px;
-   margin-right: 10px;
+    margin-right: 10px;
     margin-top: 30px;
     justify-content: center;
     align-items: center;
@@ -278,8 +274,8 @@ nav ul li a {
     border-radius: 15px;
     z-index: 1;
 }
-.btn-div:hover{
-    /* display: none; */
+
+.btn-div:hover {
     background: #000;
     color: white;
     cursor: pointer;
@@ -331,21 +327,17 @@ nav ul li a {
 /* <======================herosection2 start================> */
 .main-number-section-of-hero {
     position: relative;
-    /* position: relative; */
     display: flex;
     align-items: center;
     justify-content: center;
     top: 0px;
-    /* margin-top: -280px; */ 
     max-height: 100vh;
-    /* width: 100px; */
     margin: 0px 0px;
-    top:-78px;
+    top: -78px;
     z-index: 2;
 }
 
 .number-section-of-hero {
-    /* position: relative; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -353,7 +345,6 @@ nav ul li a {
     width: 30rem;
     background: linear-gradient(135deg, #ff6347, #4a4a4a);
     border-radius: 15px;
-
     padding: 20px;
     text-align: center;
     color: #fff;
@@ -377,8 +368,9 @@ nav ul li a {
     outline: 2px solid #000;
     outline-offset: 10px;
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
-    cursor:default;
+    cursor: default;
 }
+
 .numberdiv {
     display: flex;
     align-items: center;
@@ -443,8 +435,6 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* margin-top: 50px; */
-    /* gap: 20px; */
 
 }
 
@@ -469,7 +459,7 @@ h3 {
 }
 
 .herosection-div-of-text {
-    /* height: 500px !important; */
+
     max-width: 50%;
     text-align: center;
     height: 9.375rem;
@@ -479,26 +469,21 @@ h3 {
 
 .first-p-of-herosection2 {
     font-weight: bold;
-     font-size:larger;
+    font-size: larger;
     color: black;
 }
 
 .main-p-of-herosection {
-  
-    /* margin-top: 1.6rem; */
     font-size: medium;
     text-align: justify;
     line-height: 27px;
-    /* display: inline; */
 
-}
-.p-of-text-main{
 
 }
 
 .h2-of-herosection2 {
     margin-top: 0.5rem;
-    /* margin-bottom: 1.0rem; */
+
 }
 
 /* <======================herosection2 End================> */
@@ -614,7 +599,6 @@ h3 {
 
 .snip1273:hover img,
 .snip1273.hover img {
-    /* cursor: pointer; */
     opacity: 0.4;
 }
 
@@ -654,12 +638,11 @@ h3 {
     flex-direction: column;
     height: fit-content;
     width: 100%;
-    font-family: "Poppins", sans-serif; 
+    font-family: "Poppins", sans-serif;
 
 }
 
 span {
-    
     color: #DE3335;
 }
 
@@ -736,7 +719,6 @@ span {
 }
 
 .course-box1-p1 {
-    /* color: #75716f;*/
     margin-top: 10px;
     margin-bottom: 20px;
     line-height: 1.5rem;
@@ -773,7 +755,8 @@ span {
     font-size: 30px;
     text-align: left;
 }
-.button-center-div{
+
+.button-center-div {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -785,7 +768,6 @@ span {
     background-image: url(./Best\ SEO\ Courses\ in\ Zirakpur.png);
     height: 660px;
     background-repeat: no-repeat;
-    /* border: 2px solid black; */
 }
 
 .btn-of-all-div {
@@ -929,7 +911,6 @@ span {
     font: inherit;
     line-height: 1;
     margin: 0.5em;
-    /* padding: 1em 2em; */
     height: 73px;
     width: 152px;
     font-weight: bold;
@@ -1126,8 +1107,6 @@ code {
     transition: all .3s linear;
 }
 
-
-
 .main-job-section-div {
     flex-direction: column !important;
 }
@@ -1304,7 +1283,6 @@ code {
 }
 
 .placements-h1-p2 {
-    /* height: 67px; */
     margin-top: 20px;
 }
 
@@ -1334,7 +1312,6 @@ code {
 }
 
 .p-of-placement {
-    /* margin-top: 1.8rem; */
     color: #1356bb;
     font-size: 20px;
     margin-bottom: 10px;
@@ -1629,9 +1606,10 @@ code {
     text-align: center;
 }
 
-.newslider{
+.newslider {
     width: 173px !important;
 }
+
 .tool-slider {
     height: 102px;
     width: 204px;
@@ -1686,18 +1664,15 @@ code {
 
 .main-section-of-company-review {
     margin-top: 100px;
-   
-    /* background-size: cover; */
     max-height: fit-content;
 
     display: flex;
 }
-.img-of-review-section-main{
-    /* display: block; */
+
+.img-of-review-section-main {
     background-image: url(./SEO\ Training\ Academy.png);
     background-repeat: no-repeat;
     background-size: cover;
-    /* max-width: 100%; */
     height: 400px;
     width: 500px;
 }
@@ -1708,13 +1683,16 @@ code {
     width: 49%;
     margin-left: 44px;
 }
-.img-of-company-review h2{
- margin-bottom: 40px;
+
+.img-of-company-review h2 {
+    margin-bottom: 40px;
 }
-.img-of-company-review h3{
- margin-top: 100px;
+
+.img-of-company-review h3 {
+    margin-top: 100px;
 }
-.review-images-of-google-justdial-fb{
+
+.review-images-of-google-justdial-fb {
     height: fit-content;
     width: fit-content;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -1727,25 +1705,25 @@ code {
     width: 50%;
 }
 
-
-
 .review {
     display: flex;
     justify-content: center;
     align-items: center;
     height: fit-content;
     overflow: hidden;
-    width:100%;
+    width: 100%;
 
 }
-.view-morebtn-div{
-     display: flex;
-     align-items: center;
-     justify-content: end;
-     margin-right: 50px;
+
+.view-morebtn-div {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 50px;
 }
-.view-more-btn{
-    
+
+.view-more-btn {
+
     margin-top: 30px;
     background: #DE3335;
     height: 2.4rem;
@@ -1753,19 +1731,15 @@ code {
     color: white;
     border: none;
     border-radius: 15px;
-    
+
 }
 
-.view-more-btn:hover{
+.view-more-btn:hover {
     background: #000;
     color: white;
     cursor: pointer;
     transition: all .3s linear;
 }
-
-
-
-
 
 .slider-container {
     display: flex;
@@ -2242,90 +2216,86 @@ footer {
 }
 
 /* ==================================================== icon-div==================== */
- /* Assuming FontAwesome is properly linked for the icons to work */
-
-
-  .social-icons {
-    /* margin-top: 20px; */
-    /* transform: translate(-50%, -50%); */
+.social-icons {
     margin-left: -10px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 15px;
 
-  }
-  
-  .social-icons a {
+}
+
+.social-icons a {
     display: inline-block;
     width: 36px;
     height: 37px;
     text-align: center;
     margin: 0 10px;
     border-radius: 50%;
-    padding: 0px; 
+    padding: 0px;
     box-sizing: border-box;
     text-decoration: none;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
-    /* background: linear-gradient(0deg, #ddd, #fff); */
-    /* background: #DE3335; */
     background: #DE3335;
     transition: .5s;
-  }
-  
-  .social-icons a:hover {
+}
+
+.social-icons a:hover {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     text-decoration: none;
-  }
-  
-  .social-icons a .fab {
+}
+
+.social-icons a .fab {
     width: 100%;
     height: 100%;
     display: block;
-    /* background: linear-gradient(0deg, #fff, #ddd); */
     background: #DE3335;
     border-radius: 50%;
     line-height: calc(59px - 20px);
     font-size: 20px;
-    /* background: #DE3335; */
     color: linear-gradient(0deg, #fff, #ddd);
     transition: .5s;
-     margin-bottom: 2px;
-  }
-  
-  #facebook:hover .fab {
-    color: #3b5998; /* Facebook */
-  }
-  
-  #twitter:hover .fab {
-    color: #00aced; /* Twitter */
-  }
-  
-  #google-plus:hover .fab {
-    color:black; /* Google Plus */
-  }
-  
-  #linkedin:hover .fab {
-    color: #007bb6; /* LinkedIn */
-  }
-  
-  #instagram:hover .fab {
-    color:black; /* Instagram */
-  }
-  .twitter1{
+    margin-bottom: 2px;
+}
+
+#facebook:hover .fab {
+    color: #3b5998;
+    /* Facebook */
+}
+
+#twitter:hover .fab {
+    color: #00aced;
+    /* Twitter */
+}
+
+#google-plus:hover .fab {
+    color: black;
+    /* Google Plus */
+}
+
+#linkedin:hover .fab {
+    color: #007bb6;
+    /* LinkedIn */
+}
+
+#instagram:hover .fab {
+    color: black;
+    /* Instagram */
+}
+
+.twitter1 {
     text-align: center;
-    height: 15px !important ;
+    height: 15px !important;
     width: 15px !important;
     fill: white;
-  }
-  
+}
+
 
 .footer-thired-div p {
     margin-top: 10px;
 }
 
 .our-courses-section-p {
- /* margin-top: -50px; */
     text-align: center;
     font-weight: bolder;
     font-size: 1.3rem;
@@ -2346,20 +2316,23 @@ footer {
     margin-bottom: 30px;
     color: white;
 }
-.icon-div-of-time{
+
+.icon-div-of-time {
     display: flex;
 
 }
+
 .text-of-first-footer-h4 {
-    /* display: flex; */
-    margin-top: 20px;;
+    margin-top: 20px;
+    ;
     text-align: left;
 }
-.SEO-Zirakpur{
-    height: 40px ;
+
+.SEO-Zirakpur {
+    height: 40px;
     width: 34px;
     margin-top: 24px;
-  margin-right: 8px;
+    margin-right: 8px;
 
 }
 
@@ -2438,8 +2411,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* position: fixed; */
-    /* z-index: 4; */
 }
 
 .h1-of-form {
@@ -2450,7 +2421,7 @@ footer {
     display: none;
     position: fixed;
     top: 100px;
-   
+
     transition: transform 1s ease-in-out 0s;
     transform-origin: top;
     background-color: #EBECF0;
@@ -2462,15 +2433,16 @@ footer {
     margin: 0 auto;
     z-index: 5;
 }
-.icon-of-form{
-    /* margin-left: 50px; */
-   text-align: left;
-   margin-left: 350px;
+
+.icon-of-form {
+    text-align: left;
+    margin-left: 350px;
     height: 30px;
-     width:40px
+    width: 40px
 }
+
 .segment {
-   
+
     padding: 15px 0;
     text-align: center;
 }
@@ -2569,10 +2541,8 @@ button:active {
 /* ===================================whatapps icon========================== */
 .icon-of-whatsapp {
     position: fixed;
-    /* left: 0px; */
     right: 50px;
     top: 700px;
-    /* height: 100px; */
     width: 66px;
     fill: #25D366;
     background: transparent;
