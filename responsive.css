@@ -10,11 +10,13 @@
     .nav-upper-div {
         flex-direction: column;
         justify-content: space-between;
-        height: 50px;
+        height: 63px;
         position: fixed;
         overflow: hidden;
         max-height: 100vh;
         padding: 0px 0px;
+          box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+          ;
     }
 
     .nav-upper-div button {
@@ -164,6 +166,7 @@
 
     .course-box {
         flex-direction: column;
+        height: fit-content;
     }
 
     .Explore-section-box {
@@ -231,6 +234,10 @@
 
     .h1-of-job-section {
         font-size: medium;
+    }
+    .point-div{
+        flex-direction: column;
+        gap: 0px;
     }
 
     .job-section {
@@ -509,6 +516,7 @@
 
     .img-of-box {
         flex-direction: column;
+        height: fit-content;
     }
 
     .number-section-of-hero {
@@ -614,6 +622,7 @@
 
     .review-of-company img {
         margin-top: 20px;
+        width: 400px;
     }
 
     .no1,
@@ -706,7 +715,10 @@
     .herosection::before {
         background-image: url(./banner-Mobile-View.jpg);
     }
-
+    .social-icons{
+       padding-bottom: 10px;
+    } 
+        
 
 }
 
@@ -922,6 +934,8 @@
     }
 
     /* ====================company review section================ */
+   
+
     .company-review-img-size {
         width: 150px;
     }

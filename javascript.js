@@ -117,3 +117,12 @@ enrollBtn.addEventListener('click', toggleForm);
 closeButton.addEventListener('click', toggleForm);
 
 
+// =========================icon=======================
+// JavaScript to toggle visibility on click
+// JavaScript to hide on click
+// JavaScript to hide on click
+const whatsappIcon = document.querySelector('.whatsapp-icon');
+
+whatsappIcon.addEventListener('click', () => {
+    whatsappIcon.style.right = '-86px'; // Adjust to the initial hidden position
+});
