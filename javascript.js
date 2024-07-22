@@ -15,8 +15,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
   const sliders = document.querySelectorAll('.slider');
 
- 
-  sliders.forEach(function(slider) {
+
+  sliders.forEach(function (slider) {
     const slides = slider.querySelector('.slides');
     const slide = slider.querySelectorAll('.slide');
 
@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function () {
       slides.style.transform = `translateX(-${index * 100}%)`;
     }
 
-    setInterval(nextSlide, 2000); 
+    setInterval(nextSlide, 2000);
   });
 });
 
@@ -49,7 +49,7 @@ questions.forEach((question, index) => {
     if (answer.classList.contains('show')) {
       answer.classList.remove('show');
     } else {
-      answers.forEach(ans => ans.classList.remove('show')); 
+      answers.forEach(ans => ans.classList.remove('show'));
       answer.classList.add('show');
     }
   });
@@ -57,7 +57,7 @@ questions.forEach((question, index) => {
 
 document.addEventListener("DOMContentLoaded", function () {
   const counters = document.querySelectorAll('.numberdiv h1');
-  const speed = 1000; 
+  const speed = 1000;
 
   counters.forEach(counter => {
     const updateCount = () => {
@@ -79,30 +79,30 @@ document.addEventListener("DOMContentLoaded", function () {
     updateCount();
   });
 });
- 
-document.addEventListener('DOMContentLoaded', function() {
+
+document.addEventListener('DOMContentLoaded', function () {
 
   var sliderContainer = document.querySelector('.slider-container');
   var slides = sliderContainer.children;
   var slideCount = slides.length;
-  var slideWidth = slides[0].offsetWidth; 
-  var slideDuration = 3000; 
+  var slideWidth = slides[0].offsetWidth;
+  var slideDuration = 3000;
   var currentIndex = 0;
-  var intervalId; 
+  var intervalId;
 
   function autoSlide() {
-      intervalId = setInterval(function() {
-          currentIndex = (currentIndex + 1) % slideCount;
-          sliderContainer.style.transition = 'transform 1s ease-in-out';
-          sliderContainer.style.transform = 'translateX(' + (-currentIndex * slideWidth) + 'px)';
-      }, slideDuration);
+    intervalId = setInterval(function () {
+      currentIndex = (currentIndex + 1) % slideCount;
+      sliderContainer.style.transition = 'transform 1s ease-in-out';
+      sliderContainer.style.transform = 'translateX(' + (-currentIndex * slideWidth) + 'px)';
+    }, slideDuration);
   }
   autoSlide();
-  sliderContainer.addEventListener('mouseenter', function() {
-      clearInterval(intervalId);
+  sliderContainer.addEventListener('mouseenter', function () {
+    clearInterval(intervalId);
   });
-  sliderContainer.addEventListener('mouseleave', function() {
-      autoSlide();
+  sliderContainer.addEventListener('mouseleave', function () {
+    autoSlide();
   });
 });
 const form = document.getElementById('form-container');
@@ -110,7 +110,7 @@ const enrollBtn = document.querySelector('.btn-div');
 const closeButton = document.getElementById('close-button');
 
 function toggleForm() {
-    form.style.display = (form.style.display === 'none') ? 'block' : 'none';
+  form.style.display = (form.style.display === 'none') ? 'block' : 'none';
 }
 
 enrollBtn.addEventListener('click', toggleForm);
@@ -118,11 +118,35 @@ closeButton.addEventListener('click', toggleForm);
 
 
 // =========================icon=======================
-// JavaScript to toggle visibility on click
-// JavaScript to hide on click
-// JavaScript to hide on click
-const whatsappIcon = document.querySelector('.whatsapp-icon');
 
-whatsappIcon.addEventListener('click', () => {
-    whatsappIcon.style.right = '-86px'; // Adjust to the initial hidden position
+document.addEventListener('DOMContentLoaded', function() {
+  var customIconContainer = document.querySelector('.custom-icon-container');
+
+  function showCustomIcon() {
+    customIconContainer.style.right = '0';
+    customIconContainer.style.opacity = '1';
+
+    // Auto-hide after 5 seconds
+    setTimeout(function() {
+      hideCustomIcon();
+    }, 5000); // 5000 milliseconds = 5 seconds
+  }
+
+  function hideCustomIcon() {
+    customIconContainer.style.right = '-100px'; // Assuming hiding off screen to the right
+    customIconContainer.style.opacity = '0';
+  }
+
+  var didScroll = false;
+  window.onscroll = function() {
+    didScroll = true;
+  };
+
+  setInterval(function() {
+    if (didScroll) {
+      didScroll = false;
+      showCustomIcon();
+    }
+  }, 250);
 });
+

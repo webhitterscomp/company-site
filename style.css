@@ -79,6 +79,13 @@ a {
     margin-bottom: 15px;
 }
 
+.nav-icon-size {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    fill: #DE3335;
+}
+
 .social ul li:hover {
     transform: translate(110px, 0);
     background: #DE3335;
@@ -755,8 +762,9 @@ span {
 
 /* ============================button-images-section======================= */
 .text-of-this-section {
-
-    width: 30%;
+    /* animation: select 100ms step-end forwards; */
+    user-select: all;
+    /* width: 30%; */
     height: fit-content;
 }
 
@@ -1010,7 +1018,7 @@ code {
 .img1-div-of-price img {
     display: block;
     max-width: 100%;
-    height: 504px;
+    /* height: 504px; */
 }
 
 .enrol-button a {
@@ -1183,7 +1191,7 @@ code {
     justify-content: center;
     flex-direction: column;
 
-    max-width: 50%;
+    max-width: 55%;
 }
 
 .point-div {
@@ -1252,7 +1260,7 @@ code {
 }
 
 .slider {
-    margin-top: 30px;
+    margin-top: 10px;
 
 }
 
@@ -1619,7 +1627,7 @@ code {
     min-width: 100%;
     flex: 0 0 auto;
     box-sizing: border-box;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
 
@@ -1649,6 +1657,7 @@ code {
     border-radius: 15px;
     text-align: center;
     max-width: 90%;
+    margin-top: 44px;
 }
 
 .slides-of-tool {
@@ -1703,7 +1712,7 @@ code {
 }
 
 .img-of-company-review h2 {
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 }
 
 .img-of-company-review h3 {
@@ -2062,6 +2071,7 @@ code {
 }
 
 .questions-section1 {
+    font-size: small;
     height: fit-content;
     width: 550px;
 }
@@ -2244,17 +2254,20 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* margin-top: 15px; */
-
 }
 
 .bootom {
     margin-top: 20px !important;
 }
 
+.navicon {
+    margin-bottom: 3px;
+}
+
 .navicon a .fab {
-    background: linear-gradient(0deg, #fff, #ddd) !important;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* background: linear-gradient(0deg, #fff, #ddd) !important; */
+    /* background: #DE3335; */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 
 }
 
@@ -2268,8 +2281,8 @@ footer {
     padding: 0px;
     box-sizing: border-box;
     text-decoration: none;
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
-    background: #DE3335;
+    /* box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3); */
+    /* background: #DE3335; */
     transition: .5s;
 }
 
@@ -2279,6 +2292,7 @@ footer {
 }
 
 .social-icons a:hover {
+    /* background: linear-gradient(0deg, #fff, #ddd) !important; */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     text-decoration: none;
 }
@@ -2287,13 +2301,14 @@ footer {
     width: 100%;
     height: 100%;
     display: block;
-    background: #DE3335;
+    /* background: #DE3335; */
     border-radius: 50%;
     line-height: calc(59px - 20px);
     font-size: 20px;
-    color: linear-gradient(0deg, #fff, #ddd);
+    /* color: linear-gradient(0deg, #fff, #ddd); */
     transition: .5s;
     margin-bottom: 2px;
+    color: #DE3335;
 }
 
 #facebook:hover .fab {
@@ -2577,16 +2592,15 @@ button:active {
 }
 
 /* ===================================whatapps icon========================== */
-.whatsapp-container {
+.custom-container {
     position: fixed;
-    top: 50%;
+    top: 80%;
     right: 0;
     transform: translateY(-50%);
     z-index: 1000;
-    /* Ensure it's above other content */
 }
 
-.whatsapp-arrow {
+.custom-arrow {
     position: absolute;
     top: 50%;
     right: -20px;
@@ -2598,44 +2612,38 @@ button:active {
     transition: right 0.3s ease;
 }
 
-.whatsapp-icon {
+.custom-icon-container {
     position: absolute;
     top: 50%;
+    margin-right: 30px;
     right: -86px;
     transform: translateY(-50%);
     opacity: 0;
-    pointer-events: none;
+    /* pointer-events: none; */
+    transition: opacity 0.3s ease, right 0.3s ease;
 }
 
-.icon-of-whatsapp {
+.custom-icon {
     width: 66px;
     fill: #25D366;
     background: transparent;
     border: none;
-    animation: pulse 1.5s infinite;
+    cursor: pointer;
+    animation: custom-pulse 1.5s ease-in-out infinite alternate;
 }
 
-@keyframes main {
+@keyframes custom-pulse {
     0% {
-        transform: scale(0.9);
+        transform: scale(0.75);
     }
-
-    50% {
+    100% {
         transform: scale(1);
     }
-
-    100% {
-        transform: scale(0.9);
-    }
 }
 
-/* Hover effect to show the icon */
-.whatsapp-arrow:hover+.whatsapp-icon {
+.custom-arrow:hover + .custom-icon-container,
+.custom-icon-container:hover {
     right: 0;
     opacity: 1;
-}
-
-/* Ensure icon remains visible when hovered */
-.whatsapp-icon:hover {
-    opacity: 1;
+    transition-delay: 0s, 0.3s; /* Delay opacity transition */
 }

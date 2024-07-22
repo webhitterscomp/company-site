@@ -15,8 +15,8 @@
         overflow: hidden;
         max-height: 100vh;
         padding: 0px 0px;
-          box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-          ;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+        ;
     }
 
     .nav-upper-div button {
@@ -235,7 +235,8 @@
     .h1-of-job-section {
         font-size: medium;
     }
-    .point-div{
+
+    .point-div {
         flex-direction: column;
         gap: 0px;
     }
@@ -406,6 +407,7 @@
 
     /* =================================review section-of-company=================== */
     .text-of-this-section {
+        font-size: smaller;
         width: 100%;
     }
 
@@ -415,7 +417,7 @@
 
     .text-of-this-section h1 {
         margin-top: 15px;
-        font-size: medium;
+        font-size: larger;
         text-align: center;
         margin-left: 0px;
         margin-top: 0px;
@@ -622,7 +624,7 @@
 
     .review-of-company img {
         margin-top: 20px;
-        width: 400px;
+        width: 100px;
     }
 
     .no1,
@@ -715,10 +717,28 @@
     .herosection::before {
         background-image: url(./banner-Mobile-View.jpg);
     }
-    .social-icons{
-       padding-bottom: 10px;
-    } 
-        
+
+    .social-icons {
+        padding-bottom: 10px;
+    }
+
+    .img1-div-of-price img {
+        height: fit-content;
+    }
+
+    /* ========================== whatsapp=================== */
+    .custom-container{
+        top: 80%;
+    }
+    /* ===========================about text================= */
+    .bootem-text-of-footer p{
+        text-align: center;
+    }
+     .tool-slider{
+        width: 124px !important;
+        margin-right: 3px;
+     }
+
 
 }
 
@@ -760,6 +780,8 @@
     .btn-div {
         top: -116px;
     }
+
+    /* ===========================================Courses price========================== */
 
     .img1-div-of-price img {
         height: 294px;
@@ -916,7 +938,7 @@
 
     .tool-slider {
         height: 100px;
-        width: 156px;
+        width: 130px;
     }
 
     .tool-slider1 img {
@@ -934,7 +956,10 @@
     }
 
     /* ====================company review section================ */
-   
+    .img-of-review-section-main{
+        background-size: 100% 100%;
+    }
+
 
     .company-review-img-size {
         width: 150px;
@@ -945,7 +970,7 @@
     }
 
     .button-section1 button {
-        width: 142 px;
+        width: 142px;
     }
 
     .review-images-of-google-justdial-fb {
@@ -963,5 +988,12 @@
     .about-p {
         font-size: 9px;
     }
-
+       /* ========================== whatsapp=================== */
+       .custom-container{
+        top: 80%;
+    }
+    /* ===========================office pic========================== */
+    .job-section{
+      gap: 10px;
+    }
 }
