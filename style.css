@@ -497,7 +497,7 @@ h3 {
     font-family: "Poppins", sans-serif;
     text-align: justify;
     position: relative;
-    margin:18px;
+    margin: 18px;
     min-width: 310px -60px;
     max-width: 310px;
     width: 100%;
@@ -1185,7 +1185,8 @@ code {
 
     max-width: 50%;
 }
-.point-div{
+
+.point-div {
     display: flex;
     gap: 41px;
 }
@@ -1627,7 +1628,7 @@ code {
 }
 
 .tool-slider {
-    
+
     height: 102px;
     width: 204px;
     border-radius: 15px;
@@ -2246,13 +2247,15 @@ footer {
     /* margin-top: 15px; */
 
 }
-.bootom{
+
+.bootom {
     margin-top: 20px !important;
 }
-.navicon  a .fab{
-    background:  linear-gradient(0deg, #fff, #ddd) !important;
+
+.navicon a .fab {
+    background: linear-gradient(0deg, #fff, #ddd) !important;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    
+
 }
 
 .social-icons a {
@@ -2269,8 +2272,9 @@ footer {
     background: #DE3335;
     transition: .5s;
 }
-.bottomicon{
-       margin-top: 15px;
+
+.bottomicon {
+    margin-top: 15px;
 
 }
 
@@ -2578,7 +2582,8 @@ button:active {
     top: 50%;
     right: 0;
     transform: translateY(-50%);
-    z-index: 1000; /* Ensure it's above other content */
+    z-index: 1000;
+    /* Ensure it's above other content */
 }
 
 .whatsapp-arrow {
@@ -2596,10 +2601,10 @@ button:active {
 .whatsapp-icon {
     position: absolute;
     top: 50%;
-    right: -86px; /* Adjust this value as needed to hide the icon */
+    right: -86px;
     transform: translateY(-50%);
     opacity: 0;
-    pointer-events: none; /* Ensure button doesn't interfere with arrow hover */
+    pointer-events: none;
 }
 
 .icon-of-whatsapp {
@@ -2610,20 +2615,22 @@ button:active {
     animation: pulse 1.5s infinite;
 }
 
-@keyframes pulse {
+@keyframes main {
     0% {
         transform: scale(0.9);
     }
+
     50% {
         transform: scale(1);
     }
+
     100% {
         transform: scale(0.9);
     }
 }
 
 /* Hover effect to show the icon */
-.whatsapp-arrow:hover + .whatsapp-icon {
+.whatsapp-arrow:hover+.whatsapp-icon {
     right: 0;
     opacity: 1;
 }
@@ -2632,4 +2639,3 @@ button:active {
 .whatsapp-icon:hover {
     opacity: 1;
 }
-
