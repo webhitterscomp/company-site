@@ -79,32 +79,47 @@ document.addEventListener("DOMContentLoaded", function () {
     updateCount();
   });
 });
-
 document.addEventListener('DOMContentLoaded', function () {
-
   var sliderContainer = document.querySelector('.slider-container');
   var slides = sliderContainer.children;
   var slideCount = slides.length;
   var slideWidth = slides[0].offsetWidth;
-  var slideDuration = 3000;
+  var slideDuration = 5000;
   var currentIndex = 0;
   var intervalId;
-
+  var stopSlideId = 'stopSlide'; 
   function autoSlide() {
     intervalId = setInterval(function () {
       currentIndex = (currentIndex + 1) % slideCount;
-      sliderContainer.style.transition = 'transform 1s ease-in-out';
-      sliderContainer.style.transform = 'translateX(' + (-currentIndex * slideWidth) + 'px)';
+      moveSlide(currentIndex);
+      if (slides[currentIndex].id === stopSlideId) {
+        clearInterval(intervalId);
+        setTimeout(function () {
+          currentIndex = 0;
+          moveSlide(currentIndex);
+          autoSlide(); 
+        }, slideDuration);
+      }
     }, slideDuration);
   }
-  autoSlide();
+
+  function moveSlide(index) {
+    sliderContainer.style.transition = 'transform 0.3s ease-in-out';
+    sliderContainer.style.transform = 'translateX(' + (-index * slideWidth) + 'px)';
+  }
+
+  autoSlide(); 
   sliderContainer.addEventListener('mouseenter', function () {
     clearInterval(intervalId);
   });
+
   sliderContainer.addEventListener('mouseleave', function () {
-    autoSlide();
+    if (slides[currentIndex].id !== stopSlideId) {
+      autoSlide();
+    }
   });
 });
+
 const form = document.getElementById('form-container');
 const enrollBtn = document.querySelector('.btn-div');
 const closeButton = document.getElementById('close-button');
@@ -118,35 +133,12 @@ closeButton.addEventListener('click', toggleForm);
 
 
 // =========================icon=======================
+// JavaScript to control the zoom in and zoom out effect on click
+const iconContainer = document.querySelector('.custom-icon-container');
+const customIcon = document.querySelector('.custom-icon');
 
-document.addEventListener('DOMContentLoaded', function() {
-  var customIconContainer = document.querySelector('.custom-icon-container');
-
-  function showCustomIcon() {
-    customIconContainer.style.right = '0';
-    customIconContainer.style.opacity = '1';
-
-    // Auto-hide after 5 seconds
-    setTimeout(function() {
-      hideCustomIcon();
-    }, 5000); // 5000 milliseconds = 5 seconds
-  }
-
-  function hideCustomIcon() {
-    customIconContainer.style.right = '-100px'; // Assuming hiding off screen to the right
-    customIconContainer.style.opacity = '0';
-  }
-
-  var didScroll = false;
-  window.onscroll = function() {
-    didScroll = true;
-  };
-
-  setInterval(function() {
-    if (didScroll) {
-      didScroll = false;
-      showCustomIcon();
-    }
-  }, 250);
+customIcon.addEventListener('click', function() {
+    iconContainer.classList.toggle('zoom-in');
+    iconContainer.classList.toggle('zoom-out');
 });
 
