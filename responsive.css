@@ -115,8 +115,9 @@
     }
 
     .herosection2-img {
-        max-width: 100%;
+        meightwidth: 100%;
     }
+ 
 
     .h2-of-herosection2 {
         font-size: larger;
@@ -125,6 +126,7 @@
 
     .main-p-of-herosection {
         font-size: small;
+        width: 100%;
     }
 
     .h3-text-of-number-div {
@@ -234,6 +236,7 @@
 
     .h1-of-job-section {
         font-size: medium;
+        width:543px;
     }
 
     .point-div {
@@ -245,7 +248,9 @@
         flex-wrap: wrap
     }
 
-
+    .tool-bg-item-div{
+        flex-direction: column;
+    }
 
     /* =====================important============================================ */
     .from-section2 {
@@ -269,7 +274,7 @@
     }
 
     .form-section1 {
-        width: 90%;
+        width: 350px;
         height: 400px;
     }
 
@@ -307,6 +312,10 @@
     .about-of-zirakpur {
         flex-direction: column;
     }
+    .p-of-questions-section{
+        margin: 10px 10px;
+        text-align: justify;
+    }
 
     .footer-div {
         flex-direction: column;
@@ -322,6 +331,9 @@
         align-items: center;
         justify-content: center;
         margin-top: 50px;
+    }
+    .footer-second-div h3{
+        margin-top: 0px;
     }
 
     .foooter-first-divm,
@@ -346,6 +358,7 @@
 
     .first-question1 {
         width: 323px;
+        height: 89px;
     }
 
     .question-main-section {
@@ -552,6 +565,10 @@
 
     .about-p {
         text-align: justify;
+        /* width: 100%; */
+    }
+    .text-box-of-aboutzirkapur{
+        width: 100%;
     }
 
     .amount-pic {
@@ -566,9 +583,12 @@
     .text-of-first-footer {
         text-align: center;
     }
-
+    .our-courses-section{
+        margin-top: 0px;
+    }
     .our-courses-section p {
         font-size: larger;
+        /* margin-top: 0px; */
     }
 
     .text {
@@ -666,7 +686,7 @@
     }
 
     .slider-container {
-        overflow-x: auto;
+        /* overflow-x: auto; */
         scrollbar-width: none;
         -ms-overflow-style: none;
         -webkit-overflow-scrolling: touch;
@@ -674,9 +694,10 @@
     }
 
     .snip1139 {
-        min-width: 150px;
+        /* min-width: 150px; */
         max-width: calc(100% - 20px);
-        margin: 10px;
+        margin: 25px;
+        width: 300px;
     }
 
     .snip1139 img {
@@ -688,6 +709,7 @@
     .snip1139 blockquote {
         padding: 15px;
         font-size: 0.7em;
+        width: 200px;
     }
 
     .snip1139 .author {
@@ -735,7 +757,7 @@
         text-align: center;
     }
      .tool-slider{
-        width: 124px !important;
+        width: 115px !important;
         margin-right: 3px;
      }
 
@@ -746,6 +768,10 @@
     html {
         font-size: small;
     }
+    .herosection2-img img {
+        height: 509px;
+    }
+
 
     .p-of-courses {
         font-size: 9px;
@@ -783,10 +809,10 @@
 
     /* ===========================================Courses price========================== */
 
-    .img1-div-of-price img {
+    /* .img1-div-of-price img {
         height: 294px;
         width: 300px;
-    }
+    } */
 
     .bo1-of-from form input {
         width: 300px;
@@ -798,6 +824,7 @@
 
     .form-section1 {
         width: 50%;
+        
     }
 
     .from-section2 {
@@ -815,6 +842,7 @@
 
     .form-section {
         margin-top: 0px;
+        gap: 30px;
     }
 
     .box1-of-herosection {
@@ -838,6 +866,8 @@
 
     .h1-of-job-section {
         font-size: small;
+        width: fit-content;
+        
 
     }
 
@@ -889,6 +919,7 @@
 
     .main-p-of-herosection {
         font-size: small;
+        width: 462px;
     }
 
     .h1-of-courses {
@@ -933,7 +964,12 @@
     .cebter-div-of-btn-section {
         margin: 0px 0px;
     }
-
+    .img-of-tool-pic{
+        width: 200px;
+    }
+    .main-class-of-tool-pic{
+        margin-right: 0px;
+    }
     /* ==================================slider======================== */
 
     .tool-slider {
@@ -987,6 +1023,10 @@
     /* ================ about sectin================= */
     .about-p {
         font-size: 9px;
+        margin: 10px 0px;
+    }
+    .zirkapur-img{
+        height: 250px;
     }
        /* ========================== whatsapp=================== */
        .custom-container{
@@ -995,5 +1035,14 @@
     /* ===========================office pic========================== */
     .job-section{
       gap: 10px;
+    }
+
+
+    /* ==========================coures section========================== */
+    .img-of-box {
+        width: fit-content;
+    }
+    .course-box1-p1{
+        width: fit-content;
     }
 }
