@@ -236,7 +236,9 @@
 
     .h1-of-job-section {
         font-size: medium;
-        width:543px;
+        /* width:543px;
+         */
+         width: fit-content;
     }
 
     .point-div {
@@ -759,6 +761,10 @@
      .tool-slider{
         width: 115px !important;
         margin-right: 3px;
+     }
+     .herosection2-img img{
+        height: fit-content;
+        width: fit-content;
      }
 
 
