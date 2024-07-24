@@ -111,7 +111,7 @@ a {
     text-align: center;
     margin: 0 10px;
     border-radius: 50%;
-    padding: 6px;
+    padding: 9px;
     box-sizing: border-box;
     text-decoration: none;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
@@ -329,7 +329,7 @@ nav ul li a {
     justify-content: center;
     position: relative;
     top: -100px;
-    margin-right: 20px;
+    margin-right: 50px;
     margin-top: 30px;
     justify-content: center;
     align-items: center;
@@ -2621,8 +2621,8 @@ footer {
 #form-container {
     display: none;
     position: fixed;
-    top: 100px;
-
+    top: 50px;
+height: 680px;
     transition: transform 1s ease-in-out 0s;
     transform-origin: top;
     background-color: #EBECF0;
