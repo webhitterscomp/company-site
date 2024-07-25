@@ -58,27 +58,44 @@ questions.forEach((question, index) => {
 document.addEventListener("DOMContentLoaded", function () {
   const counters = document.querySelectorAll('.numberdiv h1');
   const speed = 1000;
+  let maxTarget = 0;
+  let completedCounters = 0;
+
+  // Find the maximum target value to determine when all counters should stop
+  counters.forEach(counter => {
+    const target = +counter.getAttribute('data-target');
+    if (target > maxTarget) {
+      maxTarget = target;
+    }
+  });
 
   counters.forEach(counter => {
-    const updateCount = () => {
-      const target = +counter.getAttribute('data-target');
-      const count = +counter.innerText;
+    const target = +counter.getAttribute('data-target');
+    const increment = target / speed;
 
-      const increment = target / speed;
+    const updateCount = () => {
+      let count = +counter.innerText;
 
       if (count < target) {
         counter.innerText = Math.ceil(count + increment);
-        setTimeout(updateCount, 1);
+        setTimeout(updateCount, speed / maxTarget);
       } else {
         counter.innerText = target;
+        completedCounters++;
+
+        // Check if all counters have completed
+        if (completedCounters === counters.length) {
+          // console.log("All counters have finished counting.");
+          // Optionally, you can trigger additional actions here
+        }
       }
     };
 
-    counter.setAttribute('data-target', counter.innerText);
     counter.innerText = '0';
     updateCount();
   });
 });
+ 
 document.addEventListener('DOMContentLoaded', function () {
   var sliderContainer = document.querySelector('.slider-container');
   var slides = sliderContainer.children;

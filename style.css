@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,500,700);
+@import url(https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap);
 
 * {
     padding: 0;
@@ -10,6 +11,18 @@
  
 
 }
+.tangerine-regular {
+    font-family: "Tangerine", cursive;
+    font-weight:bolder;
+    font-style: normal;
+  }
+  
+  /* .tangerine-bold {
+    font-family: "Tangerine", cursive;
+    font-weight: 700;
+    font-style: normal;
+  } */
+  
 
 @font-face {
     font-family: "RecoletaAlt";
@@ -528,7 +541,6 @@ h3 {
 }
 
 .herosection-div-of-text {
-
     max-width: 50%;
     text-align: center;
     height: 9.375rem;
@@ -746,30 +758,33 @@ span {
 }
 
 .Courses-section {
-    /* background-image: url(./bg-new.png);
-    background-size: 100% 100%; */
+    background-image: url(./bg\ \(31\).jpg);
+    background-size: 100% 100%;
   
     /* opacity: 0.8; */
     /* filter: blur(8px); */
     /* filter: blur(15px) */
      background-blend-mode: color-burn;
      background-repeat: no-repeat;
-    width: 90%;
-    margin-top: 20px;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+   max-width: 95%;
+    margin-top: 50px;
+    /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     /* background-color: #fffbfb; */
-    padding-top: 20px;
+    /* padding-top: 20px; */
     border-radius: 10px;
+   
 }
 
 .p-of-courses {
     text-align: center;
-    width: 80%;
-    margin-top: 20px;
+    /* width: 80%; */
+ width: 1200px;
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 .main-course-box{
@@ -860,7 +875,7 @@ span {
 
 .button-img {
     /* width: 100vw; */
-    margin-top: 50px;
+    margin-top: 10px;
     background-image: url(./Best\ SEO\ Courses\ in\ Zirakpur.png);
     height: 660px;
     background-repeat: no-repeat;
@@ -1022,10 +1037,20 @@ code {
 }
 
 .main-div-of-Explore {
+   
+    
     display: flex;
     align-items: center;
     justify-content: center;
     max-width: 100%;
+}
+.Explore-section-h4{
+    font-size: 46px;
+    margin-bottom: 10px;
+    font-family: "Tangerine", cursive;
+    font-weight: 700;
+    color: #dd4b39;
+    margin-bottom: 27px;
 }
 
 .Explore-section {
@@ -1036,17 +1061,29 @@ code {
     margin-top: 58px;
     max-width: 100%;
 }
+.main-div-of-explore-box{
+    background-image: url(./bg\ \(31\).jpg);
+    background-size: 100% 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    width: 90%;
+    border-radius: 15px ;
+
+  
+}
 
 .Explore-section-div-of-p {
     margin-top: 20px;
     text-align: center;
-    width: 90%;
+    /* width: 90%; */
+    width: 1064px;
+    margin: 10px 10px;
 }
 
 .Explore-section-p {
-    margin-top: 20px;
-    font-size: 40px;
-    font-weight: bolder;
+    /* margin-top: 20px; */
+    /* font-size: 40px; */
+    /* font-weight: bolder; */
 }
 
 .Explore-section-box {
@@ -1275,7 +1312,7 @@ code {
 .point-div {
     display: flex;
     gap: 36px;
-    margin-top: 27px;
+    margin-top: 30px;
 }
 
 .h1-of-job-section {
@@ -1322,13 +1359,16 @@ code {
 }
 
 .country-section {
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    
+    background-image: url(./bg\ \(31\).jpg);
+    background-size: 100% 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     margin-top: 50px;
-    max-width: 90%;
+    max-width: 95%;
     height: 165px;
     border-radius: 15px;
 }
@@ -1337,6 +1377,9 @@ code {
     text-align: center;
     margin-top: 15px;
     line-height: 1.5rem;
+    width: 72.831rem;
+    margin: 10px 10px;
+    padding: 10px
 }
 
 .slider {
@@ -1364,8 +1407,8 @@ code {
     align-items: center;
     gap: 50px;
     flex-direction: column;
-    height: 650px;
-    margin-top: 50px;
+    /* height: 650px; */
+    margin-top: 25px;
 }
 
 .h1-of-SEO-tool {
@@ -1374,20 +1417,29 @@ code {
 
 .placements-h1-p {
     border-radius: 15px;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    margin-top: 180px;
+    /* margin-top: 160px; */
     text-align: center;
-    max-width: 90%;
-    height: 9.188rem;
-    height: 300px;
+    /* max-width: 90%; */
+    background-image: url(./bg\ \(31\).jpg);
+    background-size: 100% 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+    /* height: 300px; */
 }
 
 .placement-of-p {
-    color: black;
-    font-weight: bold;
+  margin-top: 20px  ;
+  font-size: 46px;
+    font-weight:bolder;
+    text-align: center;
+    font-family: "Tangerine", cursive;
+
+    color: #dd4b39;
 }
 
 .placements-h1-p2 {
+    text-align: center;
+    width: 1140px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -1402,8 +1454,8 @@ code {
     align-items: center;
     justify-content: center;
     gap: 174px;
-    height: fit-content;
-    margin-top: 50px;
+    height:620px;
+    margin-top: 66px;
 
 }
 
@@ -1415,7 +1467,7 @@ code {
     max-width: 48%;
     text-align: center;
     margin-top: -172px;
-    width: 800px;
+    width: 1000px;
     /* height: 500px; */
 }
 
@@ -1433,7 +1485,7 @@ code {
 .p2-of-placement {
     text-align: justify;
     line-height: 1.5rem;
-    padding: 10px;
+    padding: 23px;
 }
 
 .h1-of-placement {
@@ -1678,23 +1730,27 @@ code {
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-top: 106px;
+    margin-top: 118 px;
+    margin-bottom: 37px;
 }
 
 .SEO-tool {
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    background-image: url(./bg\ \(31\).jpg);
+    background-size: 100% 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     max-width: 90%;
+    margin-top: -80px;
 }
 
 .p-of-SEO-tool {
-    margin-top: 20px;
     line-height: 1.5rem;
-    margin-bottom: 20px;
+    width: 1150px;
+    margin: 10px 8px;
 }
 
 /* =========================slider of tool================================== */
@@ -1741,11 +1797,13 @@ code {
 }
 
 .certifications-section {
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    background-image: url(./bg\ \(31\).jpg);
+    background-size: 100% 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 15px;
     text-align: center;
     max-width: 90%;
-    margin-top: 44px;
+    margin-top: 40px;
 }
 
 .main-tool-bg-item-div{
@@ -1806,20 +1864,24 @@ code {
     margin-right: 20px;
 }
 .p-certifications-section {
-    margin: 20px 20px;
+    margin: 10px 10px;
     line-height: 1.5rem;
+    width: 1138px;
 }
 
 .main-div-of-scholar-section {
 
-    margin-top: 30px;
+    /* margin-top: 30px; */
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 .scholar-section {
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    background-image: url(./bg\ \(31\).jpg);
+    background-size: 100% 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 15px;
     display: flex;
     align-items: center;
@@ -1842,11 +1904,11 @@ code {
     /* background-repeat: no-repeat;
     background-size: cover; */
     /* height: 400px; */
-    /* width: 500px; */
+    width: 527px;
 }
 .img-of-pic{
     display: block;
-    width: 100%;
+    width: 500px;
     height: 580px;
     margin-top: -120px;
 }
@@ -2007,9 +2069,10 @@ code {
 }
 
 .p-of-scholar-section {
-    margin-top: 20px;
+     margin: 10px 10px;
     line-height: 1.5rem;
-    margin-bottom: 21px;
+
+    width: 1165px;
 }
 
 
@@ -2059,7 +2122,7 @@ code {
     align-items: center;
     justify-content: center;
     margin-top: 40px;
-    
+    gap: 20px;
 }
 
 .bo1-of-from {
@@ -2072,7 +2135,7 @@ code {
 }
 
 .form-section1 {
-    width: 35%;
+    width: 36%;
     height: 523px;
     background-color: #1E1810;
     display: flex;
@@ -2176,9 +2239,12 @@ code {
     justify-content: center;
     flex-direction: column;
     max-width: 90%;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    background-image: url(./bg\ \(31\).jpg);
+    background-size: 100% 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 15px;
-    margin-top: 25px;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 /* Main Section Styles */
@@ -2196,8 +2262,10 @@ code {
 }
 
 .p-of-questions-section {
+    width: 1165px;
     margin-top: 20px;
     line-height: 1.5rem;
+    margin: 10px 10px;
 }
 
 /* Question Section Styles */
@@ -2225,10 +2293,11 @@ code {
 }
 
 .first-question1 {
-    height: 50px;
+    border: 1px solid #d5d8dc;
+    height: 66px;
     width: 566px;
     text-align: left;
-    background: #dff0fc;
+    background: #f8f5f4;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -2264,7 +2333,7 @@ code {
 }
 
 hr {
-    margin-top: 5px;
+   
 }
 
 .main-div-of-aboutzirkapur {
@@ -2306,12 +2375,14 @@ hr {
     flex-direction: column;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     width: 800px;
+    border-radius: 10px;
 }
 
 .about-p {
     text-align: justify;
     max-width: 90%;
     line-height: 1.6rem;
+    margin: 10px 10px;
 }
 
 
@@ -2875,4 +2946,4 @@ button:active {
       transform: scale(1.2);
     }
   }
-  
+  /* */
