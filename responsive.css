@@ -635,9 +635,6 @@
         padding-top: 20px;
     }
 
-    .slide {
-        /* width: 100%; */
-    }
 
     .slide1 {
         flex-wrap: wrap;
@@ -801,6 +798,11 @@
         width: fit-content;
      }
 
+
+     /* =======================================drop=down=================== */
+     /* .dropdown-menu{
+        position: absolute;
+     } */
 
 }
 

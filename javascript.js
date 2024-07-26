@@ -158,4 +158,3 @@ customIcon.addEventListener('click', function() {
     iconContainer.classList.toggle('zoom-in');
     iconContainer.classList.toggle('zoom-out');
 });
-
