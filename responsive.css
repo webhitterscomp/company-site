@@ -1,4 +1,5 @@
-@media (max-width: 768px) {
+
+@media (max-width: 600px) {
     .email-btn {
         display: none !important;
     }
@@ -16,7 +17,7 @@
         max-height: 100vh;
         padding: 0px 0px;
         box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-        
+
     }
 
     .nav-upper-div button {
@@ -105,9 +106,12 @@
         margin-left: 0px;
         margin-top: 14px;
     }
-
+    .main-herosection2{
+        margin-top: -51px;
+    }
     .herosection2 {
         flex-direction: column;
+        gap: 20px;
     }
 
     .herosection-div-of-text {
@@ -117,10 +121,10 @@
     }
 
     .herosection2-img {
-    max-width: 100%;
-    height: fit-content;
+        max-width: 100%;
+        height: fit-content;
     }
- 
+
 
     .h2-of-herosection2 {
         font-size: larger;
@@ -129,7 +133,8 @@
 
     .main-p-of-herosection {
         font-size: small;
-        width: 100%;
+        margin: 10px 10px;
+
     }
 
     .h3-text-of-number-div {
@@ -172,13 +177,19 @@
     .course-box {
         flex-direction: column;
         height: fit-content;
+        margin-top: 5px;
     }
 
     .Explore-section-box {
         flex-wrap: wrap;
     }
+    
+    .Explore-section{
+        margin-top: 20px;
+    }
 
     .Explore-section-h4 {
+        margin: 10px 10px;
         text-align: center;
         font-size: larger;
     }
@@ -187,6 +198,9 @@
 
         width: fit-content;
 
+    }
+    .Courses-section{
+        margin-top: 43px;
     }
 
     .p-of-courses {
@@ -204,6 +218,7 @@
 
     .abount-div {
         flex-direction: column;
+        margin-top: 20px;
     }
 
     .div-of-center-box-h3 {
@@ -212,7 +227,7 @@
 
     .box-of-placements {
         flex-direction: column;
-        margin-top: 37px;
+        margin-top: -20px;
         height: fit-content;
     }
 
@@ -226,15 +241,18 @@
         display: none;
     }
 
-    .main-div-certifications-section {
-        margin-top: 30px;
+  
+
+    .slides-of-too {
+        display: none;
     }
-    .p-of-scholar-section{
+
+    .p-of-scholar-section {
         width: 100%;
     }
 
     .main-div-of-scholar-section {
-        margin-top: 30px;
+        /* margin-top: 30px; */
     }
 
     .main-box-of-placements {
@@ -242,26 +260,34 @@
         max-width: 100%;
     }
 
- 
+
 
     .h1-of-job-section {
         font-size: medium;
         /* width:543px;
          */
-         width: fit-content;
+        margin: 10px 10px;
+        width: fit-content;
     }
 
     .point-div {
         flex-direction: column;
         gap: 0px;
+        margin-top: 0px;
+    }
+
+    .icon-flex-div-of-text {
+        margin: 10px 10px;
     }
 
     .job-section {
-        flex-wrap: wrap
+        flex-wrap: wrap;
+        gap: 10px;
     }
 
-    .tool-bg-item-div{
+    .tool-bg-item-div {
         flex-direction: column;
+        margin-top: 30px;
     }
 
     /* =====================important============================================ */
@@ -325,7 +351,11 @@
         flex-direction: column;
     }
     .p-of-questions-section{
-   padding: 10px 10px;
+        margin: 27px 10px;
+    }
+
+    .p-of-questions-section {
+        padding: 10px 10px;
         text-align: justify;
         width: 100%;
     }
@@ -338,7 +368,8 @@
     .question-main-section {
         flex-direction: column;
     }
-    .first-question-p{
+
+    .first-question-p {
         width: 300px;
     }
 
@@ -348,10 +379,12 @@
         justify-content: center;
         margin-top: 50px;
     }
-    .footer-second-div h3{
+
+    .footer-second-div h3 {
         margin-top: 0px;
     }
-    .text-of-first-footer h3{
+
+    .text-of-first-footer h3 {
         padding-top: 0px;
     }
 
@@ -373,6 +406,7 @@
     .question-section-main-div {
         flex-direction: column;
         margin-top: 20px;
+        margin-bottom: 0px;
     }
 
     .first-question1 {
@@ -405,6 +439,10 @@
         width: 400px;
     }
 
+    .main-div-of-explore-box {
+        margin: 10px 10px;
+    }
+
     .Explore-section-p {
         font-size: larger;
         margin: 10px 10px;
@@ -421,7 +459,8 @@
         padding: 10px 10px;
         width: 100%;
     }
-    .SEO-tool{
+
+    .SEO-tool {
         margin-top: 37px;
     }
 
@@ -443,22 +482,24 @@
     .course-box1 {
         margin-top: 50px;
     }
-
+    .main-job-section{
+        margin-top: 36px;
+    }
     /* =================================review section-of-company=================== */
-    .text-of-this-section {
+    /* .text-of-this-section {
         font-size: smaller;
         width: 100%;
-    }
+    } */
 
     .main-section-of-bg {
         flex-direction: column;
     }
 
     .text-of-this-section h1 {
-   
-        font-size: larger;
+
+        font-size: small;
         text-align: center;
-      
+        /* width: 100%; */
         margin: 10px 10px;
     }
 
@@ -468,6 +509,9 @@
 
     .button-img {
         flex-direction: column;
+        background-image: url(./Best\ Digital\ Marketing\ Training\ in\ Dera\ Bassi.jpg);
+        background-size: 100% 100%;
+        height: fit-content;
     }
 
     .buttons {
@@ -481,7 +525,8 @@
         height: 3.4rem;
         width: 160px;
         font-size: 18px;
-        margin-top: 105px;
+        margin: 5px 10px;
+        /* margin-top: 105px; */
     }
 
     .button-section1 {
@@ -503,13 +548,15 @@
         text-align: center;
         font-size: medium;
         height: fit-content;
-      
+
         margin: 10px 10px;
     }
-    .placements-h1-p2{
+
+    .placements-h1-p2 {
         width: 100%;
         text-align: justify;
         padding: 10px 10px;
+        margin: 0px 0px;
     }
 
     .placements-section {
@@ -519,6 +566,7 @@
 
     .placements-h1-p h1 {
         font-size: medium;
+        margin: 10px 10px;
     }
 
     .h1-of-placement {
@@ -582,12 +630,13 @@
         margin-top: -40px;
     }
 
-    .main-questions-section {
-        margin-top: 40px;
+    .img-of-world {
+        margin-top: 30px;
+        width: 100%;
     }
 
-    .img-of-world {
-        width: 100%;
+    .placement-of-p {
+        font-size: medium;
     }
 
     .text-section-of-job {
@@ -595,6 +644,7 @@
     }
 
     .country-section {
+        margin: 10px 10px;
         height: fit-content;
         text-align: center;
     }
@@ -603,7 +653,8 @@
         text-align: justify;
         /* width: 100%; */
     }
-    .text-box-of-aboutzirkapur{
+
+    .text-box-of-aboutzirkapur {
         width: 100%;
     }
 
@@ -619,9 +670,11 @@
     .text-of-first-footer {
         text-align: center;
     }
-    .our-courses-section{
+
+    .our-courses-section {
         margin-top: 0px;
     }
+
     .our-courses-section p {
         font-size: larger;
         /* margin-top: 0px; */
@@ -657,7 +710,7 @@
         flex-wrap: wrap;
     }
 
-  
+
 
     .tool-slider1 {
         margin-top: 20px;
@@ -677,7 +730,8 @@
         margin-top: 20px;
         width: 100px;
     }
-    .review-of-company{
+
+    .review-of-company {
         margin-left: 20px;
     }
 
@@ -700,6 +754,7 @@
 
     .main-section-of-company-review {
         background-image: none;
+        margin-top:20px ;
     }
 
     .cebter-div-of-btn-section {
@@ -719,12 +774,18 @@
         align-items: center;
     }
 
+    .slider {
+        /* display: none; */
+        max-width: 100vw !important;
+    }
+
     .slider-container {
         /* overflow-x: auto; */
         scrollbar-width: none;
         -ms-overflow-style: none;
         -webkit-overflow-scrolling: touch;
         height: 400px;
+        margin-top: 22px;
     }
 
     .snip1139 {
@@ -765,8 +826,11 @@
         justify-content: center;
         text-align: center;
     }
+    .view-more-btn{
+        margin-top: 0px;
+    }
 
-   
+
 
     .herosection::before {
         background-image: url(./banner-Mobile-View.jpg);
@@ -779,30 +843,36 @@
     .img1-div-of-price img {
         height: fit-content;
         margin-top: 10px;
+        width: fit-content;
     }
 
     /* ========================== whatsapp=================== */
-    .custom-container{
+    .custom-container {
         top: 80%;
     }
+
     /* ===========================about text================= */
-    .bootem-text-of-footer p{
+    .bootem-text-of-footer p {
         text-align: center;
     }
-     .tool-slider{
-        width: 90px !important;
-        margin-right: 27px;
-     }
-     .herosection2-img img{
+
+    .tool-slider {
+        width: 100px !important;
+        height: 90px;
+     margin: 2px 2px;
+
+    }
+
+    .herosection2-img img {
         height: fit-content;
         width: fit-content;
-     }
+    }
+    iframe{
+        margin-top: 30px;
+    }
 
 
-     /* =======================================drop=down=================== */
-     /* .dropdown-menu{
-        position: absolute;
-     } */
+    /* =======================================drop=down=================== */
 
 }
 
@@ -810,8 +880,18 @@
     html {
         font-size: small;
     }
+
     .herosection2-img img {
-        height: 509px;
+        /* height: 509px; */
+       height: fit-content;
+       width: 100vw;
+    }
+    .herosection2{
+        flex-direction: column-reverse;
+    }
+    .herosection-div-of-text{
+       max-width: 100%;
+        margin: 10px 10px;
     }
 
 
@@ -866,7 +946,7 @@
 
     .form-section1 {
         width: 50%;
-        
+
     }
 
     .from-section2 {
@@ -894,9 +974,10 @@
     .img-of-world {
         width: fit-content;
     }
-.main-SEO-tool-section{
-    margin-top: 10px;
-}
+
+    .main-SEO-tool-section {
+        margin-top: 10px;
+    }
 
 
     /* =====================form==================== */
@@ -912,7 +993,7 @@
     .h1-of-job-section {
         font-size: small;
         width: fit-content;
-        
+
 
     }
 
@@ -927,6 +1008,10 @@
 
     .herosection {
         width: 100vh;
+    }
+    .herosection2{
+        display: flex;
+        flex-direction: column !important;
     }
 
     .first-p-of-herosection2 {
@@ -964,7 +1049,8 @@
 
     .main-p-of-herosection {
         font-size: small;
-        width: 462px;
+        /* width: 462px; */
+
     }
 
     .h1-of-courses {
@@ -991,7 +1077,7 @@
     }
 
     .text-of-this-section {
-        width: 100%;
+        /* width: 100%; */
 
     }
 
@@ -999,6 +1085,7 @@
         margin-top: 0px;
         text-align: center;
         margin-left: 0px;
+        width: 100vw;
 
     }
 
@@ -1009,12 +1096,15 @@
     .cebter-div-of-btn-section {
         margin: 0px 0px;
     }
-    .img-of-tool-pic{
+
+    .img-of-tool-pic {
         width: 200px;
     }
-    .main-class-of-tool-pic{
+
+    .main-class-of-tool-pic {
         margin-right: 0px;
     }
+
     /* ==================================slider======================== */
 
     .tool-slider {
@@ -1029,7 +1119,7 @@
 
     .tool-slider1 {
         height: 120px;
-        width: 256px !important;
+        width: 240px !important;
     }
 
     .tool-slider1 p {
@@ -1037,7 +1127,7 @@
     }
 
     /* ====================company review section================ */
-    .img-of-review-section-main{
+    .img-of-review-section-main {
         background-size: 100% 100%;
     }
 
@@ -1063,7 +1153,7 @@
 
     .p-of-SEO-tool {
         font-size: 9px;
-        
+
     }
 
     /* ================ about sectin================= */
@@ -1071,16 +1161,19 @@
         font-size: 9px;
         margin: 10px 0px;
     }
-    .zirkapur-img{
+
+    .zirkapur-img {
         height: 250px;
     }
-       /* ========================== whatsapp=================== */
-       .custom-container{
+
+    /* ========================== whatsapp=================== */
+    .custom-container {
         top: 80%;
     }
+
     /* ===========================office pic========================== */
-    .job-section{
-      gap: 10px;
+    .job-section {
+        gap: 10px;
     }
 
 
@@ -1088,7 +1181,8 @@
     .img-of-box {
         width: fit-content;
     }
-    .course-box1-p1{
+
+    .course-box1-p1 {
         width: fit-content;
     }
 }
