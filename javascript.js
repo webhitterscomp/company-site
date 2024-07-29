@@ -225,7 +225,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var slides = sliderContainer.children;
   var slideCount = slides.length;
   var slideWidth = slides[0].offsetWidth;
-  var slideDuration = 3000;
+  var slideDuration = 2000;
   var currentIndex = 0;
   var intervalId;
   var stopSlideId = 'stopSlide'; 
