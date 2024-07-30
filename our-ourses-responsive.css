@@ -1,0 +1,142 @@
+@media (max-width: 600px) {
+/* =============img-of-workers-======================================== */
+.child-div-of-our-section{
+    flex-direction: column;
+}   
+.our-box-one-section{
+   
+  max-width: 100%;
+}
+.our-box-one-section h1{
+   
+  text-align: center;
+}
+.apply-now-btn{
+ top: 0px;
+ left: 0px;
+ margin: 10px 10px;
+}
+.hero-section-second-h1{
+    width: fit-content;
+    font-size: larger;
+    width: 100%;
+   
+    
+}
+.outerline-box-of-heading h1{
+    font-size: larger;
+}
+
+.our-outerline-box-of-heading{
+    flex-direction: column;
+    gap: 20px;
+}
+.our-main-img{
+    flex-direction: column;
+    gap: 10px;
+}
+.our-main-images img{
+    width: 90%;
+    margin: 0px 0px;
+}
+.text-of-main-img{
+    max-width: 90%;
+}
+.text-of-main-img h2{
+    font-size: medium;
+}
+/* .main-our-div-of-img-text{
+    flex-direction: column;
+} */
+.seo-overview-od-img-text-div{
+    flex-direction: column;
+
+}
+.seo-course-overview{
+    max-width: 100%;
+}
+.seo-course-overview h1{
+    max-width: 100%;
+    font-size: medium;
+}
+.our-seo-overview-section img{
+    max-width: 100%;
+}
+
+.benifit-of-seo{
+    flex-direction: column;
+}
+.box1-of-benifit-of-seo p{
+    text-align: justify;
+}
+.our-career-div h1{
+    max-width: 100%;
+    font-size: medium;
+    text-align: center;
+
+}
+.box1-of-benifit-of-seo{
+    max-width: 100%;
+}
+.box1-of-benifit-of-seo h1{
+    max-width: 100%;
+    font-size: medium;
+    text-align: center;
+}
+.ans-of-benifit-of-seo{
+    max-width: 100%;
+}
+.our-career-div p{
+    width: fit-content;
+    text-align: justify;
+}
+.our-career-h2-p-div p{
+    width: fit-content;
+}
+.our-career-main-div{
+    flex-direction: column;
+    border-radius: 50px;
+}
+.our-career-h2-p-div h2{
+    text-align: center;
+}
+.section-of-job-in-our{
+    flex-direction: column;
+}
+.job-section-img-container img{
+    width: 90%;
+}
+
+.our-job-section-text{
+    width: 100%;
+}
+.our-job-section{
+    flex-direction: column;
+}
+.job-section-img-container{
+    width: 90%;
+}
+.certificate-text-section{
+    width: 100%;
+}
+.video-div{
+    flex-direction: column;
+}
+.video-div video{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.center-div-of-slider-heading h1{
+    font-size: medium;
+}
+}
