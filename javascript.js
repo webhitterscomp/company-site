@@ -260,18 +260,18 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 });
-
 const form = document.getElementById('form-container');
-const enrollBtn = document.querySelector('.btn-div');
+const enrollBtn = document.querySelectorAll('.btn-div');
 const closeButton = document.getElementById('close-button');
+const anotherButton = document.getElementById('another-button');  // New line for the additional button
 
 function toggleForm() {
   form.style.display = (form.style.display === 'none') ? 'block' : 'none';
 }
 
-enrollBtn.addEventListener('click', toggleForm);
+enrollBtn.forEach(button => button.addEventListener('click', toggleForm)); // Changed from querySelectorAll to forEach for multiple elements
 closeButton.addEventListener('click', toggleForm);
-
+anotherButton.addEventListener('click', toggleForm);  // Add event listener for the new button
 
 // =========================icon=======================
 // JavaScript to control the zoom in and zoom out effect on click
@@ -282,3 +282,4 @@ customIcon.addEventListener('click', function() {
     iconContainer.classList.toggle('zoom-in');
     iconContainer.classList.toggle('zoom-out');
 });
+// ========================seo==========

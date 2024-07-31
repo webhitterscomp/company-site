@@ -1,142 +1,358 @@
 @media (max-width: 600px) {
-/* =============img-of-workers-======================================== */
-.child-div-of-our-section{
-    flex-direction: column;
-}   
-.our-box-one-section{
-   
-  max-width: 100%;
-}
-.our-box-one-section h1{
-   
-  text-align: center;
-}
-.apply-now-btn{
- top: 0px;
- left: 0px;
- margin: 10px 10px;
-}
-.hero-section-second-h1{
-    width: fit-content;
-    font-size: larger;
-    width: 100%;
-   
-    
-}
-.outerline-box-of-heading h1{
-    font-size: larger;
-}
 
-.our-outerline-box-of-heading{
-    flex-direction: column;
-    gap: 20px;
-}
-.our-main-img{
-    flex-direction: column;
-    gap: 10px;
-}
-.our-main-images img{
-    width: 90%;
-    margin: 0px 0px;
-}
-.text-of-main-img{
-    max-width: 90%;
-}
-.text-of-main-img h2{
-    font-size: medium;
-}
-/* .main-our-div-of-img-text{
+    /* =============img-of-workers-======================================== */
+    .for-tab-viwe-our-section{
+      flex-direction: column;
+    }
+    .main-div-of-our-section {
+        margin-top: -40px;
+    }
+
+    .child-div-of-our-section {
+        flex-direction: column;
+        max-width: 95%;
+    }
+
+    .our-box-one-section {
+
+        max-width: 100%;
+    }
+
+    .our-box-one-section h1 {
+
+        text-align: center;
+    }
+
+    .img-container {
+        height: fit-content;
+        max-width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .img-container img {
+        height: fit-content;
+        max-width: 100%;
+
+    }
+
+    .apply-now-btn {
+        top: 0px;
+        left: 0px;
+        margin: 10px 10px;
+    }
+
+    .hero-section-second-h1 {
+        width: fit-content;
+        font-size: larger;
+        width: 100%;
+
+
+    }
+
+    .outerline-box-of-heading h1 {
+        font-size: larger;
+    }
+
+    .outerline-box-of-heading {
+        max-width: 95%;
+        margin-top: 30px;
+    }
+
+    .our-outerline-box-of-heading {
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    .our-main-img {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .our-main-images img {
+        max-width: 100%;
+        margin: 0px 0px;
+    }
+
+    .our-icon-or-text-div p {
+        font-size: medium;
+    }
+
+    .text-of-main-img {
+        max-width: 100%;
+    }
+
+    .text-of-main-img h2 {
+        font-size: large;
+    }
+
+    /* .main-our-div-of-img-text{
     flex-direction: column;
 } */
-.seo-overview-od-img-text-div{
-    flex-direction: column;
+    .seo-overview-od-img-text-div {
+        flex-direction: column;
+
+    }
+
+    .our-seo-overview-section video {
+        max-width: 90%;
+    }
+
+    .seo-course-overview {
+        margin-top: 30px;
+        max-width: 95%;
+    }
+
+    .seo-course-overview h1 {
+        max-width: 100%;
+        font-size: medium;
+    }
+
+    .our-seo-overview-section img {
+        max-width: 100%;
+    }
+
+    .main-div-benifit-of-seo {
+        margin-top: 30px;
+    }
+
+    .benifit-of-seo {
+        flex-direction: column;
+    }
+
+    .box1-of-benifit-of-seo p {
+        text-align: justify;
+    }
+
+    .our-career-div h1 {
+        max-width: 100%;
+        font-size: medium;
+        text-align: center;
+
+    }
+
+    .basic-concepts-div h1 {
+        font-size: medium;
+        text-align: center;
+    }
+
+    .box1-of-benifit-of-seo {
+        max-width: 100%;
+    }
+
+    .box1-of-benifit-of-seo h1 {
+        max-width: 100%;
+        font-size: medium;
+        text-align: center;
+    }
+
+    .ans-of-benifit-of-seo {
+        max-width: 100%;
+    }
+
+    .our-career-div p {
+        width: fit-content;
+        text-align: justify;
+    }
+
+    .our-career-h2-p-div p {
+        width: fit-content;
+    }
+
+    .our-career-main-div {
+        flex-direction: column;
+        border-radius: 50px;
+        max-width: 95%;
+        margin-top: 30px;
+    }
+
+    .our-career-h2-p-div h2 {
+        text-align: center;
+    }
+
+    .our-career-div {
+        max-width: 95%;
+    }
+
+    .main-section-of-job-in-our {
+        margin-top: 30px;
+    }
+
+    .section-of-job-in-our {
+        flex-direction: column;
+    }
+
+    .job-section-img-container img {
+        width: 100%;
+    }
+
+    .our-job-section-text {
+        width: 100%;
+    }
+
+    .main-our-job-section {
+        margin-top: 30px;
+    }
+
+    .our-job-section {
+        flex-direction: column;
+        max-width: 95%;
+        gap: 10px;
+    }
+
+    .certificate-container img {
+        /* height: fit-content; */
+        width: fit-content;
+    }
+
+    .job-section-img-container {
+        width: 90%;
+    }
+
+    .certificate-text-section {
+        width: 100%;
+    }
+
+    .certificate-text-section h3 {
+        font-size: medium;
+        max-width: 95%;
+    }
+
+
+    .video-div {
+        flex-direction: column;
+        max-width: 95%;
+    }
+
+    .video-div video {
+        max-width: 100%;
+    }
+
+
+    .section-of-vdo-story h1 {
+        font-size: medium;
+        text-align: center;
+    }
+
+    .center-div-of-slider-heading {
+        max-width: 95%;
+    }
+
+    .center-div-of-slider-heading h1 {
+        font-size: medium;
+    }
+
+    /* =================our==btn-seciton================ */
+    .main-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button-panel {
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .button-panel .btn {
+        font-size: 14px;
+    }
+
+    .display-container {
+        max-width: 100%;
+    }
+
+    .basic-concepts-div {
+        max-width: 95%;
+    }
+
 
 }
-.seo-course-overview{
-    max-width: 100%;
-}
-.seo-course-overview h1{
-    max-width: 100%;
-    font-size: medium;
-}
-.our-seo-overview-section img{
-    max-width: 100%;
-}
 
-.benifit-of-seo{
-    flex-direction: column;
-}
-.box1-of-benifit-of-seo p{
-    text-align: justify;
-}
-.our-career-div h1{
-    max-width: 100%;
-    font-size: medium;
-    text-align: center;
+@media (min-width: 760px) and (max-width: 1024px) {
+    .child-div-of-our-section {
+        flex-direction: column;
+        max-width: 95%;
+    }
 
-}
-.box1-of-benifit-of-seo{
-    max-width: 100%;
-}
-.box1-of-benifit-of-seo h1{
-    max-width: 100%;
-    font-size: medium;
-    text-align: center;
-}
-.ans-of-benifit-of-seo{
-    max-width: 100%;
-}
-.our-career-div p{
-    width: fit-content;
-    text-align: justify;
-}
-.our-career-h2-p-div p{
-    width: fit-content;
-}
-.our-career-main-div{
-    flex-direction: column;
-    border-radius: 50px;
-}
-.our-career-h2-p-div h2{
-    text-align: center;
-}
-.section-of-job-in-our{
-    flex-direction: column;
-}
-.job-section-img-container img{
-    width: 90%;
-}
+    .our-box-one-section {
+        max-width: 100%;
+    }
 
-.our-job-section-text{
+    .img-container {
+        max-width: 100%;
+    }
+
+    .img-container img {
+        width: fit-content;
+    }
+
+    .outerline-box-of-heading {
+        max-width: 95%;
+    }
+
+    .our-outerline-box-of-heading {
+        gap: 10px;
+    }
+
+    .newcontainer {
+        width: fit-content;
+    }
+
+    .seo-overview-od-img-text-div {
+        flex-direction: column;
+        max-width: 95%;
+    }
+
+    .our-main-img {
+        flex-direction: column;
+        max-width: 100%;
+        gap: 10px;
+    }
+
+    .text-of-main-img {
+        max-width: 100%;
+    }
+    .benifit-of-seo{
+        flex-direction: column;
+    }
+    .box1-of-benifit-of-seo{
+        max-width: 100%;
+    }
+    .ans-of-benifit-of-seo{
+        max-width: 100%;
+    }
+    .our-career-main-div{
+        flex-direction: column;
+        border-radius: 50px;
+        gap: 10px;
+    }
+    .our-career-h2-p-div h2{
+        text-align: center;
+    }
+    .our-career-h2-p-div p{
+        width: 95%;
+    }
+    .button-panel .btn{
+        width: 220px;
+    }
+   .section-of-job-in-our{
+    flex-direction:column    ;
+   }
+   .our-job-section-text{
     width: 100%;
-}
-.our-job-section{
+   }
+   .our-job-section{
     flex-direction: column;
-}
-.job-section-img-container{
-    width: 90%;
-}
-.certificate-text-section{
+   }
+   .certificate-text-section{
     width: 100%;
-}
-.video-div{
+   }
+   .for-tab-viwe-our-section{
     flex-direction: column;
-}
-.video-div video{
-    width: 100%;
-}
-
-
-
-
-
-
-
-
-
-
-
-.center-div-of-slider-heading h1{
-    font-size: medium;
-}
+    gap: 0px;
+  }
 }

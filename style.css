@@ -866,6 +866,9 @@ span {
     width: 265px;
     display: block;
 }
+.link-of-div a{
+    cursor: pointer;
+}
 
 .read-more-btn {
     display: flex;
@@ -2699,6 +2702,7 @@ footer {
     line-height: 1.6rem;
     margin-bottom: 30px;
     color: white;
+    text-align: justify;
 }
 
 .icon-div-of-time {
