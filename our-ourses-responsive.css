@@ -98,7 +98,7 @@
     }
 
     .our-seo-overview-section video {
-        max-width: 90%;
+        max-width: 95%;
     }
 
     .seo-course-overview {
@@ -167,6 +167,7 @@
         border-radius: 50px;
         max-width: 95%;
         margin-top: 30px;
+        gap: 10px;
     }
 
     .our-career-h2-p-div h2 {
@@ -347,6 +348,7 @@
    }
    .our-job-section{
     flex-direction: column;
+    gap: 20px;
    }
    .certificate-text-section{
     width: 100%;
