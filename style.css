@@ -2939,8 +2939,267 @@ button:active {
     margin: 0;
     flex: 1;
 }
+/* =================pop-up-form==================== */
+
+.title {
+    color: #d32f2f;
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    /* margin-top: 30px; */
+    text-align: center;
+  }
+  
+  .subtitle {
+    color: #333;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .input-group {
+    height: 50px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .input-firstname {
+    margin-top: 30px;
+  }
+  
+  .input-lastname {
+    margin-top: 30px;
+  }
+  
+  .input-email {
+    margin-top: 30px;
+  }
+  
+  .input-field {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-sizing: border-box;
+    color: #333;
+    font-size: 18px;
+    height: 100%;
+    outline: 0;
+    padding: 10px 20px;
+    width: 100%;
+  }
+  
+  .input-cut {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    height: 20px;
+    left: 20px;
+    position: absolute;
+    top: -20px;
+    transform: translateY(0);
+    transition: transform 200ms;
+    width: 50px;
+  }
+  
+  .input-cut-short {
+    width: 68px;
+
+  }
+  
+  .input-field:focus ~ .input-cut,
+  .input-field:not(:placeholder-shown) ~ .input-cut {
+    transform: translateY(8px);
+  }
+  
+  .input-label {
+    color: #999;
+    font-family: sans-serif;
+    left: 20px;
+    line-height: 14px;
+    pointer-events: none;
+    position: absolute;
+    transform-origin: 0 50%;
+    transition: transform 200ms, color 200ms;
+    top: 15px;
+  }
+  
+  .input-field:focus ~ .input-label,
+  .input-field:not(:placeholder-shown) ~ .input-label {
+    transform: translateY(-30px) translateX(10px) scale(0.75);
+  }
+  
+  .input-field:not(:placeholder-shown) ~ .input-label {
+    color: #555;
+  }
+  
+  .input-field:focus ~ .input-label {
+    color: #d32f2f;
+  }
+  
+  .submit-button {
+    background-color: #d32f2f;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    margin-top: 38px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .submit-button:active {
+    background-color: #b71c1c;
+  }
+  
+  .image-container {
+    /* display: none; */
+  }
+  
+ 
+  
+.popup {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 0.3s ease-in-out;
+    z-index: 5;
+}
+
+.popup.show {
+    display: flex;
+    animation: fadeIn 0.3s ease-in-out;
+    z-index: 5;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+}
+
+
+.popup-content {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 54%;
+    max-width: 1000px;
+    animation: fadeInUp 0.3s ease-in-out; 
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.popup-left {
+    flex: 1;
+    padding: 20px;
+}
+
+.popup-left form {
+    display: flex;
+    flex-direction: column;
+}
+
+.popup-left label {
+    margin-top: 10px;
+}
+
+.popup-left input, .popup-left textarea {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.popup-left button {
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    background-color: #DE3335;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.popup-left button:hover {
+    background: #000;
+    color: white;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+.popup-right {
+    flex: 1;
+}
+.popup-right{
+    display: block;
+}
+
+.popup-right img {
+    padding: 10px 10px;
+    width: 100%;
+    height: 100%;
+ 
+}
+
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    background: #f44336;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.close-btn:hover {
+    background: #d32f2f;
+}
+
+
 
 /* ===================================whatapps icon========================== */
+
 .custom-container {
     position: fixed;
     top: 90%;
@@ -2950,17 +3209,7 @@ button:active {
     transition-delay: 0s, 0.3s;
 }
 
-/* .custom-arrow {
-    position: absolute;
-    top: 50%;
-    right: -20px;
-    transform: translateY(-50%);
-    background-color: #25D366;
-    color: white;
-    padding: 10px;
-    cursor: pointer;
-    transition: right 0.3s ease;
-} */
+
 
 .custom-icon-container {
     position: absolute;
@@ -3048,7 +3297,7 @@ button:active {
     background-clip: text;
     animation: slide12 2s infinite, zoom12 4s infinite alternate;
     position: relative;
-    /* Ensure positioning context for pseudo-element */
+    
 }
 
 .apply-job::before {

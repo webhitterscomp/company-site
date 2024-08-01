@@ -1,11 +1,12 @@
 @media (max-width: 600px) {
 
     /* =============img-of-workers-======================================== */
-    .for-tab-viwe-our-section{
-      flex-direction: column;
+    .for-tab-viwe-our-section {
+        flex-direction: column;
     }
+
     .main-div-of-our-section {
-        margin-top: -40px;
+        margin-top: 30px;
     }
 
     .child-div-of-our-section {
@@ -14,7 +15,6 @@
     }
 
     .our-box-one-section {
-
         max-width: 100%;
     }
 
@@ -89,9 +89,7 @@
         font-size: large;
     }
 
-    /* .main-our-div-of-img-text{
-    flex-direction: column;
-} */
+
     .seo-overview-od-img-text-div {
         flex-direction: column;
 
@@ -205,7 +203,6 @@
     }
 
     .certificate-container img {
-        /* height: fit-content; */
         width: fit-content;
     }
 
@@ -317,44 +314,56 @@
     .text-of-main-img {
         max-width: 100%;
     }
-    .benifit-of-seo{
+
+    .benifit-of-seo {
         flex-direction: column;
     }
-    .box1-of-benifit-of-seo{
+
+    .box1-of-benifit-of-seo {
         max-width: 100%;
     }
-    .ans-of-benifit-of-seo{
+
+    .ans-of-benifit-of-seo {
         max-width: 100%;
     }
-    .our-career-main-div{
+
+    .our-career-main-div {
         flex-direction: column;
         border-radius: 50px;
         gap: 10px;
     }
-    .our-career-h2-p-div h2{
+
+    .our-career-h2-p-div h2 {
         text-align: center;
     }
-    .our-career-h2-p-div p{
+
+    .our-career-h2-p-div p {
         width: 95%;
     }
-    .button-panel .btn{
+
+    .button-panel .btn {
         width: 220px;
     }
-   .section-of-job-in-our{
-    flex-direction:column    ;
-   }
-   .our-job-section-text{
-    width: 100%;
-   }
-   .our-job-section{
-    flex-direction: column;
-    gap: 20px;
-   }
-   .certificate-text-section{
-    width: 100%;
-   }
-   .for-tab-viwe-our-section{
-    flex-direction: column;
-    gap: 0px;
-  }
+
+    .section-of-job-in-our {
+        flex-direction: column;
+    }
+
+    .our-job-section-text {
+        width: 100%;
+    }
+
+    .our-job-section {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .certificate-text-section {
+        width: 100%;
+    }
+
+    .for-tab-viwe-our-section {
+        flex-direction: column;
+        gap: 0px;
+    }
 }

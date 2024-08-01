@@ -234,20 +234,14 @@
     }
 
     .box1-placement {
-        /* height: fit-content; */
         margin-top: 30px;
         max-width: 100%;
-
-        /* position: static; */
     }
 
     .box2-placement {
         width: fit-content;
         display: none;
-
     }
-
-
 
     .slides-of-too {
         display: none;
@@ -257,21 +251,13 @@
         width: 100%;
     }
 
-    .main-div-of-scholar-section {
-        /* margin-top: 30px; */
-    }
-
     .main-box-of-placements {
         height: fit-content;
         max-width: 100%;
     }
 
-
-
     .h1-of-job-section {
         font-size: medium;
-        /* width:543px;
-         */
         margin: 10px 10px;
         width: fit-content;
     }
@@ -508,10 +494,6 @@
     }
 
     /* =================================review section-of-company=================== */
-    /* .text-of-this-section {
-        font-size: smaller;
-        width: 100%;
-    } */
 
     .main-section-of-bg {
         flex-direction: column;
@@ -521,7 +503,6 @@
 
         font-size: small;
         text-align: center;
-        /* width: 100%; */
         margin: 10px 10px;
         line-height: normal;
     }
@@ -549,7 +530,6 @@
         width: 160px;
         font-size: 18px;
         margin: 5px 10px;
-        /* margin-top: 105px; */
     }
 
     .button-section1 {
@@ -675,7 +655,6 @@
 
     .about-p {
         text-align: justify;
-        /* width: 100%; */
     }
 
     .text-box-of-aboutzirkapur {
@@ -701,7 +680,6 @@
 
     .our-courses-section p {
         font-size: larger;
-        /* margin-top: 0px; */
     }
 
     .text {
@@ -744,8 +722,6 @@
         display: none;
     }
 
-
-
     .company-review-img-size {
         width: 100px;
     }
@@ -757,7 +733,6 @@
     }
 
     .review-of-company {
-        /* margin-left: 20px; */
         display: block;
     }
 
@@ -791,7 +766,6 @@
         justify-content: center;
     }
 
-
     .review {
         overflow: hidden;
         height: fit-content;
@@ -801,12 +775,7 @@
     }
 
     .slider {
-        /* display: none; */
         max-width: 100vw !important;
-    }
-
-    .tool-slider {
-        /* display:none */
     }
 
     .mobile-view-slider {
@@ -815,16 +784,13 @@
     }
 
     .slider-container {
-        /* overflow-x: auto; */
         scrollbar-width: none;
         -ms-overflow-style: none;
         -webkit-overflow-scrolling: touch;
-        /* height: 400px; */
         margin-top: 22px;
     }
 
     .snip1139 {
-        /* min-width: 150px; */
         max-width: calc(100% - 20px);
         margin: 25px;
         width: 300px;
@@ -866,8 +832,6 @@
         margin-top: 0px;
     }
 
-
-
     .herosection::before {
         background-image: url(./banner-Mobile-View.jpg);
     }
@@ -901,12 +865,40 @@
     }
 
     .herosection2-img img {
-        /* height: fit-content; */
         width: fit-content;
     }
 
     iframe {
         margin-top: 30px;
+    }
+
+    .popup-content {
+        flex-direction: column;
+        height: auto;
+        width: 90%;
+    }
+
+    .popup-left,
+    .popup-right {
+        flex: none;
+        width: 100%;
+        height: 50%;
+    }
+
+    .popup-right img {
+        display: none;
+    }
+
+    .image-container {
+        display: block;
+        flex: 1;
+        text-align: center;
+    }
+
+    .image-container img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
     }
 
 
@@ -925,7 +917,6 @@
     }
 
     .herosection2-img img {
-        /* height: 509px; */
         height: fit-content;
         width: 100vw;
     }
@@ -938,7 +929,6 @@
         max-width: 100%;
         margin: 10px 10px;
     }
-
 
     .p-of-courses {
         font-size: 9px;
@@ -963,7 +953,6 @@
         max-width: 100%;
         max-height: 460px;
         width: 100%;
-
     }
 
     .main-herosection2 {
@@ -983,16 +972,8 @@
     }
 
     /* ==========================main-courses========================== */
-    .img-of-box {
-        /* flex-wrap: wrap; */
-    }
 
     /* ===========================================Courses price========================== */
-
-    /* .img1-div-of-price img {
-        height: 294px;
-        width: 300px;
-    } */
 
     .bo1-of-from form input {
         width: 300px;
@@ -1036,11 +1017,6 @@
         width: 100%;
     }
 
-    .image-container img {
-        /* height: 150px;
-        width: 150px; */
-    }
-
     .office-pic-div {
         flex-direction: row;
     }
@@ -1074,9 +1050,7 @@
 
     .box1-placement {
         max-width: fit-content;
-        /* position: -ms-page; */
     }
-
 
     /* =====================form==================== */
     .questions-section1 {
@@ -1086,7 +1060,7 @@
 
     .question-section-main-div {
         flex-direction: column;
-   margin-bottom: 30px;
+        margin-bottom: 30px;
 
     }
 
@@ -1096,10 +1070,7 @@
 
     .h1-of-job-section {
         font-size: small;
-        /* width: fit-content; */
         margin: 10px 10px;
-
-
     }
 
     .p-of-job-section {
@@ -1168,8 +1139,6 @@
 
     .main-p-of-herosection {
         font-size: small;
-        /* width: 462px; */
-
     }
 
     .h1-of-courses {
@@ -1195,15 +1164,10 @@
         flex-direction: column;
     }
 
-    .text-of-this-section {
-        /* width: 100%; */
-
-    }
-
     .button-img {
         display: none;
         flex-direction: column;
-        /* background-image: url(./Best\ Digital\ Marketing\ Training\ in\ Dera\ Bassi.jpg); */
+
         background-size: 100% 100%;
         height: fit-content;
         width: fit-content;
@@ -1219,7 +1183,6 @@
         margin-left: 0px;
         width: 100vw;
         line-height: normal;
-
     }
 
     .br-remove {
@@ -1240,10 +1203,6 @@
     }
 
     /* ==================================slider======================== */
-    .slider {
-        /* max-width: 100%; */
-    }
-
     .slides {
         max-width: 100vw;
     }
@@ -1287,8 +1246,6 @@
     }
 
     .review-of-company {
-        /* display: block; */
-        /* margin: 10px 10px; */
         align-items: center;
         justify-content: center;
     }
@@ -1302,10 +1259,6 @@
         width: 142px;
     }
 
-
-
-
-
     .p-of-SEO-tool {
         font-size: 9px;
 
@@ -1315,7 +1268,7 @@
     .about-p {
         font-size: 9px;
         margin: 10px 10px;
-        line-height:16px;
+        line-height: 16px;
     }
 
     .zirkapur-img {
@@ -1325,11 +1278,12 @@
     .box2-placement {
         display: none;
     }
-    .about-heading{
+
+    .about-heading {
         height: fit-content;
         margin: 10px 10px;
     }
-    
+
 
     /* ========================== whatsapp=================== */
     .custom-container {
@@ -1351,7 +1305,6 @@
         flex-direction: row;
     }
 
-
     /* ==========================coures section========================== */
     .img-of-box {
         width: fit-content;
@@ -1366,4 +1319,5 @@
         font-size: small;
         height: 173px;
     }
+
 }
