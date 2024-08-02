@@ -1,7 +1,8 @@
 @media (max-width: 600px) {
-       .banner-img-container{
-        margin-top: 70px;
-       }
+    .banner-img-container {
+        margin-top: 71px;
+    }
+
     /* =============img-of-workers-======================================== */
     .for-tab-viwe-our-section {
         flex-direction: column;
