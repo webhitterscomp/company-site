@@ -233,7 +233,7 @@ function closePopup() {
 }
 
 // Show the popup initially after 1 second
-setTimeout(showPopup, 1000);
+setTimeout(showPopup, 10000);
 
 document.addEventListener('DOMContentLoaded', function () {
   var sliderContainer = document.querySelector('.slider-container');
