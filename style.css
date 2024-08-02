@@ -2424,6 +2424,12 @@ input,select{
 .first-question2 {
     outline: #000;
     transition: all .3s ease-in-out;
+ 
+    /* transition: bottom .3s ease-in-out; */
+    /* transition: bottom 0.15s cubic-bezier(0.25, 0.1, 0.25, 1) !important; */
+
+
+
     overflow: hidden;
     height: 0;
     opacity: 0;
@@ -2438,6 +2444,7 @@ input,select{
     opacity: 1;
     padding-top: 20px;
     padding-bottom: 20px;
+    width: 566px;
 }
 
 .first-question-p {
@@ -3003,7 +3010,7 @@ button:active {
   }
   
   .input-cut-short {
-    width: 68px;
+    width:68px;
 
   }
   
@@ -3060,7 +3067,12 @@ button:active {
   }
   
  
-  
+  .main-div-of-popup{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    max-width: 1140px;
+  }
 .popup {
     display: none; 
     position: fixed;
@@ -3073,6 +3085,7 @@ button:active {
     justify-content: center;
     animation: fadeIn 0.3s ease-in-out;
     z-index: 5;
+   
 }
 
 .popup.show {
@@ -3181,9 +3194,9 @@ button:active {
 
 
 .close-btn {
-    position: absolute;
-    top: 10px;
-    right: 20px;
+    position: relative;
+    top: -209px;
+    right: 6px;
     background: #f44336;
     color: #fff;
     border: none;

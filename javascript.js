@@ -57,7 +57,7 @@ questions.forEach((question, index) => {
 
 document.addEventListener("DOMContentLoaded", function () {
   const counters = document.querySelectorAll('.numberdiv h1');
-  const speed = 3300;
+  const speed = 2500;
   let maxTarget = 0;
   let completedCounters = 0;
 
@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 document.addEventListener("DOMContentLoaded", function () {
   const counters = document.querySelectorAll('.numberdiv h1');
-  const speed = 3000;
+  const speed = 2700;
   let maxTarget = 0;
   let completedCounters = 0;
 
@@ -233,7 +233,7 @@ function closePopup() {
 }
 
 // Show the popup initially after 1 second
-setTimeout(showPopup, 10000);
+setTimeout(showPopup, 1000);
 
 document.addEventListener('DOMContentLoaded', function () {
   var sliderContainer = document.querySelector('.slider-container');

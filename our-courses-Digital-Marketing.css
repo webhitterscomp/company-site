@@ -1,0 +1,306 @@
+.banner-div-of-digital-Digital-Marketing {
+    display: block;
+
+}
+
+.banner-div-of-digital-Digital-Marketing img {
+    height: 100%;
+    width: 100%;
+}
+
+.main-box-our-banner-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.box-our-banner-img1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 0.75rem;
+    max-width: 1140px;
+    /* position:absolute; */
+}
+
+.box-of-banner-img:hover {
+    border: 1px solid red;
+}
+
+.box-of-banner-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: white;
+    /* border:2px solid black; */
+    /* height: 500px; */
+    /* width: 500px; */
+    margin-top: -50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+    /* background: red; */
+}
+
+.box-of-banner-img svg {
+    margin: 20px 20px;
+}
+
+.box-of-banner-img p {
+    text-align: justify;
+    margin: 10px 10px;
+
+}
+
+.box-of-banner-img h4 {
+    text-align: justify;
+    margin: 10px 10px;
+
+}
+
+/* ============job-placment===================== */
+.main-div-of-Job-Placements {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.div-of-Job-Placements {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1140px;
+}
+
+.heading-or-text-placement {
+    width: 50%;
+}
+
+.heading-or-text-placement h1 {
+    font-weight: bold;
+    margin: 10px 10px;
+    text-align: center;
+}
+
+.heading-or-text-placement p {
+    margin: 10px 10px;
+    text-align: justify;
+}
+
+.image-div-of-placement {
+    display: block;
+    width: 50%;
+}
+
+.image-div-of-placement img {
+    padding: 10px 10px;
+    height: 100%;
+    width: 100%;
+}
+
+/* ===================after banner image======================= */
+
+/* .main-banner-div-of-digital-Digital-Marketing{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+} */
+.main-class-of-hero-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.class-of-hero-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1140px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+    gap: 10px;
+}
+.class-of-hero-images h1{
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 10px;
+}
+.class-of-hero-images p{
+    text-align: justify;
+    margin: 10px 10px;
+}
+
+.text-of-hero-section-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.img-of-hero-contant {
+display: block;
+margin: 10px 10px;
+}
+.img-of-hero-contant img {
+width: 100%;
+height: 100%;
+}
+/* =================three btn===================== */
+.main-three-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.c1-container{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1140px;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+    background-image: url(./bg\ \(31\).jpg);
+}
+
+.c1-container {
+    text-align: center;
+    /* max-width: 90%; */
+    margin: 0 auto;
+}
+
+.b1-buttons {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.b1-button {
+    background-color: #DE3335;
+    color: rgb(23, 1, 1);
+    border: none;
+    padding: 10px 30px;
+    margin: 5px;
+    /* max-width: 400px; */
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    border-radius: 15px;
+}
+
+.b1-button:hover {
+    background-color: darkred;
+}
+
+.b1-button.active {
+    background-image: url(./bg\ \(31\).jpg);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid black;
+}
+
+.t1-text-content {
+    position: relative;
+    min-height: 50px;
+}
+
+.t1-text-item {
+    display: none;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.5s ease, transform 0.5s ease, background-color 0.5s ease;
+    font-size: 18px;
+    color:black;
+    margin: 10px 10px;
+    text-align: justify;
+}
+
+.t1-text-item.show {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.t1-text-item.blue-background {
+   
+    color: black;
+    border-radius: 15px;
+}
+
+/* =========================modules====================== */
+.main-box-of-models-heading-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-of-models-heading-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1140px;
+    background-image: url(./bg\ \(31\).jpg);
+    border-radius: 15px;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.box-of-models-heading-text h1{
+  font-weight: bold;
+  margin: 10px 10px;
+}
+
+.box-of-models-heading-text p {
+    margin: 10px 10px;
+    text-align: justify;
+}
+
+.main-div-of-module-digital {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-of-modules {
+    /* display: block; */
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+
+}
+
+.image-of-modules img {
+    padding: 10px 10px;
+    height: 100%;
+    width: 100%;
+
+}
+
+
+.first-question1-bg {
+    background: #DE3335;
+    color: white;
+}
+.first-question2 {
+    transition: bottom .6s ease-in-out, opacity .3s ease-in-out;
+    background: #f8f5f4;
+}
+.ans-p p{
+  text-align: justify;
+  margin: 10px 10px;
+}
+.first-question2{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ /* margin: 10px; */
+}

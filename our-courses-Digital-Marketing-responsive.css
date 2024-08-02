@@ -1,0 +1,52 @@
+@media (max-width: 600px) {
+    .box-our-banner-img1{
+        flex-direction: column;
+        /* margin-top: 50px; */
+       
+    }
+    .box-of-banner-img{
+        margin-top: 30px !important;
+        max-width: 95%;
+    }
+
+
+
+
+    .div-of-Job-Placements{
+        flex-direction: column;
+       
+    }
+    .heading-or-text-placement{
+    width: 95% !important;
+    }
+    .heading-or-text-placement h1{
+        font-size: medium;
+    }
+    .image-div-of-placement{
+        width: 95% !important;
+    }
+
+
+
+    .class-of-hero-images{
+        flex-direction: column;
+    }
+    .text-of-hero-section-image{
+        width: 95%  !important;
+    }
+    .class-of-hero-images h1{
+        font-size: medium;
+    }
+    .b1-button{
+        width: 18.118rem !important;
+    }
+    .box-of-models-heading-text h1{
+        font-size: medium;
+        text-align: center;
+    }
+    .first-question2 {
+        transition: bottom .6s ease-in-out, opacity .3s ease-in-out !important;
+        background: #f8f5f4;
+    }
+    
+}

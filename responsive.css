@@ -438,8 +438,12 @@
 
     .first-question2.show {
         padding-top: 5px;
+        width: fit-content;
+        text-align: justify;
     }
-
+    .ans-p{
+        margin-left: 0px;
+    }
     .placenet-img {
         height: 300px;
         width: 400px;
@@ -899,6 +903,10 @@
         max-width: 100%;
         height: auto;
         border-radius: 10px;
+    }
+    .close-btn{
+        top: -447px;
+        right: -140px;
     }
 
 
