@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
-
+// ===============FAQ====================
 const questions = document.querySelectorAll('.first-question1');
 const answers = document.querySelectorAll('.first-question2');
 
@@ -54,7 +54,7 @@ questions.forEach((question, index) => {
     }
   });
 });
-
+// ==========================home-page-number-update-setion-page==========================//
 document.addEventListener("DOMContentLoaded", function () {
   const counters = document.querySelectorAll('.numberdiv h1');
   const speed = 2500;
@@ -217,24 +217,27 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 // ============pop-up-form=====================// 
-function showPopup() {
-  const popup = document.getElementById('popup1');
-  popup.style.display = 'flex';
-  popup.classList.add('show');
-}
+// function showPopup() {
+//   const popup = document.getElementById('popup1');
+//   popup.style.display = 'flex';
+//   popup.classList.add('show');
+// }
 
-// Function to hide the popup
-function closePopup() {
-  const popup = document.getElementById('popup1'); // Ensure ID matches
-  popup.classList.remove('show');
-  setTimeout(() => {
-    popup.style.display = 'none'; // Match animation duration
-  }, 300);
-}
+// // Function to hide the popup
+// function closePopup() {
+//   const popup = document.getElementById('popup1'); // Ensure ID matches
+//   popup.classList.remove('show');
+//   setTimeout(() => {
+//     popup.style.display = 'none'; // Match animation duration
+//   }, 300);
+// }
 
-// Show the popup initially after 1 second
-setTimeout(showPopup, 10000);
+// // Show the popup initially after 1 second
+// setTimeout(showPopup, 10000);
 
+
+
+// ========================universal-slider==============================
 document.addEventListener('DOMContentLoaded', function () {
   var sliderContainer = document.querySelector('.slider-container');
   var slides = sliderContainer.children;
@@ -275,6 +278,8 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 });
+
+// =====================on-click-form==================== 
 const form = document.getElementById('form-container');
 const enrollBtn = document.querySelectorAll('.btn-div');
 const closeButton = document.getElementById('close-button');

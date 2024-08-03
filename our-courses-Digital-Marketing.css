@@ -95,12 +95,28 @@
 .image-div-of-placement {
     display: block;
     width: 50%;
+    position: relative;
 }
 
 .image-div-of-placement img {
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     padding: 10px 10px;
     height: 100%;
     width: 100%;
+}
+.enroll-btn-of-image-div{
+    /* margin-top: 40px; */
+    position: relative;
+    background: #DE3335;
+    height: 3rem;
+    width: 146px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 15px;
+    top: -242px;
+    left: 80px;
 }
 
 /* ===================after banner image======================= */
@@ -128,12 +144,14 @@
     border-radius: 15px;
     gap: 10px;
 }
-.class-of-hero-images h1{
+
+.class-of-hero-images h1 {
     font-weight: bold;
     text-align: center;
     margin: 10px 10px;
 }
-.class-of-hero-images p{
+
+.class-of-hero-images p {
     text-align: justify;
     margin: 10px 10px;
 }
@@ -147,22 +165,108 @@
 }
 
 .img-of-hero-contant {
-display: block;
-margin: 10px 10px;
+    display: block;
+    margin: 10px 10px;
+    width: 50%;
 }
+
 .img-of-hero-contant img {
-width: 100%;
-height: 100%;
+    width: 100%;
+    height: 100%;
 }
+
+/* ==========================about-us digital-marketing================ */
+.main-div-of-about-digital-marketing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    background-image: url(./bg.jpg);
+    background-size: 100% 100%;
+
+}
+
+.both-div-of-text-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1140px;
+}
+
+.div-of-about-digital-marketing {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    max-width: 35%;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.div-of-about-digital-marketing h1 {
+    text-align: center;
+    margin: 10px 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.div-of-about-digital-marketing p {
+    text-align: justify;
+    margin: 10px 10px;
+    /* padding: 10px 10px; */
+    color: white;
+}
+
+.text-of-digital-marketing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-line-of-about-us-marketing {
+    max-width: 70%;
+}
+
+.text-line-of-about-us-marketing h1 {
+    text-align: center;
+    margin: 10px 10px;
+    color: white;
+}
+
+.text-line-of-about-us-marketing p {
+    text-align: center;
+    margin: 10px 10px;
+    color: white;
+}
+
+.icon-and-text-div-of-marketing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* display: block; */
+}
+
+.icon-and-text-div-of-marketing p {
+    text-align: justify;
+    /* margin: 10px 10px; */
+    /* padding: 10px 10px; */
+    width: 99%;
+
+}
+
+
+
 /* =================three btn===================== */
-.main-three-btn{
+.main-three-btn {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 30px;
 }
-.c1-container{
-    
+
+.c1-container {
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -180,21 +284,23 @@ height: 100%;
 }
 
 .b1-buttons {
-    margin-top: 10px;
-    margin-bottom: 20px;
+    /* margin-top: 10px; */
+    /* margin-bottom: 20px; */
 }
 
 .b1-button {
     background-color: #DE3335;
     color: rgb(23, 1, 1);
     border: none;
-    padding: 10px 30px;
-    margin: 5px;
+    /* padding: 0px 30px; */
+    width: 350px;
+    height: 50px;
+    /* margin: 5px; */
     /* max-width: 400px; */
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s;
-    border-radius: 15px;
+    /* border-radius: 15px;  */
 }
 
 .b1-button:hover {
@@ -203,8 +309,9 @@ height: 100%;
 
 .b1-button.active {
     background-image: url(./bg\ \(31\).jpg);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border: 1px solid black;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    /* border: 1px solid black; */
+    color: black;
 }
 
 .t1-text-content {
@@ -216,9 +323,10 @@ height: 100%;
     display: none;
     opacity: 0;
     transform: translateY(-20px);
-    transition: opacity 0.5s ease, transform 0.5s ease, background-color 0.5s ease;
+    /* transition: opacity 0.5s ease, transform 0.5s ease, background-color 0.5s ease; */
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out, background-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out, color 0.5s ease-in-out;
     font-size: 18px;
-    color:black;
+    color: black;
     margin: 10px 10px;
     text-align: justify;
 }
@@ -230,9 +338,50 @@ height: 100%;
 }
 
 .t1-text-item.blue-background {
-   
+
     color: black;
     border-radius: 15px;
+}
+
+/* =================benifit-of-digital-marketing================== */
+.main-div-of-benifit-digital-marketing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-image: url(./bg.jpg);
+    background-size: 100% 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.div-of-benifit-digital-marketing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1140px;
+    gap: 20px;
+
+}
+.first-text-of-benifit-div h1{
+    color: white;
+    margin: 10px 10px ;
+    text-align: center;
+    font-weight: bold;
+}
+.first-text-of-benifit-div{
+    max-width: 30%;
+}
+.first-text-of-benifit-div p{
+    color: white;
+    margin: 12px 10px ;
+    text-align: justify;
+}
+
+.second-text-of-benifit-div p {
+    color: white;
+    margin: 10px 10px;
+    text-align: justify;
 }
 
 /* =========================modules====================== */
@@ -254,9 +403,10 @@ height: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
-.box-of-models-heading-text h1{
-  font-weight: bold;
-  margin: 10px 10px;
+
+.box-of-models-heading-text h1 {
+    font-weight: bold;
+    margin: 10px 10px;
 }
 
 .box-of-models-heading-text p {
@@ -292,15 +442,123 @@ height: 100%;
     background: #DE3335;
     color: white;
 }
+
 .first-question2 {
     transition: bottom .6s ease-in-out, opacity .3s ease-in-out;
     background: #f8f5f4;
 }
-.ans-p p{
-  text-align: justify;
-  margin: 10px 10px;
+
+.ans-p p {
+    text-align: justify;
+    margin: 10px 10px;
 }
-.first-question2{
+
+.first-question2 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
- /* margin: 10px; */
+    /* margin: 10px; */
+}
+
+/* ================job-role-btn=============================== */
+
+.main-div-of-job-role-digtal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+
+.main-div-of-text-and-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 15px;
+
+    max-width: 1140px;
+    flex-direction: column;
+}
+
+.main-div-of-job-role {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.main-div-of-job-role h1 {
+    margin: 10px 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.main-div-of-job-role p {
+    margin: 10px 10px;
+    text-align: justify;
+}
+
+/* ===============job-role-btn======================== */
+
+/* btn-of-job-role-button-container{
+
+} */
+.btn-of-job-role-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 70px;
+    margin-top: 50px;
+    margin: 20px 20px;
+}
+
+.hover-button {
+    position: relative;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: black !important;
+    background: white;
+    /* Default background color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: color 0.6s, background-color 0.3s;
+    height: 80px;
+    width: 200px;
+    z-index: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* border-radius: 15px; */
+    font-weight: bolder;
+}
+
+.hover-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -97%;
+    width: 100%;
+    height: 100%;
+    background-color: #DE3335;
+    transition: left 0.3s;
+    color: white;
+    z-index: -1;
+}
+
+.hover-button:hover::before {
+    left: 0;
+
+}
+
+.hover-button:hover {
+    color: #090909;
+    /* Text color on hover */
+    z-index: 1;
+}
+
+.hover-button {
+    position: relative;
+    z-index: 1;
+
 }
