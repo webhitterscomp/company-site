@@ -217,23 +217,23 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 // ============pop-up-form=====================// 
-// function showPopup() {
-//   const popup = document.getElementById('popup1');
-//   popup.style.display = 'flex';
-//   popup.classList.add('show');
-// }
+function showPopup() {
+  const popup = document.getElementById('popup1');
+  popup.style.display = 'flex';
+  popup.classList.add('show');
+}
 
-// // Function to hide the popup
-// function closePopup() {
-//   const popup = document.getElementById('popup1'); // Ensure ID matches
-//   popup.classList.remove('show');
-//   setTimeout(() => {
-//     popup.style.display = 'none'; // Match animation duration
-//   }, 300);
-// }
+// Function to hide the popup
+function closePopup() {
+  const popup = document.getElementById('popup1'); // Ensure ID matches
+  popup.classList.remove('show');
+  setTimeout(() => {
+    popup.style.display = 'none'; // Match animation duration
+  }, 300);
+} 
 
-// // Show the popup initially after 1 second
-// setTimeout(showPopup, 10000);
+// Show the popup initially after 1 second
+setTimeout(showPopup, 10000);
 
 
 
